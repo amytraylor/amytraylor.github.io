@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/sketch.css' | relative_url }}">
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/addons/p5.sound.min.js"></script>
+  {% for lib in page.libraries %}
+  <script src="{{ lib }}"></script>
+  {% endfor %}
+</head>
+<body class="sketch-page">
+  <nav class="sketch-nav">
+    <a href="{{ page.back_url | default: '/courses' | relative_url }}">&larr; Back to {{ page.back_text | default: "Course" }}</a>
+    <span class="sketch-title">{{ page.title }}</span>
+  </nav>
+
+  <div class="sketch-container">
+    <div class="canvas-wrapper">
+      <div id="sketch-canvas"></div>
+      <div class="sketch-controls">
+        <button onclick="saveCanvasImage()">Save Image</button>
+        {% if page.has_data_export %}
+        <button onclick="saveData()">Save Data</button>
+        {% endif %}
+        <button onclick="restartSketch()">Restart</button>
+      </div>
+    </div>
+    
+    <div class="sketch-info">
+      <h1>{{ page.title }}</h1>
+      {{ content }}
+      
+      {% if page.show_code %}
+      <details class="code-block">
+        <summary>View Code</summary>
+        <pre><code id="sketch-code"></code></pre>
+      </details>
+      {% endif %}
+    </div>
+  </div>
+
+  <script>
+    let sketchInstance;
+    
+    function restartSketch() {
+      if (sketchInstance) {
+        sketchInstance.remove();
+      }
+      sketchInstance = new p5(sketch, 'sketch-canvas');
+    }
+    
+    function saveCanvasImage() {
+      if (sketchInstance) {
+        sketchInstance.saveCanvas('{{ page.title | slugify }}', 'png');
+      }
+    }
+    
+    {% if page.has_data_export %}
+    function saveData() {
+      if (sketchInstance && typeof sketchInstance.exportData === 'function') {
+        sketchInstance.exportData();
+      }
+    }
+    {% endif %}
+  </script>
+  <script src="sketch.js"></script>
+  
+  {% if page.show_code %}
+  <script>
+    fetch('sketch.js')
+      .then(r => r.text())
+      .then(code => {
+        document.getElementById('sketch-code').textContent = code;
+      });
+  </script>
+  {% endif %}
+</body>
+</html>
