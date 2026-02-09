@@ -1,0 +1,131 @@
+/* Sketch page layout */
+.sketch-page {
+  margin: 0;
+  padding: 0;
+}
+
+.sketch-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1.5rem;
+  background: var(--code-bg);
+  border-bottom: 1px solid var(--border);
+}
+
+.sketch-nav a {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.sketch-nav a:hover {
+  color: var(--accent);
+}
+
+.sketch-title {
+  font-weight: 500;
+}
+
+.sketch-container {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  min-height: calc(100vh - 50px);
+}
+
+.canvas-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: #000;
+}
+
+#sketch-canvas {
+  /* Canvas will be sized by p5 */
+}
+
+#sketch-canvas canvas {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.sketch-controls {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.sketch-controls button {
+  padding: 0.5rem 1rem;
+  background: var(--accent);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.sketch-controls button:hover {
+  opacity: 0.9;
+}
+
+.sketch-info {
+  padding: 1.5rem;
+  overflow-y: auto;
+  border-left: 1px solid var(--border);
+}
+
+.sketch-info h1 {
+  font-size: 1.25rem;
+  margin-top: 0;
+}
+
+/* Code display */
+.code-block {
+  margin-top: 1.5rem;
+}
+
+.code-block summary {
+  cursor: pointer;
+  color: var(--accent);
+  font-size: 0.9rem;
+}
+
+.code-block pre {
+  margin-top: 0.5rem;
+  max-height: 400px;
+  overflow: auto;
+  font-size: 0.8rem;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .sketch-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .canvas-wrapper {
+    min-height: 60vh;
+  }
+  
+  .sketch-info {
+    border-left: none;
+    border-top: 1px solid var(--border);
+  }
+}
+
+/* Fullscreen mode */
+.sketch-page.fullscreen .sketch-nav,
+.sketch-page.fullscreen .sketch-info,
+.sketch-page.fullscreen .sketch-controls {
+  display: none;
+}
+
+.sketch-page.fullscreen .canvas-wrapper {
+  position: fixed;
+  inset: 0;
+  padding: 0;
+}
