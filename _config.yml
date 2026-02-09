@@ -1,0 +1,33 @@
+# Site settings
+title: Amy Traylor
+description: Computational artist, educator, researcher
+url: "" # Set to your custom domain once configured
+baseurl: "" # Set to "/repo-name" if not using custom domain
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Exclude from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+
+# Collections for courses
+collections:
+  courses:
+    output: true
+    permalink: /courses/:path/
+
+# Default front matter
+defaults:
+  - scope:
+      path: "courses"
+    values:
+      layout: course
+  - scope:
+      path: ""
+    values:
+      layout: default
