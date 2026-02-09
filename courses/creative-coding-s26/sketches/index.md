@@ -13,7 +13,7 @@ Interactive examples demonstrating concepts from each week.
     <small>Drawing with code, coordinate system, colors</small>
   </a>
   
-  <a href="sketches/week-02-media/">
+  <a href="week-02-media/">
     <strong>Week 2: Image & Download</strong><br>
     <small>Loading images, filters, saving output</small>
   </a>
