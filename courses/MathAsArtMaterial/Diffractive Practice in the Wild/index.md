@@ -1,6 +1,6 @@
-***Searching for Thing-Power***\
-Big Questions:
-What is diffractive practice?
+#***Searching for Thing-Power***\
+Big Questions:\
+What is diffractive practice?\
 What does it mean for the thing to push back?
 
 
