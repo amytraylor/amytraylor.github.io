@@ -52,12 +52,10 @@ Students will receive one of the following grades at the end of the semester:
 A final grade of C or higher is required to pass this course. 
 
 Grading is based on:
+
 In-Class Work Completion (25%): Completing all assigned tasks during class time, including projects, diffractions, and academic success activities. Students are expected to actively contribute to discussions, group activities, and lessons during class. Attendance is part of this grade, because if you aren't there, it is hard to complete in-class assignments.
-
 Homework (25%): Expect to spend at least 4 hours outside of class time completing homework assignments. These assignments will all be turned in through Canvas. Assignments may be both the creation and consumption of: short or long writings, sound, music, video, textiles, sculpture, installation, etc, etc, etc. 
-
 Projects (50%): We will have at least 2 multi-week transdisciplinary multimodal projects this semester. Depending on the course flow and interest levels we may create a collective project as a course exhibit. We will discuss and I will keep you posted.
-
 I differentiate grading based on student participation, effort, and communication. I am always happy to discuss and collaborate on a plan for you to accomplish your goals for this class. Please plan for a minimum of four hours of out-of-class work weekly to complete projects.
 
 ## Policies
