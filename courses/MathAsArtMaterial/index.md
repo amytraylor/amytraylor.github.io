@@ -15,7 +15,7 @@ This course explores ways to connect and make use of "math" as art material.
 
 #### Assignments/Projects/Modules/Experiences
 
-- [Diffractive Practice in the Wild](/courses/MathAsArtMaterial/Diffractive_Practice_in_the_Wild/)
+- [Diffractive Practice in the Wild](/courses/MathAsArtMaterial/DiffractivePracticeInTheWild/)
 
 #### Tools and Toys
 
