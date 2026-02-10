@@ -2,7 +2,7 @@
   <h1>Amy Traylor</h1>
   <p class="lead">Computational artist, researcher, educator.</p>
   
-  <p>I work on ion trap simulations.</p>
+  <p>I work on ion trap simulations. Not really.</p>
   
   <h2>Current Work</h2>
   <ul>
