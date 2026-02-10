@@ -1,8 +1,8 @@
 <!---
 layout: course
-title: Creative Coding
-course_title: Creative Coding S26
-course_root: /courses/creative-coding-s26
+title: FYEX 1020
+course_title: Math As Art Material
+course_root: /courses/MathAsArtMaterial
 -->
 
 ## Welcome to FYEX 1020
