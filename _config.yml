@@ -1,5 +1,5 @@
 # Site settings
-<!-- title: Amy Traylor -->
+title: Amy Traylor
 description: Computational artist, educator, researcher
 url: "" # Set to your custom domain once configured
 baseurl: "" # Set to "/repo-name" if not using custom domain
