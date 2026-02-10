@@ -1,4 +1,8 @@
-***Searching for Thing-Power***
+***Searching for Thing-Power***\
+Big Questions:
+What is diffractive practice?
+What does it mean for the thing to push back?
+
 
 ***... the lovely puzzles, the enchanting beauty, and the excruciating complexity and intractability of actual organisms in real places.***\
 --Stephen Jay Gould
@@ -10,6 +14,10 @@
 --Baruch Spinoza
 
 ***Seven-Up: You Like It. It likes you.***
+
+Readings:
+[Jane Bennett's Vibrant Matter (2003)](<https://pages.mtu.edu/~jdslack/readings/CSReadings/Bennett_Jane_The_Force_of_Things.pdf>)
+
 
 There are 9 maps on the following page. For each map provide insights about the specific:
 *strengths
