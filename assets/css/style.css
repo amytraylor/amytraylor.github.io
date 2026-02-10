@@ -98,6 +98,30 @@ a {
   color: var(--accent);
 }
 
+/* --- Quote styling (small + italic + tidy spacing) --- */
+.quotes {
+  margin: 1.5rem 0;
+  padding: 1rem 1.25rem;
+  border-left: 4px solid var(--border);
+  background: color-mix(in srgb, var(--code-bg) 60%, transparent);
+  border-radius: 6px;
+}
+
+.quotes p {
+  margin: 0.8rem 0;
+}
+
+.quotes .q {
+  font-size: 0.95em;   /* slightly smaller than body */
+  font-style: italic;
+}
+
+.quotes .attr {
+  font-size: 0.9em;    /* smaller attribution line */
+  color: var(--text-muted);
+  margin-top: 0.25rem;
+}
+
 p {
   margin: 1em 0;
 }
