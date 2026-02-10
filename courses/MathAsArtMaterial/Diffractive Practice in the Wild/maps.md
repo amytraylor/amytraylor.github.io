@@ -1,6 +1,6 @@
 [Public Art on UNM Campus](<https://libguides.unm.edu/publicart>)
 
-[The Cycles of Science by painter Raymond Jonson](<https://www.albuquerquenobhillnews.com/post/hexad-of-masterpieces-celebrating-science-hangs-in-unm-s-pa%C3%ADs-building>)
+[The Cycles of Science by painter Raymond Jonson, in the Physics, Astronomy and Interdisciplinary Science (PAIS) building](<https://www.albuquerquenobhillnews.com/post/hexad-of-masterpieces-celebrating-science-hangs-in-unm-s-pa%C3%ADs-building>)
 
 [Health Science Center Wellness Art Walk](<https://hsc.unm.edu/about/wellness/artwalk/>)
 
