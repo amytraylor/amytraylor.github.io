@@ -46,13 +46,6 @@ body {
   margin: 0 auto;
 }
 
-h1 { font-size: 3.2rem; }
-h2 { font-size: 2.9rem; }
-h3 { font-size: 2.6rem; }
-h4 { font-size: 2.3rem; }
-h5 { font-size: 2.0rem; }
-h6 { font-size: 1.7rem; }
-
 .site-title {
   font-weight: 600;
   font-size: 4.4rem;
@@ -92,10 +85,14 @@ h1, h2, h3, h4 {
   margin-top: 1.5em;
   margin-bottom: 0.5em;
 }
-
-h1 { font-size: 2rem; margin-top: 0; }
-h2 { font-size: 1.5rem; }
-h3 { font-size: 1.25rem; }
+h1 { font-size: 3.2rem; margin-top: 0; }
+h2 { font-size: 2.9rem; }
+h3 { font-size: 2.6rem; }
+h4 { font-size: 2.3rem; }
+h5 { font-size: 2.0rem; }
+h6 { font-size: 1.7rem; }
+h7 { font-size: 1.25rem; }
+h8 { font-size: 0.9rem; }
 
 a {
   color: var(--accent);
