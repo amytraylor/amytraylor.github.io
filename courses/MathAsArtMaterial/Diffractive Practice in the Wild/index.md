@@ -21,11 +21,11 @@ This page frames the guiding questions for “thing-power,” diffractive practi
 
 <div class="quotes">
 
-<p class="quotes q">... the lovely puzzles, the enchanting beauty, and the excruciating complexity and intractability of actual organisms in real places.</p>
-<p class="quotes attr">—Stephen Jay Gould</p>
+<p class="q">... the lovely puzzles, the enchanting beauty, and the excruciating complexity and intractability of actual organisms in real places.</p>
+<p class="attr">—Stephen Jay Gould</p>
 
-<p class="quotes q">I must let my senses wander as my thought, my eyes see without looking.... Go not to the object; let it come to you.</p>
-<p class="quotes attr">—Henry David Thoreau</p>
+<p class="q">I must let my senses wander as my thought, my eyes see without looking.... Go not to the object; let it come to you.</p>
+<p class="attr">—Henry David Thoreau</p>
 
 <p class="quotes q">It is never we who affirm or deny something of a thing; it is the thing itself that affirms or denies something of itself in us.</p>
 <p class="quotes attr">—Baruch Spinoza</p>
