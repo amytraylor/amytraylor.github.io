@@ -14,9 +14,9 @@ Course Root: /courses/MathAsArtMaterial
 
 What we’re doing in this lab
 
-This class treats “math” as something that happens in relation. We won’t ask what math is; we’ll track what math does (and what it makes possible or impossible) as it moves through bodies, stories, institutions, classrooms, images, code, machines, and materials.
-We will practice diffractive reading, which means reading multiple “lenses” through one another to notice how meaning and value are produced, what gets emphasized, and what gets excluded.
-There will be no exams, quizzes, or required notetaking. There will be massive amounts of thinking, discussing, doing, dreaming, and being accountable to one another, the community, and the universe at large.
+This class treats “math” as something that happens in relation. We won’t ask what math is; we’ll track what math does (and what it makes possible or impossible) as it moves through bodies, stories, institutions, classrooms, images, code, machines, and materials. /
+We will practice diffractive reading, which means reading multiple “lenses” through one another to notice how meaning and value are produced, what gets emphasized, and what gets excluded. /
+There will be no exams, quizzes, or required notetaking. There will be massive amounts of thinking, discussing, doing, dreaming, and being accountable to one another, the community, and the universe at large. /
 
 ## What is diffractive reading?
 In this course, diffractive reading means examining how different materials and perspectives reshape one another when they come into contact. Rather than treating math, art, code, and lived experience as separate domains, we will read them through each other to notice interference patterns: places where meanings overlap, clash, or generate new possibilities. A diffractive approach helps us see that “math” is not just an abstract set of symbols; it becomes something different depending on the stories, tools, institutions, and bodies involved. Our goal is not to decide the single correct definition of math, but to develop practices for noticing what math does in the world and for building new capacities to think, make, and relate across disciplines.
