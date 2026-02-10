@@ -51,7 +51,7 @@ Students will receive one of the following grades at the end of the semester:
 97-100=A+; 93-96=A; 90-92=A-; 87-89=B+; 83-86=B; 80-82=B-; 77-79=C+; 73-76=C; 70-72=C-; 67-69=D+; 63-66=D; 60-62=D-; <60=F;  
 A final grade of C or higher is required to pass this course. 
 
-Grading is based on:
+# Grading is based on:
 
 In-Class Work Completion (25%): Completing all assigned tasks during class time, including projects, diffractions, and academic success activities. Students are expected to actively contribute to discussions, group activities, and lessons during class. Attendance is part of this grade, because if you aren't there, it is hard to complete in-class assignments.\
 Homework (25%): Expect to spend at least 4 hours outside of class time completing homework assignments. These assignments will all be turned in through Canvas. Assignments may be both the creation and consumption of: short or long writings, sound, music, video, textiles, sculpture, installation, etc, etc, etc. \
@@ -64,7 +64,7 @@ I differentiate grading based on student participation, effort, and communicatio
 Respectful Conduct Expectations: I am committed to building with you a positive classroom environment in which everyone can learn. I reserve the right to intervene and enforce standards of respectful behavior when classroom conduct is inconsistent with University expectations. Interventions and enforcement may include but are not limited to required meetings to discuss classroom expectations, written notification of expectations, and/or removal from a class meeting. Repeated violation of classroom norms, ignoring of direct requests from the instructor, and removal from a class meeting will result in an unexcused absence. 3 or more unexcused absences may result in permanent removal and a drop from the course (see attendance policy). 
 The University of New Mexico ensures freedom of academic inquiry, free expression and open debate, and a respectful campus through adherence to the following policies: [D75: Classroom Conduct](<https://handbook.unm.edu/d75/>), [Student Code of Conduct](<https://pathfinder.unm.edu/code-of-conduct.html>), [University Policy 2240 – Respectful Campus](<https://unmpolicy.policystat.com/policy/17084708/latest/>), [University Policy 2210 – Campus Violence](<https://unmpolicy.policystat.com/policy/17084963/latest/>).
 
-### Academic Integrity and Responsible Tool Use
+## Academic Integrity and Responsible Tool Use
 
 You must follow University of New Mexico academic integrity rules. In practice, this means:\
 *Submit work that is yours and accurately credited.\
@@ -74,6 +74,12 @@ You must follow University of New Mexico academic integrity rules. In practice, 
 If this course involves AI tools:\
 You may use approved tools only within the boundaries described in the assignment instructions. If AI/tool use is allowed, you must disclose it in the format I provide (e.g., a short “Tool Use” note). Using tools to bypass learning goals or submitting generated work as your own may be treated as an academic integrity violation.
 
+## Accessibility Services and Accommodations
+UNM is committed to providing equitable access to learning opportunities for students with documented disabilities. As your instructor, it is my objective to facilitate an inclusive classroom setting, in which students have full access and opportunity to participate. To engage in a confidential conversation about the process for requesting reasonable accommodations for this class and/or program, please contact Accessibility Resource Center at arcsrvs@unm.edu or by phone at 505-277-3506. Support: Contact me trayloramy@unm.edu or in office/check-in hours and contact [Accessibility Resource Center](<https://arc.unm.edu/>) at arcsrvs@unm.edu (505) 277-3506.\
 
-### Accessibility
-(Your accessibility statement here)
+# Mutual Respect, Kindness, and Support: UAP 2720 and 2740. 
+Our classroom and university should foster mutual respect, kindness, and support. If you have concerns about discrimination, harassment, or violence, please seek support and report incidents. Find confidential services at LoboRESPECT Advocacy Center, the Women’s Resource Center, and the LGBTQ Resource Center. UNM prohibits discrimination on the basis of sex (including gender, sex stereotyping, gender expression, and gender identity). All instructors are “responsible employees” who must  communicate reports  of sexual harassment, sexual misconduct and sexual violence to Compliance, Ethics and Equal Opportunity. For more information, please see UAP 2720 and UAP 2740.\
+
+# Title IX
+Our classroom and our university should always be spaces of mutual respect, kindness, and support, without fear of discrimination, harassment, or violence. Should you ever need assistance or have concerns about incidents that violate this principle, please access the resources available to you on campus. Please note that, because UNM faculty, TAs, and GAs are considered "responsible employees" by the Department of Education, any disclosure of gender discrimination (including sexual harassment, sexual misconduct, and sexual violence) made to a faculty member, TA, or GA must be reported by that faculty member, TA, or GA to the university's Title IX coordinator. For more information on the campus policy regarding sexual misconduct, please see: https://policy.unm.edu/university-policies/2000/2740.html. Support: LoboRESPECT Advocacy Center and the support services listed on its website, the Women's Resource Center and the LGBTQ Resource Center all offer confidential services and reporting.
+
