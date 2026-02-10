@@ -64,8 +64,16 @@ I differentiate grading based on student participation, effort, and communicatio
 Respectful Conduct Expectations: I am committed to building with you a positive classroom environment in which everyone can learn. I reserve the right to intervene and enforce standards of respectful behavior when classroom conduct is inconsistent with University expectations. Interventions and enforcement may include but are not limited to required meetings to discuss classroom expectations, written notification of expectations, and/or removal from a class meeting. Repeated violation of classroom norms, ignoring of direct requests from the instructor, and removal from a class meeting will result in an unexcused absence. 3 or more unexcused absences may result in permanent removal and a drop from the course (see attendance policy). 
 The University of New Mexico ensures freedom of academic inquiry, free expression and open debate, and a respectful campus through adherence to the following policies: [D75: Classroom Conduct](<https://handbook.unm.edu/d75/>), [Student Code of Conduct](<https://pathfinder.unm.edu/code-of-conduct.html>), [University Policy 2240 – Respectful Campus](<https://unmpolicy.policystat.com/policy/17084708/latest/>), [University Policy 2210 – Campus Violence](<https://unmpolicy.policystat.com/policy/17084963/latest/>).
 
-### Academic Integrity
-(Your academic integrity policy here)
+### Academic Integrity and Responsible Tool Use
+
+You must follow University of New Mexico academic integrity rules. In practice, this means:\
+Submit work that is yours and accurately credited.\
+Do not misrepresent collaboration as solo work.\
+Do not fabricate sources, data, or citations.\
+
+If your course involves AI tools:\
+You may use approved tools only within the boundaries described in the assignment instructions. If AI/tool use is allowed, you must disclose it in the format I provide (e.g., a short “Tool Use” note). Using tools to bypass learning goals or submitting generated work as your own may be treated as an academic integrity violation.
+
 
 ### Accessibility
 (Your accessibility statement here)
