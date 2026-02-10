@@ -97,6 +97,28 @@ h8 { font-size: 0.9rem; }
 a {
   color: var(--accent);
 }
+/* --- Big Questions callout --- */
+.callout {
+  margin: 1.5rem 0;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: 6px;
+  background: color-mix(in srgb, var(--code-bg) 50%, transparent);
+}
+
+.callout h2,
+.callout h3 {
+  margin-top: 0;
+}
+
+.callout p {
+  margin: 0.6rem 0;
+}
+
+.callout ul {
+  margin: 0.6rem 0 0 1.25rem;
+}
 
 /* --- Quote styling (small + italic + tidy spacing) --- */
 .quotes {
