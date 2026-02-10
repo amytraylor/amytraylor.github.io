@@ -11,5 +11,10 @@
 
 ***Seven-Up: You Like It. It likes you.***
 
-[Maps]()
+There are 9 maps on the following page. For each map provide insights about the specific:
+*strengths
+*weaknesses
+*interesting thing you noticed
+
+[Maps](maps.md)
 
