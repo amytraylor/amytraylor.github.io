@@ -5,7 +5,7 @@ course_title: Creative Coding S26
 course_root: /courses/creative-coding-s26
 -->
 
-## Welcome to FYEX 1020\
+## Welcome to FYEX 1020
 Special Section: Math as Art Material, Spring 2026.
 
 This course explores ways to connect and make use of "math" as art material.
@@ -15,7 +15,7 @@ This course explores ways to connect and make use of "math" as art material.
 
 # Assignments/Projects/Modules/Experiences
 
-- [Diffractive Practice in the Wild](/courses/MathAsArtMaterial/Diffractive Practice in the Wild/)
+- [Diffractive Practice in the Wild](/courses/MathAsArtMaterial/Diffractive_Practice_in_the_Wild/)
 
 # Tools and Toys
 
