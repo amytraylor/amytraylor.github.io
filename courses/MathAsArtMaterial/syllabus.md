@@ -12,9 +12,10 @@ Course Root: /courses/MathAsArtMaterial
 
 ## Introduction
 
-What we’re doing in this lab
+**What we’re doing in this lab...*
 
-This class treats “math” as something that happens in relation. We won’t ask what math is; we’ll track what math does (and what it makes possible or impossible) as it moves through bodies, stories, institutions, classrooms, images, code, machines, and materials. \
+This class treats “math” as something that happens in relation. We won’t ask what math is; we’ll track what math does (and what it makes possible or impossible) as it moves through bodies, stories, institutions, classrooms, images, code, machines, and materials. 
+
 We will practice diffractive reading, which means reading multiple “lenses” through one another to notice how meaning and value are produced, what gets emphasized, and what gets excluded. \
 There will be no exams, quizzes, or required notetaking. There will be massive amounts of thinking, discussing, doing, dreaming, and being accountable to one another, the community, and the universe at large. 
 
@@ -22,7 +23,8 @@ There will be no exams, quizzes, or required notetaking. There will be massive a
 In this course, diffractive reading means examining how different materials and perspectives reshape one another when they come into contact. Rather than treating math, art, code, and lived experience as separate domains, we will read them through each other to notice interference patterns: places where meanings overlap, clash, or generate new possibilities. A diffractive approach helps us see that “math” is not just an abstract set of symbols; it becomes something different depending on the stories, tools, institutions, and bodies involved. Our goal is not to decide the single correct definition of math, but to develop practices for noticing what math does in the world and for building new capacities to think, make, and relate across disciplines.
 
 ## Course Purpose
-The purpose of this course is to learn to "see" diffractively as a method for resiliency and agency and to develop an affirmative ethics as a mechanism of access to silo-ed knowledge. \
+The purpose of this course is to learn to "see" diffractively as a method for resiliency and agency and to develop an affirmative ethics as a mechanism of access to silo-ed knowledge.
+
 This lab is a required co-requisite with Math 1130: Survey of Math. While I do aspire to support the learning goals and topics covered in your section of 1130, my main goal is to find avenues for you to utilize math in a way that is authentic to each individual student's needs and interests. When we do approach material also covered in 1130 it will always be in a spirit of exploration, play, and making. With that said, if at any time you need support with specific topics or problems in Survey of Math, please reach out and I will be delighted to support you.
 
 ## Course Goals
@@ -41,21 +43,26 @@ A willingness to be present, put away your phones, and engage with the material 
 
 ## Grading
 
-| Component | Weight |
-|-----------|--------|
-| In class work completion | 25% |
-| Homework | 25% |
-| Projects (3) | 50% |
+|Component                 | Weight |
+|--------------------------|--------|
+| In class work completion |    25% |
+| Homework                 |    25% |
+| Projects (2-3)           |    50% |
 
 Students will receive one of the following grades at the end of the semester:
-97-100=A+; 93-96=A; 90-92=A-; 87-89=B+; 83-86=B; 80-82=B-; 77-79=C+; 73-76=C; 70-72=C-; 67-69=D+; 63-66=D; 60-62=D-; <60=F;  
+97-100=A+; 93-96=A; 90-92=A-; 87-89=B+; 83-86=B; 80-82=B-; 77-79=C+; 73-76=C; 70-72=C-; 67-69=D+; 63-66=D; 60-62=D-; <60=F; 
+
 A final grade of C or higher is required to pass this course. 
 
-# Grading is based on:
+### Grading is based on: ###
 
-In-Class Work Completion (25%): Completing all assigned tasks during class time, including projects, diffractions, and academic success activities. Students are expected to actively contribute to discussions, group activities, and lessons during class. Attendance is part of this grade, because if you aren't there, it is hard to complete in-class assignments.\
-Homework (25%): Expect to spend at least 4 hours outside of class time completing homework assignments. These assignments will all be turned in through Canvas. Assignments may be both the creation and consumption of: short or long writings, sound, music, video, textiles, sculpture, installation, etc, etc, etc. \
-Projects (50%): We will have at least 2 multi-week transdisciplinary multimodal projects this semester. Depending on the course flow and interest levels we may create a collective project as a course exhibit. We will discuss and I will keep you posted.\
+### In-Class Work Completion (25%): ###
+Completing all assigned tasks during class time, including projects, diffractions, and academic success activities. Students are expected to actively contribute to discussions, group activities, and lessons during class. Attendance is part of this grade, because if you aren't there, it is hard to complete in-class assignments.
+### Homework (25%): 
+Expect to spend at least 4 hours outside of class time completing homework assignments. These assignments will all be turned in through Canvas. Assignments may be both the creation and consumption of: short or long writings, sound, music, video, textiles, sculpture, installation, etc, etc, etc. \
+### Projects (50%): 
+We will have at least 2 multi-week transdisciplinary multimodal projects this semester. Depending on the course flow and interest levels we may create a collective project as a course exhibit. We will discuss and I will keep you posted.
+
 I differentiate grading based on student participation, effort, and communication. I am always happy to discuss and collaborate on a plan for you to accomplish your goals for this class. Please plan for a minimum of four hours of out-of-class work weekly to complete projects.
 
 ## Policies
@@ -77,9 +84,9 @@ You may use approved tools only within the boundaries described in the assignmen
 ## Accessibility Services and Accommodations
 UNM is committed to providing equitable access to learning opportunities for students with documented disabilities. As your instructor, it is my objective to facilitate an inclusive classroom setting, in which students have full access and opportunity to participate. To engage in a confidential conversation about the process for requesting reasonable accommodations for this class and/or program, please contact Accessibility Resource Center at arcsrvs@unm.edu or by phone at 505-277-3506. Support: Contact me trayloramy@unm.edu or in office/check-in hours and contact [Accessibility Resource Center](<https://arc.unm.edu/>) at arcsrvs@unm.edu (505) 277-3506.
 
-# Mutual Respect, Kindness, and Support: UAP 2720 and 2740. 
+## Mutual Respect, Kindness, and Support: UAP 2720 and 2740. 
 Our classroom and university should foster mutual respect, kindness, and support. If you have concerns about discrimination, harassment, or violence, please seek support and report incidents. Find confidential services at LoboRESPECT Advocacy Center, the Women’s Resource Center, and the LGBTQ Resource Center. UNM prohibits discrimination on the basis of sex (including gender, sex stereotyping, gender expression, and gender identity). All instructors are “responsible employees” who must  communicate reports  of sexual harassment, sexual misconduct and sexual violence to Compliance, Ethics and Equal Opportunity. For more information, please see UAP 2720 and UAP 2740.
 
-# Title IX
+## Title IX
 Our classroom and our university should always be spaces of mutual respect, kindness, and support, without fear of discrimination, harassment, or violence. Should you ever need assistance or have concerns about incidents that violate this principle, please access the resources available to you on campus. Please note that, because UNM faculty, TAs, and GAs are considered "responsible employees" by the Department of Education, any disclosure of gender discrimination (including sexual harassment, sexual misconduct, and sexual violence) made to a faculty member, TA, or GA must be reported by that faculty member, TA, or GA to the university's Title IX coordinator. For more information on the campus policy regarding sexual misconduct, please see: https://policy.unm.edu/university-policies/2000/2740.html. Support: LoboRESPECT Advocacy Center and the support services listed on its website, the Women's Resource Center and the LGBTQ Resource Center all offer confidential services and reporting.
 
