@@ -12,7 +12,7 @@ This page frames the guiding questions for “thing-power,” diffractive practi
 ### What we’re trying to understand
 - **What is diffractive practice?**
 - **What does it mean for a thing to “push back”?**
-- **Baby Question: What on earth is a thing?**
+- **Also, what on earth is a thing?**
 </div>
 
 ---
