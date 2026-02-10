@@ -7,9 +7,9 @@ course_root: /courses/creative-coding-s26
 
 ## Course Information
 
-**Instructor:** Greg Krueger  
-**Email:** your.email@unm.edu  
-**Office Hours:** TBD  
+**Instructor:** Amy Traylor 
+**Email:** trayloramy@unm.edu  
+**Office Hours:** As requested  
 
 ## Description
 
