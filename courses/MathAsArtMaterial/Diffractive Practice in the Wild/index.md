@@ -3,7 +3,7 @@ Big Questions:\
 What is diffractive practice?\
 What does it mean for the thing to push back?
 
-
+#####
 ***... the lovely puzzles, the enchanting beauty, and the excruciating complexity and intractability of actual organisms in real places.***\
 --Stephen Jay Gould
 
@@ -14,6 +14,7 @@ What does it mean for the thing to push back?
 --Baruch Spinoza
 
 ***Seven-Up: You Like It. It likes you.***
+#####
 
 Readings:
 [Jane Bennett's Vibrant Matter (2003)](<https://pages.mtu.edu/~jdslack/readings/CSReadings/Bennett_Jane_The_Force_of_Things.pdf>)
