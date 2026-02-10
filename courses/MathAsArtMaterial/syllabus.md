@@ -67,11 +67,11 @@ The University of New Mexico ensures freedom of academic inquiry, free expressio
 ### Academic Integrity and Responsible Tool Use
 
 You must follow University of New Mexico academic integrity rules. In practice, this means:\
-Submit work that is yours and accurately credited.\
-Do not misrepresent collaboration as solo work.\
-Do not fabricate sources, data, or citations.\
+*Submit work that is yours and accurately credited.\
+*Do not misrepresent collaboration as solo work.\
+*Do not fabricate sources, data, or citations.
 
-If your course involves AI tools:\
+If this course involves AI tools:\
 You may use approved tools only within the boundaries described in the assignment instructions. If AI/tool use is allowed, you must disclose it in the format I provide (e.g., a short “Tool Use” note). Using tools to bypass learning goals or submitting generated work as your own may be treated as an academic integrity violation.
 
 
