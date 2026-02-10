@@ -1,7 +1,7 @@
 # Searching for Thing-Power
 
 ## Overview
-This page frames the guiding questions for “thing-power,” diffractive practice, and what it means for matter to “push back.” It also sets up a map-reading exercise.
+This page frames the guiding questions for “thing-power,” diffractive practice, and what it means for matter to “push back.” This is a multi-part exercise, starting with maps (viewing, critiquing, and making your own).
 
 ---
 
