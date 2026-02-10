@@ -1,3 +1,4 @@
+<!--
 ---
 layout: course
 title: Creative Coding
@@ -18,3 +19,4 @@ This course explores programming as a creative medium using p5.js. We'll cover f
 ## Tools
 
 We'll use [p5.js](https://p5js.org/), a JavaScript library for creative coding. All examples run directly in your browser—no installation required.
+-->
