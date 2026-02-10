@@ -35,13 +35,25 @@ This page frames the guiding questions for “thing-power,” diffractive practi
 </div>
 
 ---
-
-## Core Reading
+## Part One
+## Core Reading and a Call to Adventure
 
 - [Jane Bennett, *Vibrant Matter* (PDF)](https://pages.mtu.edu/~jdslack/readings/CSReadings/Bennett_Jane_The_Force_of_Things.pdf)
+- Peruse the whole text, but focus on pages:
+- 349-351, where Bennett tells the story of the glove, the rat, and the bottle cap and begins to define thing-power
+- 353-354, start again at Thing-Power III: Conjunctions, where Bennett defines the term "assemblage"
+- 354- first paragraph on page 355, more defining of thing-power and begins to define the term "actant"
+- 356- 359, start at A Naive Moment on page 356, skim until you get to page 358. Read 358 and 359 thoroughly.
+
+Answer Questions
+1. On page 358, what does Lucretius mean when he asserts "a primordial swerve"?
+2. What is thing-power? Use CTRL-F to search for all references in the text.
+3. What is an assemblage?
+4. What is an actant?
+5. How could you relate thing-power, assemblages, and actants back to graph theory?
 
 ---
-## Part One
+## Part Two
 ## Map Exercise-Viewing and Critiquing
 
 ### Instructions
@@ -56,8 +68,10 @@ There are **9 maps** on the page below. For **each map**, write:
 ### Maps
 - [Open the maps page](maps.md)
 
-## Part Two
+## Part Three
+## Map Exercise-Making
 
-From your list of potential art works from Part One, choose 3.
-Draw your own maps to your 3 chosen artworks.
+*From your list of potential art works from Part One, choose 3.
+*Draw your own maps to your 3 chosen artworks. If they are close together you can make one large map.
 *The map should be hand drawn on a large piece of paper. Later you will need to take notes on the same paper so keep some open space or plan to attach more paper to the sides later to make a larger surface to work with.
+*On your map, write brief reminders of what the terms thing-power, assemblage, and actant mean.
