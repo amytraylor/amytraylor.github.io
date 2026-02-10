@@ -1,12 +1,8 @@
----
-layout: page
-title: Courses
----
+## Current Courses
 
-## Current
+- [FYEX 1020 Math as Art Material — Spring 2026](/courses/MathAsArtMaterial/)
 
-- [Creative Coding — Spring 2026](/courses/creative-coding-s26/)
+## Past Courses 
+Coming Soon
 
-## Past
 
-(List past courses here as they accumulate)
