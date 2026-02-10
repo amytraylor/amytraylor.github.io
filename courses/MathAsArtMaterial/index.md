@@ -19,4 +19,4 @@ This course explores ways to connect and make use of "math" as art material.
 
 #### Tools and Toys
 
-[p5.js](https://p5js.org/), a JavaScript library for creative coding. 
+- [p5.js](https://p5js.org/), a JavaScript library for creative coding. 
