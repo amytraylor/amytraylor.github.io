@@ -1,29 +1,54 @@
-# Searching for Thing-Power #
-Big Questions:\
-What is diffractive practice?\
-What does it mean for the thing to push back?
+# Searching for Thing-Power
 
-#####
-***... the lovely puzzles, the enchanting beauty, and the excruciating complexity and intractability of actual organisms in real places.***\
---Stephen Jay Gould
+## Overview
+This page frames the guiding questions for “thing-power,” diffractive practice, and what it means for matter to “push back.” It also sets up a map-reading exercise.
 
-***I must let my senses wander as my thought, my eyes see without looking.... Go not to the object; let it come to you.***\
---Henry Thoreau
+---
 
-***It is never we who affirm or deny something of a thing; it is the thing itself that affirms or denies something of itself in us.***\
---Baruch Spinoza
+## Big Questions
 
-***Seven-Up: You Like It. It likes you.***
-#####
+<div class="callout">
 
-Readings:
-[Jane Bennett's Vibrant Matter (2003)](<https://pages.mtu.edu/~jdslack/readings/CSReadings/Bennett_Jane_The_Force_of_Things.pdf>)
+### What we’re trying to understand
+- **What is diffractive practice?**
+- **What does it mean for a thing to “push back”?**
+</div>
 
+---
 
-There are 9 maps on the following page. For each map provide insights about the specific:
-*strengths
-*weaknesses
-*interesting thing you noticed
+## Epigraphs
 
-[Maps](maps.md)
+<div class="quotes">
 
+<p class="q">... the lovely puzzles, the enchanting beauty, and the excruciating complexity and intractability of actual organisms in real places.</p>
+<p class="attr">—Stephen Jay Gould</p>
+
+<p class="q">I must let my senses wander as my thought, my eyes see without looking.... Go not to the object; let it come to you.</p>
+<p class="attr">—Henry David Thoreau</p>
+
+<p class="q">It is never we who affirm or deny something of a thing; it is the thing itself that affirms or denies something of itself in us.</p>
+<p class="attr">—Baruch Spinoza</p>
+
+<p class="q">Seven-Up: You Like It. It likes you.</p>
+
+</div>
+
+---
+
+## Core Reading
+
+- [Jane Bennett, *Vibrant Matter* (PDF)](https://pages.mtu.edu/~jdslack/readings/CSReadings/Bennett_Jane_The_Force_of_Things.pdf)
+
+---
+
+## Map Exercise
+
+### Instructions
+There are **9 maps** on the page below. For **each map**, write:
+
+1. **Strengths** — What does this map help you notice or do well?
+2. **Weaknesses** — What does it obscure, distort, or make difficult?
+3. **One interesting observation** — Something surprising, weird, or revealing.
+
+### Maps
+- [Open the maps page](maps.md)
