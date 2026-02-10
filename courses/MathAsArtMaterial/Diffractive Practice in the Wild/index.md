@@ -1,3 +1,5 @@
+***Searching for Thing-Power***
+
 ***... the lovely puzzles, the enchanting beauty, and the excruciating complexity and intractability of actual organisms in real places.***\
 --Stephen Jay Gould
 
