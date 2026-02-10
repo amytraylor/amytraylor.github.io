@@ -41,15 +41,23 @@ This page frames the guiding questions for “thing-power,” diffractive practi
 - [Jane Bennett, *Vibrant Matter* (PDF)](https://pages.mtu.edu/~jdslack/readings/CSReadings/Bennett_Jane_The_Force_of_Things.pdf)
 
 ---
-
-## Map Exercise
+## Part One
+## Map Exercise-Viewing and Critiquing
 
 ### Instructions
+Utilize the provided maps to find 3 unique art works that you will visit.
 There are **9 maps** on the page below. For **each map**, write:
 
 1. **Strengths** — What does this map help you notice or do well?
 2. **Weaknesses** — What does it obscure, distort, or make difficult?
 3. **One interesting observation** — Something surprising, weird, or revealing.
+4. **Potential Art Works** - make a note of a few art works that are potentials to visit.
 
 ### Maps
 - [Open the maps page](maps.md)
+
+## Part Two
+
+From your list of potential art works from Part One, choose 3.
+Draw your own maps to your 3 chosen artworks.
+*The map should be hand drawn on a large piece of paper. Later you will need to take notes on the same paper so keep some open space or plan to attach more paper to the sides later to make a larger surface to work with.
