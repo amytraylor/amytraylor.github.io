@@ -1,6 +1,3 @@
-<span style="font-family: Georgia; font-size: 18px;">
-  This text is Georgia, 18px.
-</span>
 ***... the lovely puzzles, the enchanting beauty, and the excruciating complexity and intractability of actual organisms in real places.***\
 --Stephen Jay Gould
 
