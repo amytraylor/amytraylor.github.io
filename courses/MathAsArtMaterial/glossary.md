@@ -1,3 +1,11 @@
+---
+layout: course
+title: "Glossary"
+course_title: "Math As Art Material"
+course_root: /courses/MathAsArtMaterial
+hide_title: true
+---
+
 ## Glossary of terms for Math as Art Material ##
 
 diffractive practice\
