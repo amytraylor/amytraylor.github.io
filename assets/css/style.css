@@ -369,4 +369,51 @@ footer {
   color: var(--text-muted);
 }
 
+mark.glossary-hit{
+  background: rgba(255, 230, 150, 0.8);
+  padding: 0 0.15em;
+  border-radius: 0.2em;
+}
+
+.glossary-pop{
+  position: fixed;
+  right: 1rem;
+  top: 6rem;
+  width: 280px;
+  max-height: 70vh;
+  overflow: auto;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--bg);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+  padding: 0.75rem;
+  z-index: 9999;
+}
+
+.glossary-pop h3{ margin: 0 0 0.5rem; font-size: 1rem; }
+.glossary-pop .term{ margin: 0.6rem 0 0.2rem; font-weight: 600; }
+.glossary-pop ul{ list-style: none; padding: 0; margin: 0; }
+.glossary-pop li{ margin: 0.2rem 0; }
+.glossary-pop a{
+  display: block;
+  text-decoration: none;
+  color: var(--text);
+  padding: 0.25rem 0.4rem;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-size: 0.95rem;
+}
+.glossary-pop a:hover{
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--code-bg);
+}
+
+.course-content{ padding-right: 320px; }
+
+@media (max-width: 1000px){
+  .glossary-pop{ display:none; }
+  .course-content{ padding-right: 0; }
+}
+
 
