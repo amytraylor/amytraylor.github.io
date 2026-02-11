@@ -37,7 +37,7 @@ Peruse the whole text, but focus on pages:
 - 354- first paragraph on page 355, more defining of thing-power and begins to define the term "actant"
 - 356- 359, start at A Naive Moment on page 356, skim until you get to page 358. Read 358 and 359 thoroughly.
 
-#### Answer Questions-wherever you want (paper, computer, text yourself)
+###### Answer Questions-wherever you want (paper, computer, text yourself)
 1. On page 358, what does Lucretius mean when he asserts "a primordial swerve"?
 2. What is thing-power? Use CTRL-F to search for all references in the text.
 3. What is an assemblage?
@@ -46,7 +46,7 @@ Peruse the whole text, but focus on pages:
 
 ---
 ### Part Two: ***Map Exercise-Viewing and Critiquing***
-#### Instructions
+###### Instructions
 Utilize the provided maps to find 3 unique art works that you will visit.\
 There are **9 maps** on the page below. For **each map**, write:
 
@@ -54,11 +54,11 @@ There are **9 maps** on the page below. For **each map**, write:
 2. **Weaknesses** — What does it obscure, distort, or make difficult?
 3. **One interesting observation** — Something surprising, weird, or revealing.
 4. **Potential Art Works** - make a note of a few art works that are potentials to visit.
-#### Maps - [Open the maps page](maps.md)
+###### Maps - [Open the maps page](maps.md)
 
 ### Part Three: ***Map Exercise-Making***
-#### Instructions
--*From your list of potential art works from Part One, choose 3.\
--*Draw your own maps to your 3 chosen artworks. If they are close together you can make one large map.\
--*The map should be hand drawn on a large piece of paper. Later you will need to take notes on the same paper so keep some open space or plan to attach more paper to the sides later to make a larger surface to work with.\
--*On your map, write brief reminders of what the terms thing-power, assemblage, and actant mean.
+###### Instructions
+-From your list of potential art works from Part One, choose 3.\
+-Draw your own maps to your 3 chosen artworks. If they are close together you can make one large map.\
+-The map should be hand drawn on a large piece of paper. Later you will need to take notes on the same paper so keep some open space or plan to attach more paper to the sides later to make a larger surface to work with.\
+-On your map, write brief reminders of what the terms thing-power, assemblage, and actant mean.
