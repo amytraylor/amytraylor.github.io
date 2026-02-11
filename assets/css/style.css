@@ -369,6 +369,10 @@ footer {
   color: var(--text-muted);
 }
 
+/* =========================
+   Glossary sidebar (collapsed terms + expand on click)
+   ========================= */
+
 mark.glossary-hit{
   background: rgba(255, 230, 150, 0.8);
   padding: 0 0.15em;
@@ -379,8 +383,8 @@ mark.glossary-hit{
   position: fixed;
   right: 1rem;
   top: 6rem;
-  width: 280px;
-  max-height: 70vh;
+  width: 300px;
+  max-height: 72vh;
   overflow: auto;
   border: 1px solid var(--border);
   border-radius: 10px;
@@ -390,30 +394,91 @@ mark.glossary-hit{
   z-index: 9999;
 }
 
-.glossary-pop h3{ margin: 0 0 0.5rem; font-size: 1rem; }
-.glossary-pop .term{ margin: 0.6rem 0 0.2rem; font-weight: 600; }
-.glossary-pop ul{ list-style: none; padding: 0; margin: 0; }
-.glossary-pop li{ margin: 0.2rem 0; }
-.glossary-pop a{
+.glossary-pop h3{
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+}
+
+.glossary-pop .glossary-item{
+  border-top: 1px solid var(--border);
+  padding: 0.4rem 0;
+}
+
+.glossary-pop .glossary-item:first-of-type{
+  border-top: 0;
+}
+
+.glossary-pop .term-row{
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  align-items: baseline;
+  cursor: pointer;
+  padding: 0.25rem 0.35rem;
+  border-radius: 8px;
+}
+
+.glossary-pop .term-row:hover{
+  background: var(--code-bg);
+}
+
+.glossary-pop .term-name{
+  font-weight: 650;
+}
+
+.glossary-pop .term-count{
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.glossary-pop .term-def{
+  display: none;
+  margin: 0.25rem 0 0.25rem 0.35rem;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.glossary-pop .occurrences{
+  display: none;              /* collapsed by default */
+  list-style: none;
+  padding: 0.25rem 0 0.5rem 0.8rem;
+  margin: 0;
+}
+
+.glossary-pop .occurrences li{
+  margin: 0.2rem 0;
+}
+
+.glossary-pop .occurrences a{
   display: block;
   text-decoration: none;
   color: var(--text);
-  padding: 0.25rem 0.4rem;
+  padding: 0.2rem 0.35rem;
   border-radius: 8px;
   border: 1px solid transparent;
   font-size: 0.95rem;
 }
-.glossary-pop a:hover{
+
+.glossary-pop .occurrences a:hover{
   border-color: var(--accent);
   color: var(--accent);
   background: var(--code-bg);
 }
 
-.course-content{ padding-right: 320px; }
-
-@media (max-width: 1000px){
-  .glossary-pop{ display:none; }
-  .course-content{ padding-right: 0; }
+/* When open, show definition + occurrences */
+.glossary-pop .glossary-item.is-open .term-def{
+  display: block;
 }
 
+.glossary-pop .glossary-item.is-open .occurrences{
+  display: block;
+}
 
+.course-content{
+  padding-right: 340px;
+}
+
+@media (max-width: 1000px){
+  .glossary-pop{ display: none; }
+  .course-content{ padding-right: 0; }
+}
