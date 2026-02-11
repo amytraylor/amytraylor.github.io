@@ -29,7 +29,7 @@ This page frames the guiding questions for thing-power, diffractive practice, an
 > *Seven-Up: You Like It. It likes you.*
 
 ---
-[### Part One: ***Core Reading and a Call to Adventure***](thingpower_part1.md/)
+### [Part One: ***Core Reading and a Call to Adventure***](thingpower_part1.md/)
 
 ---
 ### Part Two: ***Map Exercise-Viewing and Critiquing***
