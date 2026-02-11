@@ -3,7 +3,6 @@ layout: course
 title: "Bennett Excerpt — Thing-Power"
 course_title: "Math As Art Material"
 course_root: /courses/MathAsArtMaterial
-permalink: /courses/MathAsArtMaterial/vibrantmatter/
 
 # Terms to auto-highlight on this page:
 glossary_terms:
