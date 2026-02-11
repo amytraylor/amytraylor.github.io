@@ -4,7 +4,6 @@ title: "Bennett Excerpt — Thing-Power"
 course_title: "Math As Art Material"
 course_root: /courses/MathAsArtMaterial
 
-# Terms to auto-highlight on this page:
 glossary_terms:
   - thing-power
   - thing power
@@ -40,6 +39,7 @@ glossary_terms:
   - efficacy
   - capacity
   - clinamen
+
 ---
 
 THEORY AND THE NONHUMAN
