@@ -1,33 +1,53 @@
+/* assets/js/glossary-pop.js
+   Builds an always-available right-side glossary panel:
+   - Highlights all terms on the page
+   - Creates a collapsed/accordion list of terms
+   - Clicking a term shows definition + occurrences (only one open at a time)
+   - Clicking an occurrence scrolls to it and briefly outlines it
+*/
+
 (() => {
   const terms = window.__GLOSSARY_TERMS__;
-  const defs  = window.__GLOSSARY_DEFS__ || {};
-  const glossaryPage = window.__GLOSSARY_PAGE__ || "";
-
   if (!Array.isArray(terms) || terms.length === 0) return;
+
+  const defs = window.__GLOSSARY_DEFS__ || {};
+  const glossaryPage = window.__GLOSSARY_PAGE__ || "";
 
   const root =
     document.querySelector(".course-content") ||
     document.querySelector("main") ||
     document.body;
 
-  const escReg = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  // Escape for RegExp patterns (NOT for ids)
+  const escRe = (s) => String(s).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+
+  // Make a safe-ish id slug
   const slug = (s) =>
-    String(s).trim().toLowerCase()
+    String(s)
+      .toLowerCase()
+      .trim()
       .replace(/['’]/g, "")
       .replace(/[^a-z0-9]+/g, "-")
       .replace(/^-+|-+$/g, "");
 
   function highlightTerm(term) {
-    const isSingleWord = !term.trim().includes(" ");
-    const pattern = isSingleWord ? `\\b${escReg(term)}\\b` : escReg(term);
+    const t = String(term || "").trim();
+    if (!t) return [];
+
+    // Whole words for single words; phrases match as-is (case-insensitive)
+    const isSingleWord = !t.includes(" ");
+    const pattern = isSingleWord ? `\\b${escRe(t)}\\b` : escRe(t);
     const regex = new RegExp(pattern, "gi");
 
     const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
       acceptNode(node) {
         const p = node.parentElement;
         if (!p) return NodeFilter.FILTER_REJECT;
+        // don't highlight inside these tags
         if (p.closest("script, style, pre, code, a, mark")) return NodeFilter.FILTER_REJECT;
-        if (!node.nodeValue || !regex.test(node.nodeValue)) return NodeFilter.FILTER_REJECT;
+        if (!node.nodeValue) return NodeFilter.FILTER_REJECT;
+        regex.lastIndex = 0;
+        if (!regex.test(node.nodeValue)) return NodeFilter.FILTER_REJECT;
         return NodeFilter.FILTER_ACCEPT;
       },
     });
@@ -41,12 +61,13 @@
       const frag = document.createDocumentFragment();
       let last = 0;
 
+      regex.lastIndex = 0;
       text.replace(regex, (m, offset) => {
         if (offset > last) frag.appendChild(document.createTextNode(text.slice(last, offset)));
 
         const mark = document.createElement("mark");
         mark.className = "glossary-hit";
-        mark.dataset.term = term;
+        mark.dataset.term = t;
         mark.textContent = m;
         frag.appendChild(mark);
 
@@ -62,58 +83,83 @@
     return hits;
   }
 
-  // Highlight all terms; collect all occurrences
+  // 1) Highlight all terms and collect occurrences
   const occurrences = new Map();
-  for (const t of terms) occurrences.set(t, highlightTerm(t) || []);
-  const total = Array.from(occurrences.values()).reduce((a, arr) => a + arr.length, 0);
+  for (const t of terms) occurrences.set(String(t), highlightTerm(String(t)));
+
+  const total = Array.from(occurrences.values()).reduce((a, arr) => a + (arr?.length || 0), 0);
   if (total === 0) return;
 
-  // Assign IDs for linking
+  // 2) Assign IDs for each hit so we can deep-link
   let idCounter = 0;
   for (const [term, marks] of occurrences.entries()) {
-    for (const m of marks) m.id = `g-${slug(term)}-${idCounter++}`;
+    const base = slug(term) || "term";
+    for (const m of marks) {
+      m.id = `g-${base}-${idCounter++}`;
+    }
   }
 
-  // Build always-visible sidebar (collapsed terms)
+  // 3) Build always-visible sidebar panel
   const pop = document.createElement("aside");
   pop.className = "glossary-pop";
   pop.innerHTML = `<h3>Terms on this page</h3>`;
   document.body.appendChild(pop);
 
-  for (const [term, marks] of occurrences.entries()) {
-    if (!marks.length) continue;
+  // Helper to find a definition entry
+  function getDef(term) {
+    const k = String(term).toLowerCase();
+    return defs[k] || defs[term] || null;
+  }
 
-    const key = slug(term);
-    const entry = defs[key]; // defs are keyed by slug in your JSON output
-    const defText = entry && entry.def ? entry.def : "";
+  // 4) Render each term as a collapsible item
+  for (const [term, marks] of occurrences.entries()) {
+    if (!marks || marks.length === 0) continue;
+
+    const entry = getDef(term);
+    const defText = entry?.def ? String(entry.def) : "";
 
     const item = document.createElement("div");
     item.className = "glossary-item";
 
     const row = document.createElement("div");
     row.className = "term-row";
-    row.innerHTML = `
-      <span class="term-name">${term}</span>
-      <span class="term-count">${marks.length}</span>
-    `;
 
-    // Definition block (THIS is what you were missing)
+    const name = document.createElement("span");
+    name.className = "term-name";
+    name.textContent = term;
+
+    const count = document.createElement("span");
+    count.className = "term-count";
+    count.textContent = marks.length;
+
+    row.appendChild(name);
+    row.appendChild(count);
+    item.appendChild(row);
+
+    // Definition block
     const def = document.createElement("div");
     def.className = "term-def";
-    def.textContent = defText || "No definition yet.";
+    if (defText) {
+      def.appendChild(document.createTextNode(defText));
+    } else {
+      def.appendChild(document.createTextNode("(No definition yet)"));
+    }
 
-    // Optional link to glossary page (if you make one later)
     if (glossaryPage) {
+      const key = slug(term) || encodeURIComponent(String(term).toLowerCase());
       const a = document.createElement("a");
       a.className = "term-glossary-link";
-      a.href = glossaryPage + "#" + key;
+      a.href = `${glossaryPage}#${key}`;
       a.textContent = "Open glossary";
       a.style.display = "inline-block";
       a.style.marginLeft = "0.35rem";
-      def.appendChild(document.createTextNode(" "));
+      def.appendChild(document.createElement("br"));
       def.appendChild(a);
     }
 
+    item.appendChild(def);
+
+    // Occurrence list (collapsed by CSS unless .is-open)
     const ul = document.createElement("ul");
     ul.className = "occurrences";
 
@@ -133,13 +179,27 @@
       ul.appendChild(li);
     });
 
+    item.appendChild(ul);
+
+    // Accordion toggle: only one open at a time
     row.addEventListener("click", () => {
-      item.classList.toggle("is-open");
+      const wasOpen = item.classList.contains("is-open");
+      pop.querySelectorAll(".glossary-item.is-open").forEach((el) => el.classList.remove("is-open"));
+      if (!wasOpen) item.classList.add("is-open");
     });
 
-    item.appendChild(row);
-    item.appendChild(def);
-    item.appendChild(ul);
     pop.appendChild(item);
+  }
+
+  // 5) If the URL already has #g-... scroll highlight lightly
+  if (location.hash && location.hash.startsWith("#g-")) {
+    const el = document.querySelector(location.hash);
+    if (el) {
+      setTimeout(() => {
+        el.scrollIntoView({ behavior: "smooth", block: "center" });
+        el.style.outline = "2px solid var(--accent)";
+        setTimeout(() => (el.style.outline = ""), 900);
+      }, 200);
+    }
   }
 })();
