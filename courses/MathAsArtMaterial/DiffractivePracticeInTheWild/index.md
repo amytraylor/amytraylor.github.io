@@ -1,17 +1,17 @@
-<!-- # Searching for Thing-Power -->
+# Searching for Thing-Power
 
 ## Overview
 This page frames the guiding questions for “thing-power,” diffractive practice, and what it means for matter to “push back.” This is a multi-part exercise, starting with maps (viewing, critiquing, and making your own).
 
 ---
 
-## Big Questions
-### What we’re trying to understand
+### Big Questions
+#### What we’re trying to understand
 - **What is diffractive practice?**
 - **What does it mean for a thing to “push back”?**
 - **Also, what on earth is a thing?**
 
-## Quotes to warm up your brain
+### Quotes to warm up your brain
 > *... the lovely puzzles, the enchanting beauty, and the excruciating complexity and intractability of actual organisms in real places.\
 > --Stephen Jay Gould*
 
@@ -24,8 +24,7 @@ This page frames the guiding questions for “thing-power,” diffractive practi
 > *Seven-Up: You Like It. It likes you.*
 
 ---
-## Part One
-## Core Reading and a Call to Adventure
+### Part One: #### Core Reading and a Call to Adventure
 
 - <a href="https://pages.mtu.edu/~jdslack/readings/CSReadings/Bennett_Jane_The_Force_of_Things.pdf"
      target="_blank"
@@ -40,7 +39,7 @@ Peruse the whole text, but focus on pages:
 - 354- first paragraph on page 355, more defining of thing-power and begins to define the term "actant"
 - 356- 359, start at A Naive Moment on page 356, skim until you get to page 358. Read 358 and 359 thoroughly.
 
-Answer Questions
+#### Answer Questions-wherever you want (paper, computer, text yourself)
 1. On page 358, what does Lucretius mean when he asserts "a primordial swerve"?
 2. What is thing-power? Use CTRL-F to search for all references in the text.
 3. What is an assemblage?
@@ -48,25 +47,20 @@ Answer Questions
 5. How could you relate thing-power, assemblages, and actants back to graph theory?
 
 ---
-## Part Two
-## Map Exercise-Viewing and Critiquing
-
-### Instructions
-Utilize the provided maps to find 3 unique art works that you will visit.
+### Part Two: #### Map Exercise-Viewing and Critiquing
+#### Instructions
+Utilize the provided maps to find 3 unique art works that you will visit.\
 There are **9 maps** on the page below. For **each map**, write:
 
-1. **Strengths** — What does this map help you notice or do well?
-2. **Weaknesses** — What does it obscure, distort, or make difficult?
-3. **One interesting observation** — Something surprising, weird, or revealing.
+1. **Strengths** — What does this map help you notice or do well?\
+2. **Weaknesses** — What does it obscure, distort, or make difficult?\
+3. **One interesting observation** — Something surprising, weird, or revealing.\
 4. **Potential Art Works** - make a note of a few art works that are potentials to visit.
+#### Maps - [Open the maps page](maps.md)
 
-### Maps
-- [Open the maps page](maps.md)
-
-## Part Three
-## Map Exercise-Making
-
-*From your list of potential art works from Part One, choose 3.
-*Draw your own maps to your 3 chosen artworks. If they are close together you can make one large map.
-*The map should be hand drawn on a large piece of paper. Later you will need to take notes on the same paper so keep some open space or plan to attach more paper to the sides later to make a larger surface to work with.
-*On your map, write brief reminders of what the terms thing-power, assemblage, and actant mean.
+### Part Three: #### Map Exercise-Making
+#### Instructions
+-*From your list of potential art works from Part One, choose 3.\
+-*Draw your own maps to your 3 chosen artworks. If they are close together you can make one large map.\
+-*The map should be hand drawn on a large piece of paper. Later you will need to take notes on the same paper so keep some open space or plan to attach more paper to the sides later to make a larger surface to work with.\
+-*On your map, write brief reminders of what the terms thing-power, assemblage, and actant mean.
