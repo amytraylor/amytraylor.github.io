@@ -1,61 +1,86 @@
-/* Reset and base */
-*, *::before, *::after {
+/* =========================================
+   Reasonable defaults for a simple Jekyll/GitHub Pages site
+   - Keeps your existing class names working
+   - No fancy color-mix / no custom callout systems required
+   ========================================= */
+
+/* Reset + base */
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
 :root {
-  --bg: #fafafa;
-  --text: #222;
-  --text-muted: #666;
-  --accent: #2563eb;
-  --border: #e5e5e5;
-  --code-bg: #f4f4f4;
-  --max-width: 1200px;
-  --content-width: 720px;
+  --bg: #ffffff;
+  --text: #1f2937;       /* slate-800 */
+  --text-muted: #6b7280; /* gray-500 */
+  --accent: #2563eb;     /* blue-600 */
+  --border: #e5e7eb;     /* gray-200 */
+  --code-bg: #f3f4f6;    /* gray-100 */
+  --max-width: 1100px;
+  --content-width: 760px;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #1a1a1a;
-    --text: #e5e5e5;
-    --text-muted: #999;
+    --bg: #0b1220;
+    --text: #e5e7eb;
+    --text-muted: #9ca3af;
     --accent: #60a5fa;
-    --border: #333;
-    --code-bg: #2a2a2a;
+    --border: #243047;
+    --code-bg: #111827;
   }
 }
 
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  font-size: 18px;
-  line-height: 1.6;
-  color: var(--text);
-  background: var(--bg);
   margin: 0;
   padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.55;
+}
+
+/* Links */
+a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
 }
 
 /* Navigation */
 .site-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  border-bottom: 1px solid var(--border);
   max-width: var(--max-width);
   margin: 0 auto;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
 }
 
 .site-title {
-  font-weight: 600;
-  font-size: 4.4rem;
+  font-weight: 700;
+  font-size: 2rem; /* sane default */
   color: var(--text);
   text-decoration: none;
 }
 
 .nav-links {
   display: flex;
-  gap: 1.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .nav-links a {
@@ -66,125 +91,142 @@ body {
 
 .nav-links a:hover {
   color: var(--accent);
+  text-decoration: underline;
 }
 
 /* Main content */
 main {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 2rem;
+  padding: 2rem 1.5rem;
 }
 
-.page, .home {
+.page,
+.home {
   max-width: var(--content-width);
 }
 
 /* Typography */
-h1, h2, h3, h4 {
-  line-height: 1.3;
-  margin-top: 1.5em;
-  margin-bottom: 0.5em;
-}
-h1 { font-size: 3.2rem; margin-top: 0; }
-h2 { font-size: 2.9rem; }
-h3 { font-size: 2.6rem; }
-h4 { font-size: 2.3rem; }
-h5 { font-size: 2.0rem; }
-h6 { font-size: 1.7rem; }
-h7 { font-size: 1.25rem; }
-h8 { font-size: 0.9rem; }
-
-a {
-  color: var(--accent);
-}
-/* --- Big Questions callout --- */
-.callout {
-  margin: 1.5rem 0;
-  padding: 1rem 1.25rem;
-  border: 1px solid var(--border);
-  border-left: 4px solid var(--accent);
-  border-radius: 6px;
-  background: color-mix(in srgb, var(--code-bg) 50%, transparent);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+  margin: 1.5rem 0 0.75rem;
 }
 
-.callout h2,
-.callout h3 {
-  margin-top: 0;
-}
-
-.callout p {
-  margin: 0.6rem 0;
-}
-
-.callout ul {
-  margin: 0.6rem 0 0 1.25rem;
-}
-
-/* --- Quote styling (small + italic + tidy spacing) --- */
-.quotes {
-  margin: 1.5rem 0;
-  padding: 1rem 1.25rem;
-  border-left: 4px solid var(--border);
-  background: color-mix(in srgb, var(--code-bg) 60%, transparent);
-  border-radius: 6px;
-}
-
-.quotes p {
-  margin: 0.8rem 0;
-}
-
-.quotes .q {
-  font-size: 0.95em;   /* slightly smaller than body */
-  font-style: italic;
-}
-
-.quotes .attr {
-  font-size: 0.9em;    /* smaller attribution line */
-  color: var(--text-muted);
-  margin-top: 0.25rem;
-}
+h1 { font-size: 2.25rem; margin-top: 0; }
+h2 { font-size: 1.75rem; }
+h3 { font-size: 1.35rem; }
+h4 { font-size: 1.15rem; }
+h5 { font-size: 1.0rem; }
+h6 { font-size: 0.95rem; }
 
 p {
-  margin: 1em 0;
+  margin: 0.9rem 0;
+}
+
+ul,
+ol {
+  margin: 0.75rem 0 0.75rem 1.25rem;
+}
+
+li {
+  margin: 0.35rem 0;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--border);
+  margin: 2rem 0;
+}
+
+/* Blockquotes (works great for your quotes + callouts in pure Markdown) */
+blockquote {
+  margin: 1.25rem 0;
+  padding: 0.75rem 1rem;
+  border-left: 4px solid var(--border);
+  background: var(--code-bg);
+  border-radius: 6px;
+}
+
+blockquote p {
+  margin: 0.5rem 0;
 }
 
 /* Code */
 code {
   background: var(--code-bg);
-  padding: 0.2em 0.4em;
-  border-radius: 3px;
-  font-size: 0.9em;
+  padding: 0.15em 0.35em;
+  border-radius: 4px;
+  font-size: 0.95em;
 }
 
 pre {
   background: var(--code-bg);
   padding: 1rem;
   overflow-x: auto;
-  border-radius: 4px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
 }
 
 pre code {
   padding: 0;
   background: none;
+  font-size: 0.95em;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.25rem 0;
+  font-size: 0.95rem;
+}
+
+th,
+td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.7rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background: var(--code-bg);
+  font-weight: 600;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 /* Course layout */
 .course-container {
   display: grid;
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: 220px 1fr;
   gap: 2rem;
+  align-items: start;
 }
 
 .course-nav {
   position: sticky;
-  top: 2rem;
+  top: 1.5rem;
   height: fit-content;
+  padding: 0.25rem 0;
 }
 
 .course-nav h2 {
-  font-size: 1rem;
-  margin-top: 0;
+  font-size: 0.95rem;
+  margin: 0 0 0.75rem;
   color: var(--text-muted);
+  font-weight: 600;
+  letter-spacing: 0.02em;
 }
 
 .course-nav ul {
@@ -204,49 +246,67 @@ pre code {
 
 .course-nav a:hover {
   color: var(--accent);
+  text-decoration: underline;
 }
 
 .course-content {
   max-width: var(--content-width);
 }
 
-@media (max-width: 768px) {
+/* Optional: if you use no_sidebar in your layout */
+.no-sidebar {
+  grid-template-columns: 1fr !important;
+}
+
+.no-sidebar .course-nav {
+  display: none !important;
+}
+
+@media (max-width: 900px) {
   .course-container {
     grid-template-columns: 1fr;
   }
-  
+
   .course-nav {
     position: static;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    background: var(--code-bg);
   }
-  
+
   .course-nav ul {
     display: flex;
-    gap: 1rem;
+    flex-wrap: wrap;
+    gap: 0.75rem 1rem;
+  }
+
+  .course-nav li {
+    margin: 0;
   }
 }
 
 /* Home / Portfolio grid */
 .work-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 1.5rem;
-  margin-top: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.5rem;
 }
 
 .work-item {
   border: 1px solid var(--border);
-  border-radius: 4px;
+  border-radius: 10px;
   overflow: hidden;
   text-decoration: none;
   color: inherit;
-  transition: box-shadow 0.2s;
+  background: var(--bg);
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
 }
 
 .work-item:hover {
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transform: translateY(-1px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
 }
 
 .work-item img {
@@ -256,52 +316,54 @@ pre code {
 }
 
 .work-item-info {
-  padding: 1rem;
+  padding: 0.9rem 1rem 1rem;
 }
 
 .work-item h3 {
-  margin: 0 0 0.5rem;
-  font-size: 1rem;
+  margin: 0 0 0.4rem;
+  font-size: 1.05rem;
 }
 
 .work-item p {
   margin: 0;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   color: var(--text-muted);
 }
 
 /* Sketch listing */
 .sketch-list {
   display: grid;
-  gap: 1rem;
+  gap: 0.9rem;
   margin-top: 1rem;
 }
 
 .sketch-list a {
   display: block;
-  padding: 1rem;
+  padding: 0.9rem 1rem;
   border: 1px solid var(--border);
-  border-radius: 4px;
+  border-radius: 10px;
   text-decoration: none;
   color: inherit;
+  background: var(--bg);
 }
 
 .sketch-list a:hover {
   border-color: var(--accent);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
 }
 
 /* Footer */
 footer {
   max-width: var(--max-width);
-  margin: 4rem auto 0;
-  padding: 2rem;
+  margin: 3rem auto 0;
+  padding: 1.75rem 1.5rem;
   border-top: 1px solid var(--border);
   color: var(--text-muted);
-  font-size: 0.9rem;
+  font-size: 0.95rem;
 }
 
 /* Utility */
 .lead {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: var(--text-muted);
 }
