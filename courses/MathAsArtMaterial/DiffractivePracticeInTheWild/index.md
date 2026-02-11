@@ -6,40 +6,39 @@ This page frames the guiding questions for “thing-power,” diffractive practi
 ---
 
 ## Big Questions
-
-<div class="callout">
-
 ### What we’re trying to understand
-- **What is diffractive practice?**
-- **What does it mean for a thing to “push back”?**
+- **What is diffractive practice?**\
+- **What does it mean for a thing to “push back”?**\
 - **Also, what on earth is a thing?**
-</div>
-
 ---
 
 ## Quotes to warm up your brain
 
 <div class="quotes">
 
-> **... the lovely puzzles, the enchanting beauty, and the excruciating complexity and intractability of actual organisms in real places.**
-> **—Stephen Jay Gould**
+> ... the lovely puzzles, the enchanting beauty, and the excruciating complexity and intractability of actual organisms in real places.**
+> —Stephen Jay Gould
 
-<p class="q">I must let my senses wander as my thought, my eyes see without looking.... Go not to the object; let it come to you.</p>
-<p class="attr">—Henry David Thoreau</p>
+> I must let my senses wander as my thought, my eyes see without looking.... Go not to the object; let it come to you.</p>
+> —Henry David Thoreau</p>
 
-<p class="quotes q">It is never we who affirm or deny something of a thing; it is the thing itself that affirms or denies something of itself in us.</p>
-<p class="quotes attr">—Baruch Spinoza</p>
+> It is never we who affirm or deny something of a thing; it is the thing itself that affirms or denies something of itself in us.</p>
+> —Baruch Spinoza</p>
 
-<p class="q">Seven-Up: You Like It. It likes you.</p>
-
-</div>
+>Seven-Up: You Like It. It likes you.</p>
 
 ---
 ## Part One
 ## Core Reading and a Call to Adventure
 
-- [Jane Bennett, *Vibrant Matter* (PDF)](https://pages.mtu.edu/~jdslack/readings/CSReadings/Bennett_Jane_The_Force_of_Things.pdf)
-- Peruse the whole text, but focus on pages:
+- <a href="https://pages.mtu.edu/~jdslack/readings/CSReadings/Bennett_Jane_The_Force_of_Things.pdf"
+     target="_blank"
+     rel="noopener noreferrer"
+     title="Jane Bennett — Vibrant Matter (PDF)">
+    Jane Bennett, <em>Vibrant Matter</em> (PDF)
+  </a>
+
+Peruse the whole text, but focus on pages:
 - 349-351, where Bennett tells the story of the glove, the rat, and the bottle cap and begins to define thing-power
 - 353-354, start again at Thing-Power III: Conjunctions, where Bennett defines the term "assemblage"
 - 354- first paragraph on page 355, more defining of thing-power and begins to define the term "actant"
