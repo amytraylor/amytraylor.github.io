@@ -1,11 +1,10 @@
 ---
 layout: course
-title: FYEX 1020
-course_title: Math As Art Material
+title: "Searching for Thing Power — Part One"
+course_title: "Math As Art Material"
 course_root: /courses/MathAsArtMaterial
 ---
 
-# Searching for Thing Power
 ### Part One: ***Core Reading and a Call to Adventure***
 
 - <a href="https://pages.mtu.edu/~jdslack/readings/CSReadings/Bennett_Jane_The_Force_of_Things.pdf"
@@ -27,4 +26,7 @@ Peruse the whole text, but focus on pages:
 3. What is an assemblage?
 4. What is an actant?
 5. How could you relate thing-power, assemblages, and actants back to graph theory?
+
+[Back to module overview](./)
+
 
