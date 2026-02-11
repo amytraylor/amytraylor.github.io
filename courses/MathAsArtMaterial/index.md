@@ -1,6 +1,6 @@
 ---
 layout: default
-title: FYEX 1020
+title: 
 course_title: Math As Art Material
 course_root: /courses/MathAsArtMaterial
 no_sidebar: true
