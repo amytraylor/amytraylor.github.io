@@ -1,3 +1,11 @@
+---
+layout: course
+title: Searching for Thing-Power
+course_title: Math As Art Material
+course_root: /courses/MathAsArtMaterial
+hide_title: true
+---
+
 # Searching for Thing Power
 ### Part One: ***Core Reading and a Call to Adventure***
 
