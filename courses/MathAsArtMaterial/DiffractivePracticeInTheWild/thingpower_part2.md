@@ -1,3 +1,11 @@
+---
+layout: course
+title: "Searching for Thing Power — Part One"
+course_title: "Math As Art Material"
+course_root: /courses/MathAsArtMaterial
+hide_title: true
+---
+
 ### Part Two: ***Map Exercise-Viewing and Critiquing***
 #### Instructions
 Utilize the provided maps to find 3 unique art works that you will visit.\
