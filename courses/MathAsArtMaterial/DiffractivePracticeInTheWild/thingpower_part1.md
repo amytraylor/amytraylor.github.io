@@ -8,13 +8,14 @@ hide_title: true
 
 ### Part One: ***Core Reading and a Call to Adventure***
 
+##### Full Text, Original PDF
 - <a href="https://pages.mtu.edu/~jdslack/readings/CSReadings/Bennett_Jane_The_Force_of_Things.pdf"
      target="_blank"
      rel="noopener noreferrer"
      title="Opens the PDF in a new tab">
     Jane Bennett, <em>Vibrant Matter</em> (PDF)
   </a>
-
+##### [Special Annotated Text](vibrantmatter/)
 Peruse the whole text, but focus on pages:
 - 347-348, read into the intro, pick out words you understand, leave the rest for later lookup
 - 349-351, where Bennett tells the story of the glove, the rat, and the bottle cap and begins to define thing-power
