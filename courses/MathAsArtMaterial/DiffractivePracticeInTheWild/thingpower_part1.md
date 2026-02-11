@@ -15,7 +15,7 @@ hide_title: true
      title="Opens the PDF in a new tab">
     Jane Bennett, <em>Vibrant Matter</em> (PDF)
   </a>
-- [Special Annotated Text](/courses/MathAsArtMaterial/vibrantmatter)
+- [Special Annotated Text](/courses/MathAsArtMaterial/vibrantmatter/)
 
 
 Peruse the whole text, but focus on pages:
