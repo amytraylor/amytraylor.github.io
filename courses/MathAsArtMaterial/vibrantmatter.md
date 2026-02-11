@@ -14,11 +14,34 @@ glossary_terms:
   - actant
   - agency
   - materiality
+  - material
+  - matter
+  - materialism
+  - materialists
   - vibrant matter
   - nonhuman
   - human
   - object
   - subject
+  - swerve
+  - void
+  - flow
+  - ecology
+  - ecological
+  - ontology
+  - ontological
+  - epistemology
+  - recalcitrance
+  - artifact
+  - Spinoza
+  - Kafka
+  - Bergson
+  - Deleuze
+  - Latour
+  - Lucretius
+  - efficacy
+  - capacity
+  - clinamen
 ---
 
 THEORY AND THE NONHUMAN
@@ -100,7 +123,8 @@ thing’s imbrication with human subjectivity. It is due to this otherness or
 wildness, says Thoreau, that things have the power to addle and rearrange
 thoughts and perceptions. In the foreground is a Lucretian figuration of mate-
 riality as capable of free or aleatory movements; a non-Newtonian picture of
-Bennett / STEPS TOWARD AN ECOLOGY OF MATTER =. 349
+
+***Bennett / STEPS TOWARD AN ECOLOGY OF MATTER Page 349***
 
 nature as matter-flow, especially as it is developed in the thought of Gilles
 Deleuze; and the Spinozist idea that bodies have a propensity to form collec-
@@ -192,7 +216,8 @@ shorter cycles—thus displays an anti-materiality bias. In other words, the
 sheer volume of products, and the necessity of junking them to make room
 for new ones, devalues the thing.'' It disables and obscures thing-power.
 After all, itis hard to discern, much less acknowledge, the material dignity of
-Bennett / STEPS TOWARD AN ECOLOGY OF MATTER = 351
+
+***Bennett / STEPS TOWARD AN ECOLOGY OF MATTER Page 351***
 
 the thing when your nose is overwhelmed by the dozens of scents that “have
 collected into strata in the department store air”’” or when your thoughts are
@@ -284,7 +309,8 @@ and laughs; but it is only the kind of laughter that has no lungs behind it. It 
 like the rustling of fallen leaves. And that is usually the end of the conversation. Even
 these answers are not always forthcoming; often he stays mute for a long time, as wooden
 as his appearance.!
-Bennett / STEPS TOWARD AN ECOLOGY OF MATTER = 353
+
+***Bennett / STEPS TOWARD AN ECOLOGY OF MATTER Page 353***
 
 Like De Landa and Kafka, the Russian scientist Vladimir Ivanovich
 Vernadsky (1863-45) also refused any sharp distinction between life and
@@ -372,7 +398,8 @@ covered metal disk, the Sampler was dabbed on the suspect’s hand and then
 proferred microscopic evidence that the hand had fired a gun or been within
 three feet of a gun firing. The Sampler was shown to the jury twice by expert
 witnesses and mentioned many times during the course of the trial, each time
-Bennett / STEPS TOWARD AN ECOLOGY OF MATTER = 355
+
+***Bennett / STEPS TOWARD AN ECOLOGY OF MATTER Page 355***
 
 gaining power. This small, at first apparently inert, arrangement of glass,
 metal, and glue began to present itself as what Bruno Latour calls an “actant.”
@@ -462,7 +489,8 @@ ciples of association governing them. It rejects religion and disempowers the
 gods, presents death as a reconfiguration of primordia made necessary by the
 essential motility of matter, and offers advice on how to live well while exist-
 ing in one’s current material form. De Rerum Natura is at once a book of
-Bennett / STEPS TOWARD AN ECOLOGY OF MATTER = (357
+
+***Bennett / STEPS TOWARD AN ECOLOGY OF MATTER Page 357***
 
 physics, ontology, and ethics. I admire Lucretius’s audacity: he claims to
 describe the world as it is with or without us, for the most part ignoring the
@@ -550,7 +578,8 @@ not determined, that an element of chanciness resides in the nature of things.
 It also affirms that so-called inanimate things have a life of their own, that
 deep within them is an inexplicable vitality or energy, a moment of independ-
 ence from and resistance to us and other things. A kind of thing-power.
-Bennett /STEPS TOWARD AN'ECOLOGY OF MATTER = 359
+
+***Bennett /STEPS TOWARD AN'ECOLOGY OF MATTER Page 359***
 
 Deleuze and Guattari allude to the swerve when they say that that which
 has a body by that very token has a spiritedness (an esprit de corps), and even
@@ -636,10 +665,11 @@ already on their way to becoming trash (where materiality is conceived as the
 dead other to life). Thing-power materialism, in contrast, figures things as
 being more than mere objects, emphasizing their powers of life, resistance,
 and even a kind of will; these are powers that, in a tightly knit world, we
-ignore at our own peril. The perspective I am pursuing does not reject self-
-Bennett / STEPS TOWARD AN ECOLOGY OF MATTER = 361
+ignore at our own peril. The perspective I am pursuing does not reject self-interest 
 
-interest as one motivation for ethical behavior, nor does it think it possible to
+***Bennett / STEPS TOWARD AN ECOLOGY OF MATTER Page 361***
+
+as one motivation for ethical behavior, nor does it think it possible to
 eliminate completely the conceptual “enframing” that Heidegger criticizes.
 Rather, it seeks to cultivate a more enlightened self-interest, one cognizant of
 our embeddedness in a natural-cultural-technological assemblage. Even
