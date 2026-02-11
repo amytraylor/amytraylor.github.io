@@ -16,6 +16,7 @@ hide_title: true
   </a>
 
 Peruse the whole text, but focus on pages:
+- 347-348, read into the intro, pick out words you understand, leave the rest for later lookup
 - 349-351, where Bennett tells the story of the glove, the rat, and the bottle cap and begins to define thing-power
 - 353-354, start again at Thing-Power III: Conjunctions, where Bennett defines the term "assemblage"
 - 354- first paragraph on page 355, more defining of thing-power and begins to define the term "actant"
