@@ -7,3 +7,6 @@
 -Draw your own maps to your 3 chosen artworks. If they are close together you can make one large map with all 3 artworks.
 
 -On your map, write brief reminders of what the terms thing-power, assemblage, and actant mean.
+
+
+[Back to module overview](./)
