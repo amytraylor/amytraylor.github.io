@@ -263,6 +263,7 @@ img {
 }
 
 @media (max-width: 900px) {
+  .course-nav { display: none; }
   .course-container {
     grid-template-columns: 1fr;
   }
@@ -367,3 +368,5 @@ footer {
   font-size: 1.1rem;
   color: var(--text-muted);
 }
+
+
