@@ -34,8 +34,8 @@
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  font-size: 24px;
-  line-height: 1.3;
+  font-size: 18px;
+  line-height: 2.2;
   color: var(--text);
   background: var(--bg);
   margin: 0;
@@ -58,7 +58,7 @@ body {
 
 .site-title {
   font-weight: 600;
-  font-size: 0.0rem;
+  font-size: 4.4rem;
   color: var(--text);
   text-decoration: none;
 }
@@ -102,12 +102,12 @@ h1, h2, h3, h4 {
   margin-bottom: 0.5em;
 }
 
-h1 { font-size: 3.4rem; margin-top: 0; }
-h2 { font-size: 3.2rem; }
-h3 { font-size: 3.0rem; }
-h4 { font-size: 2.8rem; }
-h5 { font-size: 2.6rem; }
-h6 { font-size: 2.4rem; }
+h1 { font-size: 3.2rem; margin-top: 0; }
+h2 { font-size: 2.9rem; }
+h3 { font-size: 2.6rem; }
+h4 { font-size: 2.3rem; }
+h5 { font-size: 2.0rem; }
+h6 { font-size: 1.7rem; }
 
 p { margin: 1em 0; }
 
