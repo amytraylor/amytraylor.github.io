@@ -471,3 +471,28 @@ mark.glossary-hit{
   .glossary-pop{ display: none; }
   .course-content{ padding-right: 0; }
 }
+
+/* ===== Glossary dropdown OVERRIDE (put at very bottom) ===== */
+
+/* hide def + occurrences unless open */
+.glossary-pop .term-def,
+.glossary-pop ul.occurrences{
+  display: none !important;
+}
+
+/* open state */
+.glossary-pop .glossary-item.is-open .term-def,
+.glossary-pop .glossary-item.is-open ul.occurrences{
+  display: block !important;
+}
+
+/* tidy occurrences list (no bullets) */
+.glossary-pop ul.occurrences{
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0.25rem 0 0.5rem 0.9rem !important;
+}
+.glossary-pop ul.occurrences li{
+  margin: 0.2rem 0 !important;
+}
+
