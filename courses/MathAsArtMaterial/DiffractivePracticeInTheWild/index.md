@@ -10,7 +10,6 @@ This page frames the guiding questions for “thing-power,” diffractive practi
 - **What is diffractive practice?**
 - **What does it mean for a thing to “push back”?**
 - **Also, what on earth is a thing?**
----
 
 ## Quotes to warm up your brain
 > *... the lovely puzzles, the enchanting beauty, and the excruciating complexity and intractability of actual organisms in real places.
