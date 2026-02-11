@@ -464,6 +464,11 @@ mark.glossary-hit{
   color: var(--accent);
   background: var(--code-bg);
 }
+.glossary-pop .term-glossary-link{
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
 
 /* When open, show definition + occurrences */
 .glossary-pop .glossary-item.is-open .term-def{
