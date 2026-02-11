@@ -1,6 +1,6 @@
 ---
 layout: course
-title: "Bennett Excerpt — Thing-Power (pp. 349–359)"
+title: "Bennett Excerpt — Thing-Power"
 course_title: "Math As Art Material"
 course_root: /courses/MathAsArtMaterial
 
