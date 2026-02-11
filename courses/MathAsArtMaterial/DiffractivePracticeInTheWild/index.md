@@ -3,8 +3,6 @@
 ## Overview
 This page frames the guiding questions for “thing-power,” diffractive practice, and what it means for matter to “push back.” This is a multi-part exercise, starting with maps (viewing, critiquing, and making your own).
 
----
-
 ### Big Questions
 #### What we’re trying to understand
 - **What is diffractive practice?**
@@ -24,7 +22,7 @@ This page frames the guiding questions for “thing-power,” diffractive practi
 > *Seven-Up: You Like It. It likes you.*
 
 ---
-### Part One: #### Core Reading and a Call to Adventure
+### Part One: ### Core Reading and a Call to Adventure
 
 - <a href="https://pages.mtu.edu/~jdslack/readings/CSReadings/Bennett_Jane_The_Force_of_Things.pdf"
      target="_blank"
