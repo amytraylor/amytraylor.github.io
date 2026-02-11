@@ -16,6 +16,5 @@
 
 [Albuquerque Public Mural Walking Tour](<https://www.murosabq.com/gallery/>)
 
-####
 
-[Back to Part Two Overview](./)
+#### [Back to Part Two Overview](./)
