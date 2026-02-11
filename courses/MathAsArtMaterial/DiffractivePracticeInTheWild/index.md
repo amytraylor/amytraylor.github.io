@@ -13,9 +13,6 @@ This page frames the guiding questions for “thing-power,” diffractive practi
 ---
 
 ## Quotes to warm up your brain
-
-<div class="quotes">
-
 > *... the lovely puzzles, the enchanting beauty, and the excruciating complexity and intractability of actual organisms in real places.
 > ~Stephen Jay Gould*
 
@@ -25,9 +22,8 @@ This page frames the guiding questions for “thing-power,” diffractive practi
 > *It is never we who affirm or deny something of a thing; it is the thing itself that affirms or denies something of itself in us.
 > ~Baruch Spinoza*
 
-##
 > *Seven-Up: You Like It. It likes you.*
-##
+
 ---
 ## Part One
 ## Core Reading and a Call to Adventure
