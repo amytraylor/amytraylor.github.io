@@ -7,8 +7,8 @@ This page frames the guiding questions for “thing-power,” diffractive practi
 
 ## Big Questions
 ### What we’re trying to understand
-- **What is diffractive practice?**\
-- **What does it mean for a thing to “push back”?**\
+- **What is diffractive practice?**
+- **What does it mean for a thing to “push back”?**
 - **Also, what on earth is a thing?**
 ---
 
@@ -31,12 +31,12 @@ This page frames the guiding questions for “thing-power,” diffractive practi
 ## Part One
 ## Core Reading and a Call to Adventure
 
-- <a href="https://pages.mtu.edu/~jdslack/readings/CSReadings/Bennett_Jane_The_Force_of_Things.pdf"
-     target="_blank"
-     rel="noopener noreferrer"
-     title="Jane Bennett — Vibrant Matter (PDF)">
-    Jane Bennett, <em>Vibrant Matter</em> (PDF)
-  </a>
+<a href="https://pages.mtu.edu/~jdslack/readings/CSReadings/Bennett_Jane_The_Force_of_Things.pdf"
+   target="_blank"
+   rel="noopener noreferrer">
+  Jane Bennett, <em>Vibrant Matter</em> (PDF)
+</a>
+
 
 Peruse the whole text, but focus on pages:
 - 349-351, where Bennett tells the story of the glove, the rat, and the bottle cap and begins to define thing-power
