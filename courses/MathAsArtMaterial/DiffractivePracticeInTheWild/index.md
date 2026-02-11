@@ -27,6 +27,13 @@ This page frames the guiding questions for “thing-power,” diffractive practi
 ## Part One
 ## Core Reading and a Call to Adventure
 
+- <a href="https://pages.mtu.edu/~jdslack/readings/CSReadings/Bennett_Jane_The_Force_of_Things.pdf"
+     target="_blank"
+     rel="noopener noreferrer"
+     title="Opens the PDF in a new tab">
+    Jane Bennett, <em>Vibrant Matter</em> (PDF)
+  </a>
+
 Peruse the whole text, but focus on pages:
 - 349-351, where Bennett tells the story of the glove, the rat, and the bottle cap and begins to define thing-power
 - 353-354, start again at Thing-Power III: Conjunctions, where Bennett defines the term "assemblage"
