@@ -4,20 +4,26 @@ layout: default
 
 <div class="course-container{% if page.no_sidebar %} no-sidebar{% endif %}">
   {% unless page.no_sidebar %}
-  <aside class="course-nav">
-    <h2>{{ page.course_title | default: "Course" }}</h2>
-    <ul>
+    <aside class="course-nav">
+      <h2>{{ page.course_title | default: "Course" }}</h2>
+      <ul>
       <li><a href="{{ page.course_root | append: '/overview' | relative_url }}">Overview</a></li>
       <li><a href="{{ page.course_root | append: '/syllabus' | relative_url }}">Syllabus</a></li>
       <li><a href="{{ page.course_root | append: '/schedule' | relative_url }}">Schedule</a></li>
     </ul>
-  </aside>
+    </aside>
   {% endunless %}
 
   <article class="course-content">
     {% if page.hide_title != true %}
       <h1>{{ page.title }}</h1>
     {% endif %}
+
     {{ content }}
+
+    <script>
+      window.__GLOSSARY_TERMS__ = {{ page.glossary_terms | default: "[]" | jsonify }};
+    </script>
+    <script src="{{ '/assets/js/glossary-pop.js' | relative_url }}" defer></script>
   </article>
 </div>
