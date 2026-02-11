@@ -16,7 +16,7 @@ This page frames the guiding questions for “thing-power,” diffractive practi
 
 <div class="quotes">
 
-> ... the lovely puzzles, the enchanting beauty, and the excruciating complexity and intractability of actual organisms in real places.**
+> **... the lovely puzzles, the enchanting beauty, and the excruciating complexity and intractability of actual organisms in real places.**
 > —Stephen Jay Gould
 
 > I must let my senses wander as my thought, my eyes see without looking.... Go not to the object; let it come to you.</p>
