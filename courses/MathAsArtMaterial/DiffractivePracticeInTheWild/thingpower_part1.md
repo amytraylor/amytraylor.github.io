@@ -1,3 +1,10 @@
+---
+layout: course
+title: FYEX 1020
+course_title: Math As Art Material
+course_root: /courses/MathAsArtMaterial
+---
+
 # Searching for Thing Power
 ### Part One: ***Core Reading and a Call to Adventure***
 
