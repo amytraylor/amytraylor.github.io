@@ -22,7 +22,7 @@ This page frames the guiding questions for “thing-power,” diffractive practi
 > *Seven-Up: You Like It. It likes you.*
 
 ---
-### Part One: ### Core Reading and a Call to Adventure
+### Part One: ***Core Reading and a Call to Adventure***
 
 - <a href="https://pages.mtu.edu/~jdslack/readings/CSReadings/Bennett_Jane_The_Force_of_Things.pdf"
      target="_blank"
@@ -45,7 +45,7 @@ Peruse the whole text, but focus on pages:
 5. How could you relate thing-power, assemblages, and actants back to graph theory?
 
 ---
-### Part Two: #### Map Exercise-Viewing and Critiquing
+### Part Two: ***Map Exercise-Viewing and Critiquing***
 #### Instructions
 Utilize the provided maps to find 3 unique art works that you will visit.\
 There are **9 maps** on the page below. For **each map**, write:
@@ -56,7 +56,7 @@ There are **9 maps** on the page below. For **each map**, write:
 4. **Potential Art Works** - make a note of a few art works that are potentials to visit.
 #### Maps - [Open the maps page](maps.md)
 
-### Part Three: #### Map Exercise-Making
+### Part Three: ***Map Exercise-Making***
 #### Instructions
 -*From your list of potential art works from Part One, choose 3.\
 -*Draw your own maps to your 3 chosen artworks. If they are close together you can make one large map.\
