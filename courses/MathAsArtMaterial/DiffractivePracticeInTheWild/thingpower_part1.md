@@ -16,6 +16,7 @@ hide_title: true
     Jane Bennett, <em>Vibrant Matter</em> (PDF)
   </a>
 ##### - [Special Annotated Text](vibrantmatter)
+
 Peruse the whole text, but focus on pages:
 - 347-348, read into the intro, pick out words you understand, leave the rest for later lookup
 - 349-351, where Bennett tells the story of the glove, the rat, and the bottle cap and begins to define thing-power
