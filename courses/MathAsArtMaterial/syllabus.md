@@ -90,3 +90,5 @@ Our classroom and university should foster mutual respect, kindness, and support
 ## Title IX
 Our classroom and our university should always be spaces of mutual respect, kindness, and support, without fear of discrimination, harassment, or violence. Should you ever need assistance or have concerns about incidents that violate this principle, please access the resources available to you on campus. Please note that, because UNM faculty, TAs, and GAs are considered "responsible employees" by the Department of Education, any disclosure of gender discrimination (including sexual harassment, sexual misconduct, and sexual violence) made to a faculty member, TA, or GA must be reported by that faculty member, TA, or GA to the university's Title IX coordinator. For more information on the campus policy regarding sexual misconduct, please see: https://policy.unm.edu/university-policies/2000/2740.html. Support: LoboRESPECT Advocacy Center and the support services listed on its website, the Women's Resource Center and the LGBTQ Resource Center all offer confidential services and reporting.
 
+
+[Back to Main Page](./)
