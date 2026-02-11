@@ -7,12 +7,13 @@ hide_title: true
 ---
 # Searching for Thing-Power
 ## Overview
-This page frames the guiding questions for “thing-power,” diffractive practice, and what it means for matter to “push back.” This is a multi-part exercise, starting with maps (viewing, critiquing, and making your own).
+This page frames the guiding questions for thing-power, diffractive practice, and what it means for matter to “push back.” These are some of the tools and knowledge we will use to "push back" on math. This is a multi-part exercise, starting with maps (viewing, critiquing, and making your own).
 
 ### Big Questions
 #### What we’re trying to understand
 - **What is diffractive practice?**
 - **What does it mean for a thing to “push back”?**
+- **What does any of this have to do with math?**
 - **Also, what on earth is a thing?**
 
 ### Quotes to warm up your brain
