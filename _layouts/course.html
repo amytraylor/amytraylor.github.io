@@ -7,7 +7,7 @@ layout: default
   <aside class="course-nav">
     <h2>{{ page.course_title | default: "Course" }}</h2>
     <ul>
-      <li><a href="{{ page.course_root | relative_url }}">Overview</a></li>
+      <li><a href="{{ page.course_root | append: '/overview' | relative_url }}">Overview</a></li>
       <li><a href="{{ page.course_root | append: '/syllabus' | relative_url }}">Syllabus</a></li>
       <li><a href="{{ page.course_root | append: '/schedule' | relative_url }}">Schedule</a></li>
     </ul>
