@@ -1,8 +1,9 @@
+---
 layout: course
 title: FYEX 1020
 course_title: Math As Art Material
 course_root: /courses/MathAsArtMaterial
-
+---
 
 ## Welcome to FYEX 1020
 ## Special Section: Math as Art Material, Spring 2026.
