@@ -1,8 +1,3 @@
----
-layout: course
-hide_title: true
----
-
 # Searching for Thing Power
 ### Part One: ***Core Reading and a Call to Adventure***
 
