@@ -1,6 +1,139 @@
 thing-power:
-  def: "Bennett’s term for the efficacy of material things…"
+  def: "Bennett’s term for the efficacy of things: the capacity of material bodies (human and nonhuman) to make a difference in events."
+  see: ["vibrant-matter", "actant", "assemblage", "agency"]
+
+thing-power-variant:
+  def: "Alternate spelling/spacing of thing-power (e.g., 'thing power'). Use 'thing-power' as the main entry."
+  see: ["thing-power"]
+
+thing-power-space:
+  def: "Same idea as thing-power, written without the hyphen."
+  see: ["thing-power"]
+
 assemblage:
-  def: "A grouping of human + nonhuman actants…"
+  def: "A temporary constellation of many elements—people, objects, forces, institutions—whose interactions produce effects that no single part controls."
+  see: ["actant", "agency", "ecology", "materiality"]
+
 actant:
-  def: "Any entity that makes a difference in a situation…"
+  def: "Any entity that can produce effects in a network or assemblage (human or nonhuman). An actant is defined by what it does, not what it is."
+  see: ["agency", "assemblage", "thing-power"]
+
+agency:
+  def: "The capacity to affect and be affected. In Bennett’s usage, agency is distributed across humans and nonhumans rather than owned by humans alone."
+  see: ["actant", "thing-power", "assemblage"]
+
+materiality:
+  def: "The physical, energetic, and relational ‘being-there’ of things—what matter does, affords, resists, and enables in practice."
+  see: ["material", "matter", "ontology"]
+
+material:
+  def: "Substance or stuff (wood, metal, plastic, flesh), but also the practical qualities that shape what can happen (weight, texture, durability)."
+  see: ["materiality", "matter"]
+
+matter:
+  def: "Physical substance and forces; in new materialist terms, matter is active and dynamic rather than inert."
+  see: ["vibrant-matter", "materiality"]
+
+materialism:
+  def: "A family of views that treat material conditions as fundamental. New materialisms revise older materialisms by emphasizing lively, agentic matter."
+  see: ["materialists", "vibrant-matter"]
+
+materialists:
+  def: "People or traditions associated with materialist approaches (historical materialism, scientific materialism, new materialism)."
+  see: ["materialism"]
+
+vibrant-matter:
+  def: "Bennett’s phrase for matter understood as lively and efficacious—able to animate, provoke, and participate in outcomes."
+  see: ["thing-power", "agency", "nonhuman"]
+
+nonhuman:
+  def: "Entities and forces not limited to human persons: animals, objects, technologies, environments, microbes, infrastructures, weather, etc."
+  see: ["actant", "assemblage", "vibrant-matter"]
+
+human:
+  def: "The human subject understood as one actant among many—embedded in broader material systems rather than standing outside them."
+  see: ["nonhuman", "subject", "agency"]
+
+object:
+  def: "A ‘thing’ treated as bounded and knowable. New materialist work often critiques objectifying habits that erase an object’s liveliness and relations."
+  see: ["subject", "materiality"]
+
+subject:
+  def: "A being treated as an experiencer/knower/agent. In posthuman and new materialist approaches, subjectivity is often distributed and relational."
+  see: ["object", "agency", "ontology"]
+
+swerve:
+  def: "Lucretius’s clinamen: a minimal, unpredictable deviation that allows novelty, motion, and the emergence of patterns (not everything is fixed by straight-line causality)."
+  see: ["void", "flow", "ontology"]
+
+void:
+  def: "For Lucretius, the empty space that allows matter to move and combine. Without void there is no motion or change."
+  see: ["swerve", "flow"]
+
+flow:
+  def: "Movement of forces, matter, and influence through an assemblage—what makes systems dynamic rather than static."
+  see: ["ecology", "assemblage"]
+
+ecology:
+  def: "A web of relations among organisms, things, and environments. In this context: how human and nonhuman actants co-compose a shared world."
+  see: ["ecological", "assemblage", "nonhuman"]
+
+ecological:
+  def: "Relational and system-focused; attentive to interactions, feedback, and interdependence rather than isolated causes."
+  see: ["ecology", "assemblage"]
+
+ontology:
+  def: "A theory of what exists (and what kinds of things exist). Ontology shapes what you count as real and consequential."
+  see: ["ontological", "epistemology", "materiality"]
+
+ontological:
+  def: "Pertaining to ontology—assumptions about being, existence, and what counts as real."
+  see: ["ontology"]
+
+epistemology:
+  def: "A theory of knowing—how knowledge is produced, validated, and limited. Often paired with ontology (what exists) in onto-epistemology."
+  see: ["ontology"]
+
+recalcitrance:
+  def: "Stubborn ‘push back’ from things and situations—when reality resists our plans, models, or interpretations and forces revision."
+  see: ["thing-power", "materiality", "artifact"]
+
+artifact:
+  def: "A made thing (object, tool, image, document). Also: an effect produced by a method or system (e.g., measurement artifacts)."
+  see: ["object", "materiality"]
+
+spinoza:
+  def: "Baruch Spinoza (1632–1677), philosopher of immanence: emphasizes that beings are defined by their capacities to affect and be affected."
+  see: ["agency", "ontology"]
+
+kafka:
+  def: "Franz Kafka (1883–1924), writer often cited for strange agency in objects/systems and the oppressive force of bureaucratic assemblages."
+  see: ["assemblage", "recalcitrance"]
+
+bergson:
+  def: "Henri Bergson (1859–1941), philosopher of duration and creative evolution; emphasizes time, process, and becoming."
+  see: ["flow", "ontology"]
+
+deleuze:
+  def: "Gilles Deleuze (1925–1995), philosopher of difference, becoming, and assemblages; influential for thinking systems as dynamic and relational."
+  see: ["assemblage", "flow", "ontology"]
+
+latour:
+  def: "Bruno Latour (1947–2022), associated with Actor–Network Theory: treats agency as distributed across humans and nonhumans (actants)."
+  see: ["actant", "agency", "nonhuman"]
+
+lucretius:
+  def: "Roman poet-philosopher (c. 99–55 BCE), author of *De Rerum Natura*. Key ideas: atoms, void, and the clinamen (swerve)."
+  see: ["swerve", "void", "flow"]
+
+efficacy:
+  def: "Effectiveness: the ability of something to produce an effect. In this context, the ‘efficacy of things’ means that material entities can actively shape outcomes."
+  see: ["agency", "thing-power", "capacity"]
+
+capacity:
+  def: "A power or potential to act or to be acted upon—what a body/thing can do (and what can be done to it). Often framed as ‘capacity to affect and be affected.’"
+  see: ["agency", "spinoza", "thing-power", "efficacy"]
+
+clinamen:
+  def: "Lucretius’s term for the atomic ‘swerve’: a tiny, unpredictable deviation that allows collisions, novelty, and the emergence of new patterns rather than deterministic repetition."
+  see: ["swerve", "lucretius", "void", "flow"]
