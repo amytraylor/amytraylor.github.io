@@ -1,8 +1,5 @@
 ---
 layout: course
-title: Searching for Thing-Power
-course_title: Math As Art Material
-course_root: /courses/MathAsArtMaterial/DiffractivePracticeInTheWild/
 hide_title: true
 ---
 
