@@ -81,6 +81,7 @@
     heading.className = "term";
     heading.textContent = `${term} (${marks.length})`;
     pop.appendChild(heading);
+    
 
     const ul = document.createElement("ul");
     pop.appendChild(ul);
