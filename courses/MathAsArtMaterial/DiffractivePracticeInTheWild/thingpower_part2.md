@@ -1,5 +1,5 @@
 ### Part Two: ***Map Exercise-Viewing and Critiquing***
-##### Instructions
+#### Instructions
 Utilize the provided maps to find 3 unique art works that you will visit.\
 There are **9 maps** on the page below. For **each map**, write:
 
