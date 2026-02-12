@@ -509,4 +509,18 @@ mark.glossary-hit{
   max-width: 170px;
 }
 
+/* Glossary: spacing between term and count */
+.glossary-pop .term-row{
+  padding: 0.35rem 0.6rem;
+}
+
+.glossary-pop .term-name{
+  margin-right: 0.75rem;
+}
+
+.glossary-pop .term-count{
+  margin-left: auto;     /* pushes count to the right */
+  padding-left: 0.75rem; /* visual breathing room */
+  white-space: nowrap;
+}
 
