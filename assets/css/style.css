@@ -1,10 +1,12 @@
 /* =========================================
    Reasonable defaults for a simple Jekyll/GitHub Pages site
-   - Keeps your existing class names working
-   - No fancy color-mix / no custom callout systems required
+   + Course layout + Glossary panel + Highlight controls
+   (Matches assets/js/glossary-pop.js)
    ========================================= */
 
-/* Reset + base */
+/* -----------------------------------------
+   1) Reset + base
+   ----------------------------------------- */
 *,
 *::before,
 *::after {
@@ -12,14 +14,21 @@
 }
 
 :root {
+  /* Theme tokens */
   --bg: #ffffff;
   --text: #1f2937;       /* slate-800 */
   --text-muted: #6b7280; /* gray-500 */
   --accent: #2563eb;     /* blue-600 */
   --border: #e5e7eb;     /* gray-200 */
   --code-bg: #f3f4f6;    /* gray-100 */
+
+  /* Layout tokens */
   --max-width: 1100px;
   --content-width: 760px;
+
+  /* Glossary sizing (so it's easy to tweak) */
+  --glossary-width: 320px;
+  --glossary-gap: 40px; /* space between content and panel */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -47,7 +56,9 @@ body {
   line-height: 1.55;
 }
 
-/* Links */
+/* -----------------------------------------
+   2) Links
+   ----------------------------------------- */
 a {
   color: var(--accent);
   text-decoration: underline;
@@ -58,7 +69,9 @@ a:hover {
   text-decoration-thickness: 2px;
 }
 
-/* Navigation */
+/* -----------------------------------------
+   3) Top navigation
+   ----------------------------------------- */
 .site-nav {
   max-width: var(--max-width);
   margin: 0 auto;
@@ -72,7 +85,7 @@ a:hover {
 
 .site-title {
   font-weight: 700;
-  font-size: 2rem; /* sane default */
+  font-size: 2rem;
   color: var(--text);
   text-decoration: none;
 }
@@ -94,7 +107,9 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Main content */
+/* -----------------------------------------
+   4) Main content container
+   ----------------------------------------- */
 main {
   max-width: var(--max-width);
   margin: 0 auto;
@@ -106,7 +121,9 @@ main {
   max-width: var(--content-width);
 }
 
-/* Typography */
+/* -----------------------------------------
+   5) Typography
+   ----------------------------------------- */
 h1,
 h2,
 h3,
@@ -143,7 +160,7 @@ hr {
   margin: 2rem 0;
 }
 
-/* Blockquotes (works great for your quotes + callouts in pure Markdown) */
+/* Blockquotes (great for Markdown callouts) */
 blockquote {
   margin: 1.25rem 0;
   padding: 0.75rem 1rem;
@@ -156,7 +173,9 @@ blockquote p {
   margin: 0.5rem 0;
 }
 
-/* Code */
+/* -----------------------------------------
+   6) Code
+   ----------------------------------------- */
 code {
   background: var(--code-bg);
   padding: 0.15em 0.35em;
@@ -178,7 +197,9 @@ pre code {
   font-size: 0.95em;
 }
 
-/* Tables */
+/* -----------------------------------------
+   7) Tables
+   ----------------------------------------- */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -199,18 +220,22 @@ th {
   font-weight: 600;
 }
 
-/* Images */
+/* -----------------------------------------
+   8) Images
+   ----------------------------------------- */
 img {
   max-width: 100%;
   height: auto;
   display: block;
 }
 
-/* Course layout */
+/* -----------------------------------------
+   9) Course layout (left nav + content)
+   ----------------------------------------- */
 .course-container {
   display: grid;
-  grid-template-columns: 220px 1fr;
-  gap: 2rem;
+  grid-template-columns: 170px 1fr;
+  gap: 1.5rem;
   align-items: start;
 }
 
@@ -219,6 +244,7 @@ img {
   top: 1.5rem;
   height: fit-content;
   padding: 0.25rem 0;
+  max-width: 170px;
 }
 
 .course-nav h2 {
@@ -251,6 +277,8 @@ img {
 
 .course-content {
   max-width: var(--content-width);
+  /* The glossary panel lives on the right; this padding prevents overlap. */
+  padding-right: calc(var(--glossary-width) + var(--glossary-gap));
 }
 
 /* Optional: if you use no_sidebar in your layout */
@@ -262,32 +290,15 @@ img {
   display: none !important;
 }
 
+/* Mobile: hide left course nav and glossary panel */
 @media (max-width: 900px) {
   .course-nav { display: none; }
-  .course-container {
-    grid-template-columns: 1fr;
-  }
-
-  .course-nav {
-    position: static;
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 0.75rem 1rem;
-    background: var(--code-bg);
-  }
-
-  .course-nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.75rem 1rem;
-  }
-
-  .course-nav li {
-    margin: 0;
-  }
+  .course-container { grid-template-columns: 1fr; }
 }
 
-/* Home / Portfolio grid */
+/* -----------------------------------------
+   10) Home / Portfolio grid
+   ----------------------------------------- */
 .work-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
@@ -353,7 +364,9 @@ img {
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
 }
 
-/* Footer */
+/* -----------------------------------------
+   11) Footer + small utilities
+   ----------------------------------------- */
 footer {
   max-width: var(--max-width);
   margin: 3rem auto 0;
@@ -363,164 +376,223 @@ footer {
   font-size: 0.95rem;
 }
 
-/* Utility */
 .lead {
   font-size: 1.1rem;
   color: var(--text-muted);
 }
-/* =========================
-   Glossary sidebar (matches glossary-pop.js output)
-   ========================= */
 
-mark.glossary-hit{
-  background: rgba(255, 230, 150, 0.8);
-  padding: 0 0.15em;
-  border-radius: 0.2em;
+/* Widen reading column on very large screens */
+@media (min-width: 1200px) {
+  :root { --content-width: 980px; }
 }
 
-.glossary-pop{
+/* =========================================
+   12) Glossary (matches glossary-pop.js)
+   - floating panel .glossary-pop
+   - in-text highlights mark.glossary-hit[data-term]
+   - accordion items .glossary-item.is-open
+   - controls .glossary-controls
+   ========================================= */
+
+/* In-text highlight (default ON) */
+mark.glossary-hit {
+  background: rgba(255, 230, 150, 0.80);
+  padding: 0 0.15em;
+  border-radius: 0.2em;
+
+  /* accessibility: not color-only */
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.12em;
+}
+
+/* When JS briefly outlines the clicked occurrence */
+mark.glossary-hit {
+  outline-offset: 2px;
+}
+
+/* Floating panel */
+.glossary-pop {
   position: fixed;
   right: 1rem;
   top: 6rem;
-  width: 300px;
+  width: var(--glossary-width);
   max-height: 72vh;
   overflow: auto;
+
   border: 1px solid var(--border);
-  border-radius: 10px;
+  border-radius: 12px;
   background: var(--bg);
   box-shadow: 0 10px 30px rgba(0,0,0,0.12);
   padding: 0.75rem;
+
   z-index: 9999;
 }
 
-.glossary-pop h3{
-  margin: 0 0 0.5rem;
+.glossary-pop h3 {
+  margin: 0 0 0.6rem;
   font-size: 1rem;
 }
 
-/* each term block */
-.glossary-item{
-  border-top: 1px solid var(--border);
-  padding: 0.4rem 0;
-}
-.glossary-item:first-of-type{
-  border-top: 0;
-}
-
-/* clickable term heading */
-.glossary-pop .term{
-  font-weight: 650;
-  cursor: pointer;
-  padding: 0.25rem 0.35rem;
-  border-radius: 8px;
-}
-.glossary-pop .term:hover{
-  background: var(--code-bg);
+/* Control section (two checkboxes) */
+.glossary-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.5rem 0 0.75rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
 }
 
-/* definition text (hidden until open) */
-.glossary-def{
-  display: none;
-  margin: 0.25rem 0 0.25rem 0.35rem;
-  color: var(--text-muted);
+.glossary-control {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: var(--text);
   font-size: 0.95rem;
 }
 
-/* occurrences list (hidden until open) */
-.glossary-occurrences{
-  display: none;
-  list-style: none;
-  padding: 0.25rem 0 0.5rem 0.8rem;
-  margin: 0;
+.glossary-control input[type="checkbox"] {
+  transform: translateY(0.5px);
 }
 
-.glossary-occurrences li{
+/* Each term block */
+.glossary-item {
+  border-top: 1px solid var(--border);
+  padding: 0.4rem 0;
+}
+
+.glossary-item:first-of-type {
+  border-top: 0;
+}
+
+/* Clickable term row */
+.term-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+
+  padding: 0.35rem 0.6rem;
+  border-radius: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.term-row:hover {
+  background: var(--code-bg);
+}
+
+.term-name {
+  font-weight: 650;
+}
+
+.term-count {
+  margin-left: auto;
+  padding-left: 0.75rem;
+  white-space: nowrap;
+  color: var(--text-muted);
+}
+
+/* Definition + occurrences hidden unless open */
+.term-def,
+ul.occurrences {
+  display: none;
+}
+
+.glossary-item.is-open .term-def,
+.glossary-item.is-open ul.occurrences {
+  display: block;
+}
+
+.term-def {
+  margin: 0.35rem 0 0.35rem 0.6rem;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  line-height: 1.35;
+}
+
+/* Occurrence list */
+ul.occurrences {
+  list-style: none;
+  margin: 0.15rem 0 0.4rem;
+  padding: 0.1rem 0 0.4rem 1.05rem;
+}
+
+ul.occurrences li {
   margin: 0.2rem 0;
 }
 
-.glossary-occurrences a{
+ul.occurrences a {
   display: block;
   text-decoration: none;
   color: var(--text);
+
   padding: 0.2rem 0.35rem;
-  border-radius: 8px;
+  border-radius: 10px;
   border: 1px solid transparent;
   font-size: 0.95rem;
 }
 
-.glossary-occurrences a:hover{
+ul.occurrences a:hover {
   border-color: var(--accent);
   color: var(--accent);
   background: var(--code-bg);
 }
 
-/* open state */
-.glossary-item.is-open .glossary-def{
-  display: block;
-}
-.glossary-item.is-open .glossary-occurrences{
-  display: block;
+/* -------- Highlight options (driven by JS body classes) -------- */
+
+/* Toggle ALL highlighting off */
+body.glossary_highlight_off mark.glossary-hit {
+  background: transparent !important;
+  text-decoration: none;
 }
 
-/* make room so the panel doesn't cover text */
-.course-content{
-  padding-right: 340px;
+/* Focus mode: dim all highlights, then JS adds .is-active on selected term */
+body.glossary_focus_mode mark.glossary-hit {
+  background: transparent !important;
+  opacity: 0.35;
+  text-decoration: none;
 }
 
-@media (max-width: 1000px){
-  .glossary-pop{ display: none; }
-  .course-content{ padding-right: 0; }
+body.glossary_focus_mode mark.glossary-hit.is-active {
+  opacity: 1;
+  background: rgba(255, 230, 150, 0.80) !important;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
 }
 
-/* ===== Glossary dropdown OVERRIDE (put at very bottom) ===== */
-
-/* hide def + occurrences unless open */
-.glossary-pop .term-def,
-.glossary-pop ul.occurrences{
-  display: none !important;
+/* Hide glossary panel on narrower screens (and remove content padding) */
+@media (max-width: 1000px) {
+  .glossary-pop { display: none; }
+  .course-content { padding-right: 0; }
 }
 
-/* open state */
-.glossary-pop .glossary-item.is-open .term-def,
-.glossary-pop .glossary-item.is-open ul.occurrences{
-  display: block !important;
+/* =========================================
+   Mobile readability fixes (prevent "squished" text)
+   ========================================= */
+
+/* Tablets / phones: reduce side padding and allow content to use full width */
+@media (max-width: 600px) {
+  main {
+    padding: 1.25rem 1rem; /* was 2rem 1.5rem */
+  }
+
+  .page,
+  .home,
+  .course-content {
+    max-width: 100%;
+  }
 }
 
-/* tidy occurrences list (no bullets) */
-.glossary-pop ul.occurrences{
-  list-style: none !important;
-  margin: 0 !important;
-  padding: 0.25rem 0 0.5rem 0.9rem !important;
-}
-.glossary-pop ul.occurrences li{
-  margin: 0.2rem 0 !important;
-}
-/* --- widen reading column on big desktops --- */
-@media (min-width: 1200px){
-  :root { --content-width: 980px; }
-  .course-content { padding-right: 250px; }
-}
-/* Make the left course nav column smaller */
-.course-container{
-  grid-template-columns: 170px 1fr; /* was 220px */
-  gap: 1.5rem;                      /* optional: slightly tighter */
-}
-.course-nav{
-  max-width: 170px;
-}
+/* Small phones: slightly smaller body text + tighter headings */
+@media (max-width: 420px) {
+  body {
+    font-size: 16px; /* was 18px */
+    line-height: 1.6;
+  }
 
-/* Glossary: spacing between term and count */
-.glossary-pop .term-row{
-  padding: 0.35rem 0.6rem;
-}
-
-.glossary-pop .term-name{
-  margin-right: 0.75rem;
-}
-
-.glossary-pop .term-count{
-  margin-left: auto;     /* pushes count to the right */
-  padding-left: 0.75rem; /* visual breathing room */
-  white-space: nowrap;
+  h1 { font-size: 1.8rem; }
+  h2 { font-size: 1.45rem; }
+  h3 { font-size: 1.2rem; }
 }
 
