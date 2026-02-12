@@ -145,7 +145,7 @@
       def.appendChild(document.createTextNode("(No definition yet)"));
     }
 
-    if (glossaryPage) {
+   /* if (glossaryPage) {
       const key = slug(term) || encodeURIComponent(String(term).toLowerCase());
       const a = document.createElement("a");
       a.className = "term-glossary-link";
@@ -155,7 +155,7 @@
       a.style.marginLeft = "0.35rem";
       def.appendChild(document.createElement("br"));
       def.appendChild(a);
-    }
+    }*/
 
     item.appendChild(def);
 
