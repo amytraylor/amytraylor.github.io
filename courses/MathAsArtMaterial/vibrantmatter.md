@@ -63,23 +63,22 @@ liminary discussion of the ecological implications of thing-power
 Keywords: materialism; materiality; ecology; Latour, Deleuze; Adorno; Spinoza; nonhu-
 man; immanence
 
-> ***...the lovely puzzles, the enchanting beauty, and the excruciating complexity and intractability of actual organisms in real places. .
-> ——Stephen Jay Gould
+> *...the lovely puzzles, the enchanting beauty, and the excruciating complexity and intractability of actual organisms in real places. .
+> ——Stephen Jay Gould*
 
->I mustlet my senses wander as my thought, my eyes see without looking. ...Go not to the object; let it come to you.
-> ——Henry Thoreau
+> *I must let my senses wander as my thought, my eyes see without looking. ...Go not to the object; let it come to you.
+> ——Henry Thoreau*
 
-> It is never we who affirm or deny something of a thing; itis the thing itself that affirms or denies something of itself in us.
-> ——Baruch Spinoza
+> *It is never we who affirm or deny something of a thing; it is the thing itself that affirms or denies something of itself in us.
+> ——Baruch Spinoza*
 
-> Seven-Up: You Like It. It likes you!***
+> *Seven-Up: You Like It. It likes you!*
 
-POLITICAL THEORY, Vol. 32 No. 3, June 2004 347-372
-
-DOI: 10.1177/0090591703260853
+Originally published in POLITICAL THEORY, Vol. 32 No. 3, June 2004 pages 347-372/
+DOI: 10.1177/0090591703260853/
 © 2004 Sage Publications
 
-CONTENDING MATERIALITIES
+# CONTENDING MATERIALITIES
 
 In the early 1990s a literature professor I had just met asked me what I was
 working on, and I said I was writing a book on Henry Thoreau, whose interest
@@ -165,17 +164,16 @@ THING-POWER I: TRASH
 
 On a sunny Tuesday morning, June 4, 2002, in the grate over the storm
 drain to the Chesapeake Bay in front of Sam’s Bagels on Cold Spring Lane
-(which was being repaved), there was
-350 POLITICAL THEORY / June 2004
+(which was being repaved), there was...
 
-one large men’s black plastic work glove
-a matted mass of tree pollen pods
+> *one large men’s black plastic work glove*
+> *a matted mass of tree pollen pods*
 
-one dead rat who looked asleep
+> *one dead rat who looked asleep*
 
-one white plastic bottle cap
+> *one white plastic bottle cap*
 
-one smooth stick of wood
+> *one smooth stick of wood*
 
 As I looked at these items, they shimmied back and forth between trash
 and thing—between, on one hand, stuff to ignore (notable only as a residue of
@@ -204,7 +202,7 @@ nificance in the living body [which] extends, . . .to the whole sensible world,�
 and had shown me how “our gaze, prompted by the experience of our own
 body, will discover in all other ‘objects’ the miracle of expression.”””
 
-J] was struck as well by the way the glove, rat, cap oscillated: at one
+I was struck as well by the way the glove, rat, cap oscillated: at one
 moment garbage, at the next stuff that made a claim on me. Is trash stuff
 whose power to move, speak, or make a difference has become dormant or
 dead? (As so it is buried in the landfill or cast adrift onto the Chesapeake?)
