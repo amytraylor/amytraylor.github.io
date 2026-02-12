@@ -12,6 +12,7 @@ thing-power-space:
 
 assemblage:
   def: "A temporary constellation of many elements—people, objects, forces, institutions—whose interactions produce effects that no single part controls."
+  variants: ["assemblages"]
   see: ["actant", "agency", "ecology", "materiality"]
 
 actant:
@@ -20,6 +21,7 @@ actant:
 
 agency:
   def: "The capacity to affect and be affected. In Bennett’s usage, agency is distributed across humans and nonhumans rather than owned by humans alone."
+  variants: ["agentic"]
   see: ["actant", "thing-power", "assemblage"]
 
 materiality:
@@ -100,6 +102,7 @@ recalcitrance:
 
 artifact:
   def: "A made thing (object, tool, image, document). Also: an effect produced by a method or system (e.g., measurement artifacts)."
+  variants: ["artifacts"]
   see: ["object", "materiality"]
 
 spinoza:
