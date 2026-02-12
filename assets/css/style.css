@@ -498,6 +498,15 @@ mark.glossary-hit{
 /* --- widen reading column on big desktops --- */
 @media (min-width: 1200px){
   :root { --content-width: 980px; }
-  .course-content { padding-right: 300px; }
+  .course-content { padding-right: 250px; }
 }
+/* Make the left course nav column smaller */
+.course-container{
+  grid-template-columns: 170px 1fr; /* was 220px */
+  gap: 1.5rem;                      /* optional: slightly tighter */
+}
+.course-nav{
+  max-width: 170px;
+}
+
 
