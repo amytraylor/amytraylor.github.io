@@ -8,7 +8,6 @@ permalink: /courses/MathAsArtMaterial/vibrantmatter/
 # Terms to auto-highlight on this page:
 glossary_terms:
   - thing-power
-  - thing power
   - assemblage
   - actant
   - agency
@@ -236,7 +235,7 @@ Cold Spring Lane as a mise-en-scéne rather than as trash is to glimpse a cul-
 ture of things irreducible to the culture of objects. It is to become better able
 “to be surprised by what we see.”””
 
-Flower Power, Black Power, Girl Power. Thing Power: the curious ability
+Flower Power, Black Power, Girl Power. Thing-Power: the curious ability
 of inanimate things to animate, to act, to produce effects dramatic and subtle.
 
 THING-POWER II: CREATIVE SELF-ORGANIZATION
