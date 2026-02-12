@@ -495,4 +495,9 @@ mark.glossary-hit{
 .glossary-pop ul.occurrences li{
   margin: 0.2rem 0 !important;
 }
+/* --- widen reading column on big desktops --- */
+@media (min-width: 1200px){
+  :root { --content-width: 980px; }
+  .course-content { padding-right: 300px; }
+}
 
