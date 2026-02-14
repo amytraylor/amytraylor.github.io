@@ -19,5 +19,5 @@ This course explores ways to connect and make use of "math" as art material.
 - [Diffractive Practice in the Wild](DiffractivePracticeInTheWild/)
 
 #### Tools and Toys
-- [Sound](/../sketches/Sound)
+- [Sound](..courses/sketches/Sound)
 - [p5.js](https://p5js.org/), a JavaScript library for creative coding. 
