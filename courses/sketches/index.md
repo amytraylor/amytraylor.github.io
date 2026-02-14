@@ -10,11 +10,12 @@ Interactive toys to help you explore/play through diffractive practices.
 <div class="sketch-list">
   <a href="Sound/">
     <strong>Working with Sound</strong><br>
-    <small>Using sound to map diffraction</small>
+    <small>Using sound to map diffraction</small><br>
+    
   </a>
   
   <a href="Form/">
     <strong>Working with Form</strong><br>
-    <small>Using form to map diffractions</small>
+    <small>Using form to map diffractions</small><br>
   </a>
 </div>
