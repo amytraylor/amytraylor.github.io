@@ -10,7 +10,7 @@ course_root: /courses
 SOUND
 Using sound to map diffraction
 
-[SoundFont MIDI with Real Instruments](courses/sketches/Sound/SoundFontMIDI_Real_Instruments)
+[SoundFont MIDI with Real Instruments](Sound/SoundFontMIDI_Real_Instruments)
 
 <div class="sketch-list">
   <a href="Sound/">
