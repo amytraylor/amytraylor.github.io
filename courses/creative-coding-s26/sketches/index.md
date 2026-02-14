@@ -1,8 +1,8 @@
 ---
 layout: course
 title: Sketches
-course_title: Creative Coding S26
-course_root: /courses/creative-coding-s26
+course_title: Toys for Diffraction
+course_root: /courses
 ---
 
 Interactive examples demonstrating concepts from each week.
