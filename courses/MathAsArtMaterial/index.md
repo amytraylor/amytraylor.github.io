@@ -2,7 +2,7 @@
 layout: default
 title: 
 course_title: Math As Art Material
-course_root: /courses/MathAsArtMaterial
+course_root: /courses/
 no_sidebar: true
 ---
 
