@@ -5,7 +5,12 @@ course_title: Toys for Diffraction
 course_root: /courses
 ---
 
-Interactive toys to help you explore/play through diffractive practices.
+##### Interactive toys to help you explore/play through diffractive practices.
+
+SOUND
+Using sound to map diffraction
+
+[SoundFont MIDI with Real Instruments](/Sound/SoundFontMIDI_Real_Instruments/)
 
 <div class="sketch-list">
   <a href="Sound/">
