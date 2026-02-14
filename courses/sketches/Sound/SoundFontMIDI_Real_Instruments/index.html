@@ -24,10 +24,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Basic Shapes | Creative Coding</title>
+   <title>p5.js + Soundfont-Player</title>
   <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/p5@1.11.11/lib/addons/p5.sound.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/soundfont-player@0.12.0/dist/soundfont-player.min.js"></script>
+  <script src="sketch.js"></script>
+  <script>
+    fetch('sketch.js').then(r => r.text()).then(code => {
+      document.getElementById('code-display').textContent = code;
+    });
+  </script>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body { 
@@ -106,14 +112,14 @@
     <span>Basic Shapes</span>
   </nav>
   
-  <div class="container">
+ <!-- <div class="container">
     <div class="canvas-area">
       <div id="canvas-container"></div>
       <div class="controls">
         <button onclick="saveCanvas('basic-shapes', 'png')">Save Image</button>
         <button onclick="location.reload()">Restart</button>
       </div>
-    </div>
+    </div> -->
     
     <div class="info">
       <h1>Basic Shapes</h1>
@@ -140,11 +146,6 @@
     </div>
   </div>
   
-  <script src="sketch.js"></script>
-  <script>
-    fetch('sketch.js').then(r => r.text()).then(code => {
-      document.getElementById('code-display').textContent = code;
-    });
-  </script>
+  
 </body>
 </html>
