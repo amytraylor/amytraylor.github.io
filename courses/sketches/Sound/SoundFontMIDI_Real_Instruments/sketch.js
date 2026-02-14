@@ -81,7 +81,9 @@ async function initAudio() {
 }
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  let canvas = createCanvas(600, 400);
+  canvas.parent('canvas-container');
+  //createCanvas(windowWidth, windowHeight);
   textFont("monospace");
   // AudioContext requires user gesture, so we init on first click
 
