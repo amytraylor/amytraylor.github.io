@@ -1,3 +1,4 @@
+
 ---
 layout: course
 title: "Searching for Thing Power — Part Four"
