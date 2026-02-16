@@ -1,7 +1,9 @@
 ---
-Course Title: FYEX 1020 Math Learning Strategies 
-Special Section: "Math as Art Material"
-Course Root: /courses/MathAsArtMaterial
+layout: course
+title: Syllabus
+course_title: Math As Art Material
+course_root: /courses/MathAsArtMaterial
+hide_title: true
 ---
 
 ## Course Information
