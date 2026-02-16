@@ -10,7 +10,7 @@ let interim_text = "";
 let status_msg = "";
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(600, 400);
   textFont("sans-serif");
   textSize(18);
   textWrap(WORD);
