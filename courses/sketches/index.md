@@ -12,6 +12,7 @@ Using sound to map diffraction
 
 [SoundFont MIDI with Real Instruments](Sound/SoundFontMIDI_Real_Instruments)
 
+<!--
 <div class="sketch-list">
   <a href="Sound/">
     <strong>Working with Sound</strong><br>
@@ -24,4 +25,4 @@ Using sound to map diffraction
     <strong>Working with Form</strong><br>
     <small>Using form to map diffractions</small><br>
   </a>
-</div>
+</div> -->
