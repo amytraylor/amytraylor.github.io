@@ -12,9 +12,12 @@
  */
 
 // -- Key mapping: two chromatic octaves --
+int keySet = 0;
 const KEY_MAP = {};
-"zsxdcvgbhnjm".split("").forEach((k, i) => (KEY_MAP[k] = 60 + i));
-"q2w3er5t6y7u".split("").forEach((k, i) => (KEY_MAP[k] = 72 + i));
+// "zsxdcvgbhnjm".split("").forEach((k, i) => (KEY_MAP[k] = 60 + i));
+// "q2w3er5t6y7u".split("").forEach((k, i) => (KEY_MAP[k] = 72 + i));
+// "zsxdcvgbhnjm".split("").forEach((k, i) => (KEY_MAP[k] = 60 + i));
+// "q2w3er5t6y7u".split("").forEach((k, i) => (KEY_MAP[k] = 72 + i));
 
 const NOTE_NAMES = [
   "C",
@@ -70,6 +73,34 @@ let current = 0;
 //const INSTRUMENT_NAME = 'acoustic_grand_piano';
 //let instrumentName = INSTRUMENT_NAME;
 
+async function setKeys(keySet){
+  switch (keySet) {
+    case 0:
+      "zsxdcvgbhnjm".split("").forEach((k, i) => (KEY_MAP[k] = 12 + i));
+      "q2w3er5t6y7u".split("").forEach((k, i) => (KEY_MAP[k] = 60 + i));
+      break; // you must include the break statement to 'break'
+    case 1:
+      "zsxdcvgbhnjm".split("").forEach((k, i) => (KEY_MAP[k] = 24 + i));
+      "q2w3er5t6y7u".split("").forEach((k, i) => (KEY_MAP[k] = 72 + i));
+      break;
+      // when mode is 2
+    case 2:
+      "zsxdcvgbhnjm".split("").forEach((k, i) => (KEY_MAP[k] = 36 + i));
+      "q2w3er5t6y7u".split("").forEach((k, i) => (KEY_MAP[k] = 84 + i));
+      break;
+      // when mode is 3
+    case 3:
+      "zsxdcvgbhnjm".split("").forEach((k, i) => (KEY_MAP[k] = 48 + i));
+      "q2w3er5t6y7u".split("").forEach((k, i) => (KEY_MAP[k] = 96 + i));
+      break;
+      // the default case is what happens when 
+      // none of the cases above are met
+    default:
+      "zsxdcvgbhnjm".split("").forEach((k, i) => (KEY_MAP[k] = 60 + i));
+      "q2w3er5t6y7u".split("").forEach((k, i) => (KEY_MAP[k] = 72 + i));
+      break;
+  } // end the switch
+}
 async function initAudio() {
   try {
     const ac = new AudioContext();
@@ -94,7 +125,10 @@ function setup() {
     },
     { once: false }
   );
-  initAudio();
+  //**********
+  
+
+ initAudio();
 }
 
 function draw() {
@@ -145,12 +179,12 @@ function draw() {
   textAlign(CENTER);
   textSize(12);
   text(
-    "Lower row: Z S X D C V G B H N J M  →  C4 chromatic",
+    "Lower row: Z S X D C V G B H N J M  →  C" + keySet +" chromatic",
     width / 2,
     height - 50
   );
   text(
-    "Upper row: Q 2 W 3 E R 5 T 6 Y 7 U  →  C5 chromatic",
+    "Upper row: Q 2 W 3 E R 5 T 6 Y 7 U  →  C" + keySet+" chromatic",
     width / 2,
     height - 34
   );
@@ -163,8 +197,21 @@ function draw() {
 }
 
 function keyPressed() {
+  if(keyCode==UP_ARROW){
+    if(keySey<3){
+      keySet++;
+    } else {
+      keySet=0;
+    }
+  } 
+  if(keyCode==DOWN_ARROW){
+    if(keySet>0){
+      keySet--;
+    } else {
+      keySet=3;
+    }
+  }  
   let len = instrumentName.length;
-
   if (keyCode == LEFT_ARROW) {
     if (current > 0) {
       current--;
