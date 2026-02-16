@@ -4,6 +4,7 @@ title: "Searching for Thing Power — Part Five"
 course_title: "Math As Art Material"
 course_root: /courses/MathAsArtMaterial
 hide_title: true
+no_sidebar: true
 ---
 
 ### Part Five: ***Diffractive Practice in the Wild***
