@@ -31,8 +31,8 @@ This page frames the guiding questions for thing-power, diffractive practice, an
 ---
 ### [Part One: ***Core Reading and a Call to Adventure***](thingpower_part1.md/)
 ### [Part Two: ***Map Exercise-Viewing and Critiquing***](thingpower_part2.md/)
-### [Part Three: ***Map Exercise-Making***](thingpower_part3.md)
-### Part Four: ***Map Exercise-Following***
-### Part Five: ***Diffractive Practice in the Wild***
-### Part Six: ***The Things Pushing Back***
+### [Part Three: ***Map Exercise-Making***](thingpower_part3.md/)
+### [Part Four: ***Map Exercise-Following***](thingpower_part4.md/)
+### [Part Five: ***Diffractive Practice in the Wild***](thingpower_part5.md/)
+### [Part Six: ***The Things Pushing Back***](thingpower_part6.md/)
 
