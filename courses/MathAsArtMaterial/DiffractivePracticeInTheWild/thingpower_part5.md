@@ -23,7 +23,7 @@ hide_title: true
 > *** and to make everything very clear and explicit. ***
 > --Temple Grandin
 
-##### Imagine you are an anthropologist on Mars. When you approach your art work, the scene is both bewilderingly foreign, yet familiar. 
+#### Imagine you are an anthropologist on Mars. When you approach your art work, the scene is both bewilderingly foreign, yet familiar. 
 ##### -Choose a lead researcher to guide your team through the steps. 
 
 1. First, Get out your paper map and find a spot to draw/write.
@@ -53,6 +53,8 @@ hide_title: true
 3. What do you notice now, that you did not notice before? Write it on your map.
 4. What random thoughts pop into your head. Write in on your map.
 5. Are there new things you need to inspect? What does the art feel like to the touch? If you aren't allowed to touch it, get as close as you safely can and try to sense it like you have cat whiskers or a snake's tongue.
+
+#### Repeat these steps for all 3 of your art works.
 
 #### *************************
 
