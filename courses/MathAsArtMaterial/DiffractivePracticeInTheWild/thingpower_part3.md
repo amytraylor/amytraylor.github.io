@@ -1,6 +1,6 @@
 ---
 layout: course
-title: "Searching for Thing Power — Part One"
+title: "Searching for Thing Power — Part Three"
 course_title: "Math As Art Material"
 course_root: /courses/MathAsArtMaterial
 hide_title: true
