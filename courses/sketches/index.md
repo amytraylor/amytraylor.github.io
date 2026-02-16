@@ -12,7 +12,7 @@ Using sound to map diffraction
 
 [SoundFont MIDI with Real Instruments](Sound/SoundFontMIDI_Real_Instruments)
 
-[Speech to Text](/SpeechToText)
+[Speech to Text](./SpeechToText)
 
 <!--
 <div class="sketch-list">
