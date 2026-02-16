@@ -12,7 +12,7 @@
  */
 
 // -- Key mapping: two chromatic octaves --
-int keySet = 0;
+let keySet = 0;
 const KEY_MAP = {};
 // "zsxdcvgbhnjm".split("").forEach((k, i) => (KEY_MAP[k] = 60 + i));
 // "q2w3er5t6y7u".split("").forEach((k, i) => (KEY_MAP[k] = 72 + i));
@@ -76,22 +76,22 @@ let current = 0;
 async function setKeys(keySet){
   switch (keySet) {
     case 0:
-      "zsxdcvgbhnjm".split("").forEach((k, i) => (KEY_MAP[k] = 12 + i));
+      "zsxdcvgbhnjm".split("").forEach((k, i) => (KEY_MAP[k] = 24 + i));
       "q2w3er5t6y7u".split("").forEach((k, i) => (KEY_MAP[k] = 60 + i));
       break; // you must include the break statement to 'break'
     case 1:
-      "zsxdcvgbhnjm".split("").forEach((k, i) => (KEY_MAP[k] = 24 + i));
+      "zsxdcvgbhnjm".split("").forEach((k, i) => (KEY_MAP[k] = 36 + i));
       "q2w3er5t6y7u".split("").forEach((k, i) => (KEY_MAP[k] = 72 + i));
       break;
       // when mode is 2
     case 2:
-      "zsxdcvgbhnjm".split("").forEach((k, i) => (KEY_MAP[k] = 36 + i));
-      "q2w3er5t6y7u".split("").forEach((k, i) => (KEY_MAP[k] = 84 + i));
+      "zsxdcvgbhnjm".split("").forEach((k, i) => (KEY_MAP[k] = 48 + i));
+      "q2w3er5t6y7u".split("").forEach((k, i) => (KEY_MAP[k] = 96 + i));
       break;
       // when mode is 3
     case 3:
-      "zsxdcvgbhnjm".split("").forEach((k, i) => (KEY_MAP[k] = 48 + i));
-      "q2w3er5t6y7u".split("").forEach((k, i) => (KEY_MAP[k] = 96 + i));
+      "zsxdcvgbhnjm".split("").forEach((k, i) => (KEY_MAP[k] = 60 + i));
+      "q2w3er5t6y7u".split("").forEach((k, i) => (KEY_MAP[k] = 97 + i));
       break;
       // the default case is what happens when 
       // none of the cases above are met
@@ -112,9 +112,9 @@ async function initAudio() {
 }
 
 function setup() {
-  let canvas = createCanvas(600, 400);
-  canvas.parent('canvas-container');
-  //createCanvas(windowWidth, windowHeight);
+  //let canvas = createCanvas(600, 400);
+  //canvas.parent('canvas-container');
+  createCanvas(600, 400);
   textFont("monospace");
   // AudioContext requires user gesture, so we init on first click
 
@@ -127,7 +127,7 @@ function setup() {
   );
   //**********
   
-
+setKeys(keySet);
  initAudio();
 }
 
@@ -184,7 +184,7 @@ function draw() {
     height - 50
   );
   text(
-    "Upper row: Q 2 W 3 E R 5 T 6 Y 7 U  →  C" + keySet+" chromatic",
+    "Upper row: Q 2 W 3 E R 5 T 6 Y 7 U  →  C" + (keySet+3)+" chromatic",
     width / 2,
     height - 34
   );
@@ -198,11 +198,12 @@ function draw() {
 
 function keyPressed() {
   if(keyCode==UP_ARROW){
-    if(keySey<3){
+    if(keySet<3){
       keySet++;
     } else {
       keySet=0;
     }
+    setKeys(keySet);
   } 
   if(keyCode==DOWN_ARROW){
     if(keySet>0){
@@ -210,6 +211,7 @@ function keyPressed() {
     } else {
       keySet=3;
     }
+    setKeys(keySet);
   }  
   let len = instrumentName.length;
   if (keyCode == LEFT_ARROW) {
