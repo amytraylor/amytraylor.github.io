@@ -1,22 +1,23 @@
 ---
 layout: course
-title: "Searching for Thing Power — Part One"
+title: "Searching for Thing Power — Part Four"
 course_title: "Math As Art Material"
 course_root: /courses/MathAsArtMaterial
 hide_title: true
 ---
 
-### Part Four: ***Map Exercise-Viewing and Critiquing***
+### Part Four: ***Organizing, Planning, Visiting***
 #### Instructions
-Utilize the provided maps to find 3 unique art works that you will visit.\
-There are **9 maps** on the page below. For **each map**, write:
+We will place our artworks together on one large map of Albuquerque.
+Using the provided materials, place all 3 of your artworks at their respective positions on the class map. For each placement, include your name, section #, and the name of the artwork.
 
-1. **Strengths** — What does this map help you notice or do well?
-2. **Weaknesses** — What does it obscure, distort, or make difficult?
-3. **One interesting observation** — Something surprising, weird, or revealing.
-4. **Potential Art Works** - make a note of a few art works that are potentials to visit.
-#### Maps - [Open the maps page](maps.md)
+Diffracting...
+What does the map do?
+What do the artwork markers do?
+What can you say about the locations of public art in Albuquerque?
 
-#####
+We will make teams to visit the art, based on availability and location of the art. Time permitting, we will visit one piece together.
+
+**********************
 
 [Back to module overview](./)
