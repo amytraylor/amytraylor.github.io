@@ -13,17 +13,17 @@ Using the provided materials, place all 3 of your artworks at their respective p
 
 We will make teams to visit the art, based on availability and location of the art. Time permitting, we will visit one piece together today.
 
-*As a team, answer the following questions...*/
-Diffracting.../
--What does the map do?
--What do the artwork markers do?
--What can you say about the locations of public art in Albuquerque?
+*As a team, answer the following questions...* /
+Diffracting... /
+*What does the map do?
+*What do the artwork markers do?
+*What can you say about the locations of public art in Albuquerque?
 
 *Now make plans...*/
--Who is on your team?
--Do you have sufficient contact information?
--Which artworks will you visit and when?
--When will you visit?
+*Who is on your team?
+*Do you have sufficient contact information?
+*Which artworks will you visit and when?
+*When will you visit?
 
 #### ***********************************************
 
