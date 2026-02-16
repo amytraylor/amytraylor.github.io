@@ -134,12 +134,12 @@ h6 {
   margin: 1.5rem 0 0.75rem;
 }
 
-h1 { font-size: 2.25rem; margin-top: 0; }
-h2 { font-size: 1.75rem; }
-h3 { font-size: 1.35rem; }
-h4 { font-size: 1.15rem; }
-h5 { font-size: 1.0rem; }
-h6 { font-size: 0.95rem; }
+h1 { font-size: 2.35rem; margin-top: 0; }
+h2 { font-size: 2.15rem; }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1.35rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1.05rem; }
 
 p {
   margin: 0.9rem 0;
