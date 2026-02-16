@@ -20,7 +20,7 @@ Diffracting...
 - What do the artwork markers do?
 - What can you say about the locations of public art in Albuquerque?
 
-*Now make plans...*/
+*Now make plans...* \
 - Who is on your team?
 - Do you have sufficient contact information?
 - Which artworks will you visit and when?
