@@ -16,11 +16,11 @@ hide_title: true
 
 #### 2. ARRIVE at ART
 
-> *** She said that she could understand “simple, strong, universal” emotions ***
-> *** but was stumped by more complex emotions and the games people play. ***
-> *** “Much of the time,” she said, “I feel like an anthropologist on Mars.” ***
-> *** She was at pains to keep her own life simple, she said, ***
-> *** and to make everything very clear and explicit. ***
+> *She said that she could understand “simple, strong, universal” emotions 
+> but was stumped by more complex emotions and the games people play. 
+> “Much of the time,” she said, “I feel like an anthropologist on Mars.” 
+> She was at pains to keep her own life simple, she said, 
+> and to make everything very clear and explicit. *
 > --Temple Grandin
 
 #### Imagine you are an anthropologist on Mars. When you approach your art work, the scene is both bewilderingly foreign, yet familiar. 
