@@ -25,6 +25,7 @@ Diffracting...
 - Which artworks will you visit and when?
 - When will you visit?
 
+Turn in on Canvas.
 #### ***********************************************
 
 [Back to module overview](./)
