@@ -14,7 +14,8 @@ Using the provided materials, place all 3 of your artworks at their respective p
 
 Here is the link to place your pins!
 
-[Map for Art Pins](https://umap.openstreetmap.fr/en/map/public-art-albuquerque_1362177#19/35.082902/-106.625029)
+#### [Map for Art Pins](https://umap.openstreetmap.fr/en/map/public-art-albuquerque_1362177#19/35.082902/-106.625029)
+
 We will make teams to visit the art, based on availability and location of the art. Time permitting, we will visit one piece together today.
 
 *As a team, answer the following questions...* \
