@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GraphViz - p5.js Graph Visualization</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="controls">
+  <h3>GraphViz</h3>
+  <select id="graphType"></select>
+  
+  <label>Layout</label>
+  <div class="btn-row">
+    <button onclick="shakeLayout()">Shake</button>
+    <button onclick="randomizeLayout()">Randomize</button>
+  </div>
+  <div class="btn-row">
+    <button onclick="resetView()">Reset View</button>
+    <button id="autoBtn" onclick="toggleAutoLayout()">Auto: ON</button>
+  </div>
+  
+  <label>Edit Graph</label>
+  <div class="btn-row">
+    <button class="success" onclick="setMode('add')">+ Add Node</button>
+    <button class="danger" onclick="setMode('remove')">− Remove</button>
+  </div>
+  <button onclick="setMode('normal')">Normal Mode</button>
+  
+  <label>Export</label>
+  <div class="btn-row">
+    <button onclick="downloadSVG()">SVG</button>
+    <button onclick="downloadPNG()">PNG</button>
+    <button onclick="downloadJSON()">JSON</button>
+  </div>
+  
+  <hr>
+  <p>
+    <strong>Keys:</strong> ←/→ change graph | Space shake | R randomize | A auto-layout | V reset view | N add mode | X remove mode | Esc normal<br><br>
+    <strong>Mouse:</strong> Drag node to move | Right-drag to pan | Scroll to zoom
+  </p>
+</div>
+
+<div id="info">Nodes: 0 &nbsp; Edges: 0</div>
+<div id="mode-indicator"></div>
+
+<!-- Load scripts in dependency order -->
+<script src="coreGraphClasses.js"></script>
+<script src="springs.js"></script>
+<script src="graphFactories.js"></script>
+<script src="aesthetics.js"></script>
+<script src="exportFunctions.js"></script>
+<script src="sketch.js"></script>
+</body>
+</html>
