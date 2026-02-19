@@ -55,7 +55,7 @@ no_sidebar: true
 4. What random thoughts pop into your head. Write in on your map.
 5. Are there new things you need to inspect? What does the art feel like to the touch? If you aren't allowed to touch it, get as close as you safely can and try to sense it like you have cat whiskers or a snake's tongue.
 
-#### Repeat these steps for all 3 of your art works.
+#### Do an amazing job diffracting with one artwork. Just 1. But be amazing.
 
 #### *************************
 
