@@ -83,8 +83,8 @@ In the early 1990s a literature professor I had just met asked me what I was
 working on, and I said I was writing a book on Henry Thoreau, whose interest
 in the Wild seemed to me to foreshadow Foucault’s concern with otherness.
 My new friend replied that she didn’t much care for Foucault, who “lacked a
-materialist perspective.” At the time, I took this reply simply as her way of let-
-ting me know that she was committed to a Marx-inspired politics. But the
+materialist perspective.” At the time, I took this reply simply as her way of letting 
+me know that she was committed to a Marx-inspired politics. But the
 comment stuck, and eventually provoked these thoughts: How did Marx’s
 notion of materiality—as economic structures and exchanges—come to
 stand in for “a materialist perspective” per se? Why wasn’t there a livelier
@@ -94,23 +94,23 @@ Since that time, there has been an explosion of political-theoretical work
 on the (human) body as a materiality, indebted to, among others, Merleau-
 Ponty, Foucault, Luce Irigaray, and Judith Butler. One hallmark of this “body
 materialism” (as I will call it) is its insistence upon locating the body inside a
-culture or bio-culture. It has examined the micro- and macro-political forces
+culture or bioculture. It has examined the micro- and macro-political forces
 through which the (human) body is, among other things, gendered, sexed,
 pacified, and excited. Body materialism, in other words, reveals how cultural
-practices shape what is experienced as natural or real.° Some of this genea-
-logical work also insists upon the material recalcitrance of cultural products.
+practices shape what is experienced as natural or real.° Some of this genealogical 
+work also insists upon the material recalcitrance of cultural products.
 Sexuality, for example, is shown to be a congealed bodily effect of historical
 norms and practices, but its status as a human artifact does not imply that it
-yields readily to human understanding or control. The point here is that cul-
-tural forms are themselves material assemblages that resist.°
+yields readily to human understanding or control. The point here is that cultural 
+forms are themselves material assemblages that resist.
 
 My essay takes off from that last insight: it features the recalcitrance or
-moment of vitality in things. But unlike the general aim of the body material-
-ists, | want to give voice to a less specifically human kind of materiality, to
-make manifest what I call “thing-power.” J do so in order to explore the possi-
-bility that attentiveness to (nonhuman) things and their powers can have a
-laudable effect on humans. (I am not utterly uninterested in humans.) In par-
-ticular, might, as Thoreau suggested, sensitivity to thing-power induce a
+moment of vitality in things. But unlike the general aim of the body materialists, 
+I want to give voice to a less specifically human kind of materiality, to
+make manifest what I call “thing-power.” I do so in order to explore the possibility 
+that attentiveness to (nonhuman) things and their powers can have a
+laudable effect on humans. (I am not utterly uninterested in humans.) In 
+particular, might, as Thoreau suggested, sensitivity to thing-power induce a
 stronger ecological sense?
 
 The thing-power materialism I am trying to develop draws from various
@@ -118,21 +118,21 @@ sources. In the background is, again, Thoreau’s notion of the Wild, that is, h
 idea that there is an existence peculiar to a thing that is irreducible to the
 thing’s imbrication with human subjectivity. It is due to this otherness or
 wildness, says Thoreau, that things have the power to addle and rearrange
-thoughts and perceptions. In the foreground is a Lucretian figuration of mate-
-riality as capable of free or aleatory movements; a non-Newtonian picture of
+thoughts and perceptions. In the foreground is a Lucretian figuration of 
+materiality as capable of free or aleatory movements; a non-Newtonian picture of
 
 ***Bennett / STEPS TOWARD AN ECOLOGY OF MATTER Page 349***
 
 nature as matter-flow, especially as it is developed in the thought of Gilles
-Deleuze; and the Spinozist idea that bodies have a propensity to form collec-
-tivities. To illustrate the affinities between organic and inorganic matter, I cite
+Deleuze; and the Spinozist idea that bodies have a propensity to form 
+collectivities. To illustrate the affinities between organic and inorganic matter, I cite
 examples from everyday life, or what Thomas Dumm calls “the ordinary,” as
 well as from fiction, phenomenology, and natural science.
 
-Thing-power materialism is a speculative onto-story, a rather presumptu-
-ous attempt to depict the nonhumanity that flows around but also through
-humans. Such a project violates Theodor Adorno’s warning against the vio-
-lent hubris of Western philosophy, which consistently fails to acknowledge
+Thing-power materialism is a speculative onto-story, a rather presumptuous 
+attempt to depict the nonhumanity that flows around but also through
+humans. Such a project violates Theodor Adorno’s warning against the violent 
+hubris of Western philosophy, which consistently fails to acknowledge
 the gap between concept and thing. For Adorno, the very most that can be
 said about the thing is that it refuses to be captured entirely by any concept,
 that there is always a “nonidentity” between the two. A materialism like
@@ -151,12 +151,12 @@ respect, and sometimes fear of the materiality of the thing and to articulate
 ways in. which human being and thinghood overlap. It emphasizes those
 occasions in ordinary life when the us and the it slipslide into each other, for
 one moral of this materialist tale is that we are also nonhuman and that things
-too are vital players in the world. Like Thoreau, I hope to enhance my recep-
-tivity to thing-power by writing about it, by giving an account of the thing-
-ness of things that might enable me to feel it more intensely. I pursue this pro-
-ject in the hope of fostering greater recognition of the agential powers of nat-
-ural and artifactual things, greater awareness of the dense web of their con-
-nections with each other and with human bodies, and, finally, a more
+too are vital players in the world. Like Thoreau, I hope to enhance my receptivity 
+to thing-power by writing about it, by giving an account of the thing-ness 
+of things that might enable me to feel it more intensely. I pursue this project 
+in the hope of fostering greater recognition of the agential powers of natural 
+and artifactual things, greater awareness of the dense web of their 
+connections with each other and with human bodies, and, finally, a more
 cautious, intelligent approach to our interventions in that ecology.
 
 THING-POWER I: TRASH
@@ -191,13 +191,13 @@ black glove, I might not have seen the rat; had the rat not been there, I might
 not have noted the bottle cap, and so on, But they were all there just as they
 were, and so I caught a glimpse of an energetic substantiality possessed by
 each of these things, things that I generally saw as inert. This opening was
-made possible by the fortuity of that particular configuration, but also, per-
-haps, by a certain anticipatory readiness—a perceptual style congenial to the
+made possible by the fortuity of that particular configuration, but also, 
+perhaps, by a certain anticipatory readiness—a perceptual style congenial to the
 possibility of thing-power. For I came upon the glove-pod-rat-cap-stick with
 Thoreau in my head, who had encouraged me to practice “the discipline of
 looking always at what is to be seen,” and also with Merleau-Ponty, whose
-Phenomenology of Perception had disclosed “‘an immanent or incipient sig-
-nificance in the living body [which] extends, . . .to the whole sensible world,”
+Phenomenology of Perception had disclosed “‘an immanent or incipient 
+significance in the living body [which] extends, . . .to the whole sensible world,”
 and had shown me how “our gaze, prompted by the experience of our own
 body, will discover in all other ‘objects’ the miracle of expression.”””
 
@@ -205,8 +205,8 @@ I was struck as well by the way the glove, rat, cap oscillated: at one
 moment garbage, at the next stuff that made a claim on me. Is trash stuff
 whose power to move, speak, or make a difference has become dormant or
 dead? (As so it is buried in the landfill or cast adrift onto the Chesapeake?)
-Trash, garbage, litter, dirt, debris, filth, refuse, detritus, rubbish, junk: materi-
-alities without their thing-power. A “materialistic” way of life—insofar as it
+Trash, garbage, litter, dirt, debris, filth, refuse, detritus, rubbish, junk: 
+materialities without their thing-power. A “materialistic” way of life—insofar as it
 requires buying ever-increasing numbers of products purchased in ever-
 shorter cycles—thus displays an anti-materiality bias. In other words, the
 sheer volume of products, and the necessity of junking them to make room
@@ -224,16 +224,16 @@ succession equals the fast ride from object to trash.
 Trash, garbage, litter, dirt, debris, filth, refuse, detritus, rubbish, junk.
 Compare the effect of that list to this mise-en-scéne: on an asphalt platform, a
 shiny black glove rests on a pollen mat, a prone rat in the foreground, bright
-plastic cap and smooth wooden stick to the left. Here each thing is individu-
-ated, but also located within an assemblage—each is shown to be in a rela-
-tionship with the others, and also with the sunlight and the street, and not sim-
-ply with me, my vision, or my cultural frame. Here thing-power rises to the
+plastic cap and smooth wooden stick to the left. Here each thing is individuated, 
+but also located within an assemblage—each is shown to be in a relationship 
+with the others, and also with the sunlight and the street, and not simply 
+with me, my vision, or my cultural frame. Here thing-power rises to the
 surface. In this assemblage, objects appear more vividly as things, that is, as
 entities not entirely reducible to the contexts in which (human) subjects set
 them, never entirely exhausted by their semiotics. To encounter the gutter on
-Cold Spring Lane as a mise-en-scéne rather than as trash is to glimpse a cul-
-ture of things irreducible to the culture of objects. It is to become better able
-“to be surprised by what we see.”””
+Cold Spring Lane as a mise-en-scéne rather than as trash is to glimpse a 
+culture of things irreducible to the culture of objects. It is to become better able
+“to be surprised by what we see.”
 
 Flower Power, Black Power, Girl Power. Thing-Power: the curious ability
 of inanimate things to animate, to act, to produce effects dramatic and subtle.
@@ -242,31 +242,31 @@ THING-POWER II: CREATIVE SELF-ORGANIZATION
 
 Thing-power is a force exercised by that which is not specifically human
 (or even organic) upon humans. The dead rat stopped me in my tracks, as did
-the plastic cap and the wooden stick. But the suspicion remains: was this cap-
-tivating power ultimately a function of the subjective and intersubjective con-
-notations, memories, and affects that had accumulated around my idea of
-these items? Was my immobilization simply the result of my sudden recol-
-lection of the web of cultural meanings associated with the images “rat,”
+the plastic cap and the wooden stick. But the suspicion remains: was this 
+captivating power ultimately a function of the subjective and intersubjective 
+connotations, memories, and affects that had accumulated around my idea of
+these items? Was my immobilization simply the result of my sudden 
+recollection of the web of cultural meanings associated with the images “rat,”
 “plastic,” “wood”? It could be. But what if all the swarming activity inside
 my head was itself an expression of a motility inherent to materiality per se?
 In support of the latter view, Manuel De Landa describes the power of
 nonhuman materiality to “self-organize”’:
 
-inorganic matter-energy has a wider range of alternatives for the generation of structure
-than just simple phase transitions. . . . In other words, even the humblest forms of matter
-and energy have the potential for self-organization beyond the relatively simple type
-involved in the creation of crystals. There are, for instance, those coherent waves called
-solitons which form in many different types of materials, ranging from ocean waters
-(where they are called tsunamis) to lasers. Then there are... stable states (or attractors),
-352 POLITICAL THEORY / June 2004
+> *inorganic matter-energy has a wider range of alternatives for the generation of structure
+> than just simple phase transitions. . . . In other words, even the humblest forms of matter
+> and energy have the potential for self-organization beyond the relatively simple type
+> involved in the creation of crystals. There are, for instance, those coherent waves called
+> solitons which form in many different types of materials, ranging from ocean waters
+> (where they are called tsunamis) to lasers. Then there are... stable states (or attractors),
+> which can sustain coherent cyclic activity. .. . Finally, and unlike the previous examples
+> of nonlinear self-organization where true innovation cannot occur, there {are}... the dif-
+> ferent combinations into which entities derived from the previous processes (crystals,
+> coherent pulses, cyclic patterns) may enter. When put together, these forms of spontaneous
+> structural generation suggest that inorganic matter is much more variable and creative
+> than we ever imagined. And this insight into matter’s inherent creativity needs to be
+> fully incorporated into our new materialist philosophies.*"
 
-which can sustain coherent cyclic activity. .. . Finally, and unlike the previous examples
-of nonlinear self-organization where true innovation cannot occur, there {are}... the dif-
-ferent combinations into which entities derived from the previous processes (crystals,
-coherent pulses, cyclic patterns) may enter. When put together, these forms of spontane-
-ous structural generation suggest that inorganic matter is much more variable and cre-
-ative than we ever imagined. And this insight into matter’s inherent creativity needs to be
-fully incorporated into our new materialist philosophies. "4
+***352 POLITICAL THEORY / June 2004***
 
 Kafka’s “Cares of a Family Man” is aless scientific depiction of the power
 of things to mobilize and re-form. The protagonist, Odradek, is a spool of
@@ -279,13 +279,13 @@ permeable—and where all things, to some degree or other, live on both sides.
 The narrator of Kafka’s story has trouble assigning an ontological cate-
 gory to Odradek. Is Odradek an artifact? But if so, its purpose is obscure:
 
-it looks like a flat star-shaped spool of thread, and indeed it does seem to have thread
-wound upon it; to be sure, these are only old, broken-off bits of thread, knotted and tan-
-gled together, of the most varied sorts and colors. . . . One is tempted to believe that the
-creature once had some sort of intelligible shape and is now only a broken-down remnant.
-Yet this does not seem to be the case; .. . nowhere is there an unfinished or unbroken sur-
-face to suggest anything of the kind: the whole thing looks senseless enough, but in its
-own way perfectly finished.
+> *it looks like a flat star-shaped spool of thread, and indeed it does seem to have thread
+> wound upon it; to be sure, these are only old, broken-off bits of thread, knotted and tangled
+> together, of the most varied sorts and colors. . . . One is tempted to believe that the
+> creature once had some sort of intelligible shape and is now only a broken-down remnant.
+> Yet this does not seem to be the case; .. . nowhere is there an unfinished or unbroken surface
+> to suggest anything of the kind: the whole thing looks senseless enough, but in its
+> own way perfectly finished.*
 
 Or is Odradek a living creature, a little person? But if so, his embodiment is
 unlike that of any other person we’ve encountered. From the center of
@@ -294,17 +294,17 @@ this latter rod... and one of the points of the star... , the whole thing can
 stand upright as if on two legs.” And Odradek not only stands, he is “extraor-
 dinarily nimble”:
 
-He lurks by turns in the garret, the stairway, the lobbies, the entrance hall. Often for
-months on end he is not to be seen; then he has presumably moved into other houses; but
-he always comes faithfully back to our house again. Many a time when you go out of the
-door and he happens just to be leaning directly beneath you against the banisters you feel
-inclined to speak to him, Of course, you put no difficult questions to him, you treat him—
-he is so diminutive that you cannot help it—rather like a child. “Well, what’s your name?”
-you ask him, “Odradek,” he says. “And where do you live?” “No fixed abode,” he says
-and laughs; but it is only the kind of laughter that has no lungs behind it. It sounds rather
-like the rustling of fallen leaves. And that is usually the end of the conversation. Even
-these answers are not always forthcoming; often he stays mute for a long time, as wooden
-as his appearance.!
+> *He lurks by turns in the garret, the stairway, the lobbies, the entrance hall. Often for
+> months on end he is not to be seen; then he has presumably moved into other houses; but
+> he always comes faithfully back to our house again. Many a time when you go out of the
+> door and he happens just to be leaning directly beneath you against the banisters you feel
+> inclined to speak to him, Of course, you put no difficult questions to him, you treat him—
+> he is so diminutive that you cannot help it—rather like a child. “Well, what’s your name?”
+> you ask him, “Odradek,” he says. “And where do you live?” “No fixed abode,” he says
+> and laughs; but it is only the kind of laughter that has no lungs behind it. It sounds rather
+> like the rustling of fallen leaves. And that is usually the end of the conversation. Even
+> these answers are not always forthcoming; often he stays mute for a long time, as wooden
+> as his appearance.*
 
 ***Bennett / STEPS TOWARD AN ECOLOGY OF MATTER Page 353***
 
@@ -319,15 +319,13 @@ nuity of watery life and rocks, such as that evident in coal or fossil limestone
 reefs, Vernadsky noted how these apparently inert strata are ‘traces of bygone
 biospheres.””"” Deleuze, invoking Henri Bergson’s Creative Evolution, agrees:
 just as there is “a halo of instinct in intelligence, a nebula of intelligence in
-
 instinct,’ there is “a hint of the animate in plants, and of the vegetable in
-
 animals”?
 
-Hylozoism: a doctrine held, especially by early Greek philosophers, but
+*Hylozoism*: a doctrine held, especially by early Greek philosophers, but
 also by the Jains of India, that all matter has life.
 
-THING-POWER IIT; CONJUNCTIONS
+THING-POWER III; CONJUNCTIONS
 
 De Landa’s soliton, Kafka’s Odradek, and Vernadsky’s living matter
 upset conventional distinctions between matter and life, inorganic and
@@ -351,7 +349,8 @@ self-direction regarding one’s encounters, humans are never outside of a set
 of relations with other modes: we may learn to alter the quality of our encoun-
 ters but not our encountering nature.’® The relevant point for thinking about
 thing-power is this: a material body always resides within some assemblage
-354 POLITICAL THEORY / June 2004
+
+***354 POLITICAL THEORY / June 2004***
 
 or other, and its thing-power is a function of that grouping. A thing has power
 by virtue of its operating in conjunction with other things.
@@ -425,7 +424,7 @@ ing to William Pietz, “any culture must establish some procedure of compen-
 sation, expiation, or punishment to settle the debt created by unintended
 human deaths whose direct cause is not a morally accountable person, but a
 nonhuman material object. This was the issue thematized in public discourse
-by ... the law of deodand.””
+by ... the law of deodand.”
 
 There is of course a difference between the knife that impaled a man and
 the man impaled, and between the technician who dabs the Sampler and the
@@ -438,10 +437,11 @@ it constantly possible for these two sets of kinds to exchange properties.”
 The rat body, the bottle cap, Odradek, soliton, deodand. Or the self-
 levitating plates and napkins of Balzac’s Peau de Chagrin: there was a “white
 tablecloth, like a covering of snow newly fallen, from which rose symmetri-
-cally the plates and napkins crowned with light-coloured rolls.””* Or the
+cally the plates and napkins crowned with light-coloured rolls.” Or the
 human body and its “motor intentionality,” a kind of directionality inside the
 motion of an arm or hand that is not reducible, says Merleau-Ponty, to any
-356 POLITICAL THEORY / June 2004
+
+***356 POLITICAL THEORY / June 2004***
 
 subjective or self-conscious decision. For him, the body possesses the very
 quality, that is, intentionality, for which the category of mind was invented.”
@@ -458,7 +458,6 @@ the bottle cap, or the corporate greed oozing from the N ikes. But what if we
 slowed this crossing from thing to human culture in order to reach a more
 complex understanding of their relationship? To help us, we might paradoxi-
 cally recall a more naive orientation to the thing. I turn briefly to the ancient
-
 materialism of Lucretius.
 
 A NAIVE MOMENT
@@ -531,7 +530,8 @@ effect of culture, and this insight is a valuable counter to moralistic appeals 
 “nature.” But concentration on this insight alone also diminishes any poten-
 tial we might possess to render more manifest the world of nonhuman
 vitality.
-358 POLITICAL THEORY / June 2004
+
+***358 POLITICAL THEORY / June 2004***
 
 To “render manifest” is both to receive and to participate in the shape
 given to that which is received. What is manifest arrives through humans but
@@ -563,11 +563,11 @@ though every now and then, without warning and at no regular interval, they
 swerve from their downward path, bump into others, and thus form the
 assemblages that constitute the things around and in us:
 
-at times quite undetermined and at undetermined spots they push a little from their path:
-yet only just so much as you could call a change of trend. [For if they did not] ... swerve,
-all things would fall downwards through the deep void like drops of rain, nor could colli-
-sion come to be, nor a blow brought to pass for the primordia: so nature would never have
-brought anything into existence.
+> *at times quite undetermined and at undetermined spots they push a little from their path:
+> yet only just so much as you could call a change of trend. [For if they did not] ... swerve,
+> all things would fall downwards through the deep void like drops of rain, nor could collision
+> come to be, nor a blow brought to pass for the primordia: so nature would never have
+> brought anything into existence.*
 
 Lucretius’s assertion of a primordial swerve in matter says that the world is
 not determined, that an element of chanciness resides in the nature of things.
@@ -600,44 +600,44 @@ so in part through a willingness to indulge in a moment of naivete.**
 WALKING, TALKING MINERALS
 
 Thing-power materialism offers a contestable but, I think, auspicious
-account.of how it is that things have the power to move humans, the beings
-who—in accounts that emphasize Augustinian free will or Kantian auton-
-omy or Hegelian self-consciousness—are figured as self-movers. It empha-
+account of how it is that things have the power to move humans, the beings
+who—in accounts that emphasize Augustinian free will or Kantian autonomy or 
+Hegelian self-consciousness—are figured as self-movers. It empha-
 sizes the shared material basis, the kinship, of all things, regardless of their
 status as human, animal, vegetable, or mineral. It does not deny that there are
 differences between human and nonhuman, though it strives to describe them
 without succumbing to the temptation to place humans at the ontological
 center. One way to do so is to distinguish humans as things composed of a
 particularly rich and complex collection of materiality.” In Jean-Francois
-Lyotard’s “Postmodern Fable,” for example, “humankind is taken for a com-
-plex material system; consciousness, for an effect of language; and language
+Lyotard’s “Postmodern Fable,” for example, “humankind is taken for a complex 
+material system; consciousness, for an effect of language; and language
 for a highly complex material system”; Richard Rorty also suggests that
 human beings are more complex animals, rather than animals “with an extra
-added ingredient called ‘intellect’ or ‘the rational soul.’’*8 Vernadsky sees
+added ingredient called ‘intellect’ or ‘the rational soul.’’ Vernadsky sees
 humans as a particularly potent mix of minerals, as Lynn Margulis’s sum-
-mary shows:
-360 POLITICAL THEORY / June 2004
+mary shows.
+
+***360 POLITICAL THEORY / June 2004***
 
 What struck [Vernadsky] most was that the material of Earth’s crust has been packaged
 into myriad moving beings whose reproduction and growth build and break down matter
 ona global scale. People, for example, redistribute and concentrate oxygen... and other
 elements of Earth’s crust into two-legged, upright forms that have an amazing propensity
-to wander across, dig into and in countless other ways alter Earth’s surface. We are walk-
-
-ing, talking minerals?
+to wander across, dig into and in countless other ways alter Earth’s surface. 
+We are walking, talking minerals?
 
 Thing materialism emphasizes the kinship between people and things. So
 far, the case for that kinship has proceeded primarily by presenting non-
-humanity as an active actant. But to make the case for kinship, must itnot also
+humanity as an active actant. But to make the case for kinship, must it not also
 be shown how humanity participates in thinghood? De Landa cites bone as an
 example of our interior inorganicism; bone reveals one way in which we are
 not only animal and vegetable, but also mineral:
 
-_.. Soft tissue (gels and aerosols, muscle and nerve) reigned supreme until 5000 million
-years ago. At that point, some of the conglomerations of fleshy matter-energy that made
-up life underwent a sudden mineralization, and a new material for constructing living
-creatures emerge: bone. Itis almostas if the mineral world that had served as a substratum
-for the emergence of biological creatures was reasserting itself,
+> *_.. Soft tissue (gels and aerosols, muscle and nerve) reigned supreme until 5000 million
+> years ago. At that point, some of the conglomerations of fleshy matter-energy that made
+> up life underwent a sudden mineralization, and a new material for constructing living
+> creatures emerge: bone. Itis almostas if the mineral world that had served as a substratum
+> for the emergence of biological creatures was reasserting itself.*
 
 The emergence of bone “made new forms of movement control possible
 among animals, freeing them from many constraints and literally setting
@@ -706,7 +706,8 @@ Rerum Natura. These more recent onto-tales differ from Lucretius’s, how-
 ever, in their greater focus on the difficulty, even impossibility, of compre-
 hending materiality. Adorno has perhaps gone furthest here: he speaks of the
 resistance as “nonidentity,” or the persistent lack of fit between concept and
-362 POLITICAL THEORY / June 2004
+
+***362 POLITICAL THEORY / June 2004***
 
 thing. Nonidentity is what is “heterogeneous” to all concepts, and it presents
 
@@ -736,7 +737,7 @@ against, that is, a world that refuses to offer the “reconcilement’—betwee
 concept and thing, self and other, nature and culture—that we (are said to)
 desire, (For the thing-power materialist, the desire for “reconcilement” may
 be less pronounced, given that everything is thought already to participate in
-a common materiality.*°)
+a common materiality.)
 
 Just as the thing-power materialist practices certain techniques of the self
 in order to cultivate perceptual openness to nonhuman forms of vitality and
@@ -802,7 +803,8 @@ nonidentity.? He is extremely cautious about saying anything substantial
 about this force; to say too much, to narrativize, would be an act of hubris.
 Nonidentity is dark and brooding—it makes itself known, to the extent that it
 does, through its mute resistance or infliction of pain.
-364. POLITICAL THEORY / June 2004
+
+***364. POLITICAL THEORY / June 2004***
 
 Adorno’s epistemological task, then, is to better attend to that which is
 essentially unknowable. This epistemological task dovetails with an ethical
@@ -816,7 +818,7 @@ naive picture of transcendence, like that of a loving God who designed the
 world. Who can believe this after Auschwitz? he asks. “Metaphysics cannot
 rise again,” but the desire for transcendence endures because “nothing could
 be experienced as truly alive if something that transcends life were not prom-
-ised also... . The transcendent is, and it is not.”°°
+ised also... . The transcendent is, and it is not.”
 
 Adorno seems, then, to maintain the possibility of transcendence by hon-
 oring nonidentity as an absent absolute, as a messianic promise.” A thing-
@@ -893,7 +895,8 @@ waste, and so perhaps less waste overall. I do think that a renewed emphasis
 on our entanglement with things, an entanglement that renders us susceptible
 to an array of dangers and diseases as well as joys and inspirations, is compat-
 ible with a “wise use” orientation to consumption. Tread lightly upon the
-366 POLITICAL THEORY / June 2004 ‘
+
+***366 POLITICAL THEORY / June 2004***
 
 earth, both because things are alive and have value as such and because we
 should be cautious around things that have the power to do us harm.*”
@@ -940,7 +943,8 @@ emphasize the structured quality of materiality—its ability to congeal into
 economic classes, stratified patterns of work, and dominant practices of
 exchange. Its political strength lies in its ability to expose hidden injuries of
 class, global economic inequities, and other unjust effects of capital flows
-Bennett / STEPS TOWARD AN ECOLOGY OF MATTER = 367
+
+***Bennett / STEPS TOWARD AN ECOLOGY OF MATTER Page 367***
 
 and sedimentations. Body materialism has tended to focus on the Human
 body and its collective practices (or arts of the self). It highlights the suscepti-
