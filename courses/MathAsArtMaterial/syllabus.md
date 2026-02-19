@@ -32,7 +32,7 @@ In this course, diffractive reading means examining how different materials and 
 The purpose of this course is to learn to "see" diffractively as a method for resiliency and agency and to develop an affirmative ethics as a mechanism of access to silo-ed knowledge.
 
 This lab is a required co-requisite with Math 1130: Survey of Math. While I do aspire to support the learning goals and topics covered in your section of 1130, my main goal is to find avenues for you to utilize math in a way that is authentic to each individual student's needs and interests. When we do approach material also covered in 1130 it will always be in a spirit of exploration, play, and making.
-##### With that said, if at any time you need support with specific topics or problems in Survey of Math, please reach out and I will be delighted to support you.
+#### With that said, if at any time you need support with specific topics or problems in Survey of Math, please reach out and I will be delighted to support you.
 
 ## Course Goals
 
