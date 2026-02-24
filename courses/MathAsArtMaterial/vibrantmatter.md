@@ -39,7 +39,9 @@ glossary_terms:
   - Kant
   - Hegel
   - Augustine
+  - nonidentity
   - Marx
+  - Adorno
   - aleatory
   - hylozoism
   - Lucretius
@@ -149,8 +151,8 @@ into one’s political theory may foster greater ethical appreciation of thing-
 power, an appreciation that I try, in a preliminary way, to tie to an ecological
 project of sustainability.
 
-Thing-power materialism figures materiality as a protean flow of matter-
-energy and figures the thing as a relatively composed form of that flow. It
+**Thing-power materialism figures materiality as a protean flow of matter-
+energy and figures the thing as a relatively composed form of that flow.** It
 hazards an account of materiality even though materiality is both too alien
 and too close for humans to see clearly. It seeks to promote acknowledgment,
 respect, and sometimes fear of the materiality of the thing and to articulate
@@ -505,36 +507,36 @@ formations, and perceptual biases. The realist quests for the thing itself, say
 the critics, but there is no there there-—or, at least, no way for us to grasp it or
 know it. Adorno, for example, applies the criticism to Heidegger:
 
-Realism seeks to breach the walls which thought has built around itself, to pierce
-the interjected layer of subjective positions that have become a second nature... .
-Heidegger’s realism turns a somersault: his aim is to philosophize formlessly, so to speak,
-purely on the ground of things, with the result that things evaporate for him. Weary of the
-subjective jail of cognition, he becomes convinced that what is transcendent to subjectiv-
-ity is immediate for subjectivity, without being conceptually stained by subjectivity.
+> ***Realism seeks to breach the walls which thought has built around itself, to pierce
+> the interjected layer of subjective positions that have become a second nature... .
+> Heidegger’s realism turns a somersault: his aim is to philosophize formlessly, so to speak,
+> purely on the ground of things, with the result that things evaporate for him. Weary of the
+> subjective jail of cognition, he becomes convinced that what is transcendent to subjectivity
+> is immediate for subjectivity, without being conceptually stained by subjectivity.***
 
 Adorno insists, as do the “body materialists” cited at the start of this essay,
 that things are always already humanized objects. This object status arises
 the very instant something comes into our awareness or under our gaze. For
-Marx, too, naive realism was the philosophy to overcome. He wrote his doc-
-toral dissertation on the “metaphysical materialism” of the Epicureans, and it
+Marx, too, naive realism was the philosophy to overcome. He wrote his 
+doctoral dissertation on the “metaphysical materialism” of the Epicureans, and it
 was partly against its naivete and abstraction that he would eventually define
 his own new “historical materialism.” Historical materialism would not be a
 phantasmatic ontological tale but a real social theory; it would focus not on
-matter per se but on concrete, social materialities. Marx and Adomo them-
-selves eschew any (explicit) ontology, they refuse to detach materiality
+matter per se but on concrete, social materialities. Marx and Adomo themselves
+eschew any (explicit) ontology, they refuse to detach materiality
 from humanity, and they seek to discredit as “naive” materialisms that do
 otherwise.
 
 My view is that while humans do indeed encounter things only in a medi-
 ated way, there nonetheless remains something to be said for the naivete of
-naive realism. A moment of naivete is, I think, indispensable for any discern-
-ment of thing-power, if there is to be any chance of acknowledging the force
+naive realism. A moment of naivete is, I think, indispensable for any discernment
+of thing-power, if there is to be any chance of acknowledging the force
 of matter. A naive realism (which, in my case functions as an onto-story
 rather than an apodictic account) allows nonhumanity to appear on the ethical
 radar screen. Yes, there is a sense in which any thing-power discerned is an
 effect of culture, and this insight is a valuable counter to moralistic appeals to
-“nature.” But concentration on this insight alone also diminishes any poten-
-tial we might possess to render more manifest the world of nonhuman
+“nature.” But concentration on this insight alone also diminishes any potential
+we might possess to render more manifest the world of nonhuman
 vitality.
 
 ***358 POLITICAL THEORY / June 2004***
@@ -544,8 +546,8 @@ given to that which is received. What is manifest arrives through humans but
 not entirely because of them: we bring something from ourselves to the expe-
 rience, and so it is not pure or unmediated. But a receptive mood with a
 moment of naivete is a useful counter to the tendency (prevalent in sociologi-
-cal and anthropological studies of material culture) to conclude the biogra-
-phy of an object by showing how it, like everything, is socially constituted.
+cal and anthropological studies of material culture) to conclude the biography
+of an object by showing how it, like everything, is socially constituted.
 To pursue an ecology of things is sometimes to resist that punch line, to elide
 its truth, for it inclines thinking and perception too much toward the primacy
 of humans and “the subject.” Lucretius’s poem, in contrast, gives center stage
@@ -575,11 +577,11 @@ assemblages that constitute the things around and in us:
 > come to be, nor a blow brought to pass for the primordia: so nature would never have
 > brought anything into existence.*
 
-Lucretius’s assertion of a primordial swerve in matter says that the world is
+***Lucretius’s assertion of a primordial swerve in matter says that the world is
 not determined, that an element of chanciness resides in the nature of things.
 It also affirms that so-called inanimate things have a life of their own, that
 deep within them is an inexplicable vitality or energy, a moment of independ-
-ence from and resistance to us and other things. A kind of thing-power.
+ence from and resistance to us and other things. A kind of thing-power.***
 
 ***Bennett /STEPS TOWARD AN'ECOLOGY OF MATTER Page 359***
 
@@ -715,29 +717,21 @@ resistance as “nonidentity,” or the persistent lack of fit between concept a
 ***362 POLITICAL THEORY / June 2004***
 
 thing. Nonidentity is what is “heterogeneous” to all concepts, and it presents
-
 itself as a painful and nagging sense that something’s being forgotten or left
-
 out—despite the vigilance of one’s attentiveness to the thing or the degree of
-
 one’s conceptual refinement. Adorno devises a “negative dialectics” as a way
-
 of honing in on this nonidentity, which, he insists, can never be grasped fully
-
-orreconciled with us. examine negative dialectics in what follows because it
-
+or reconciled with us. I examine negative dialectics in what follows because it
 offers an alternative way of conceiving the nonhuman (not as thing-power
-
-but as nonidentity), and because it offers a contending model of what moti- .
-vates ethical action (not fascination with a vital material world but the painful
-
+but as nonidentity), and because it offers a contending model of what 
+motivates ethical action (not fascination with a vital material world but the painful
 experience of an absent absolute).
 
 Adorno attempts to deploy the negativity of nonidentity—its discomfiting
-static buzz—to chasten the human urge to master the world. Negative dialec-
-tics is a style of thinking, a pedagogy really, designed to remind us that
+static buzz—to chasten the human urge to master the world. Negative dialectics
+is a style of thinking, a pedagogy really, designed to remind us that
 “objects do not go into their concepts without leaving a remainder’® but,
-more importantly, to teach us how to stop raging against that nonidentty,
+more importantly, to teach us how to stop raging against that nonidentity,
 against, that is, a world that refuses to offer the “reconcilement’—between
 concept and thing, self and other, nature and culture—that we (are said to)
 desire, (For the thing-power materialist, the desire for “reconcilement” may
@@ -745,8 +739,8 @@ be less pronounced, given that everything is thought already to participate in
 a common materiality.)
 
 Just as the thing-power materialist practices certain techniques of the self
-in order to cultivate perceptual openness to nonhuman forms of vitality and
-agency, Adorno recommends practical exercises for training oneself to honor
+in order to ***cultivate perceptual openness to nonhuman forms of vitality and
+agency***, Adorno recommends practical exercises for training oneself to honor
 nonidentity. One such technique is making the process of conceptualization
 itself an object of reflection. Concepts always fail to coincide with things and
 conceptualization always works to obscure this fact, but critical reflection
@@ -756,7 +750,7 @@ nonidentity dispersed around them.’” A second technique is to admit the
 far he remains from the object of this thinking, and yet he must always talk as
 if he had it entirely. This brings him to the point of clowning. He must not
 deny his clownish traits, least of all since they alone can give him hope for
-what is denied him’*8 Adorno suggests, finally, that the negative dialectician
+what is denied him. Adorno suggests, finally, that the negative dialectician
 should engage in utopian thinking: she imagines emergent possibilities and
 does not restrict herself to the examination of existing objects.” Nonidentity
 consists in those denied possibilities, in the invisible field that surrounds and
@@ -770,17 +764,17 @@ against nonidentity, which for Adorno is the driving force behind interhuman
 acts of cruelty and violence. Going even further, he suggests that negative
 dialectics can transmute the anguish of nonidentity into a will to political
 action: the object thwarts our desire for conceptual and practical mastery and
-the sting of this refusal contains a moral message which the practice of nega-
-tive dialectics can decode. The message is “that suffering ought not to be, that
+the sting of this refusal contains a moral message which the practice of negative
+dialectics can decode. The message is “that suffering ought not to be, that
 things should be different. ‘Woe speaks: “Go.”’ Hence the convergence of
-specific materialism with criticism, with social change in practice.”*°
+specific materialism with criticism, with social change in practice.”
 
-Adorno does not elaborate how or why the pain of conceptual failure pro-
-vokes:a desire to redress the socially induced pain of others. But even if one
+Adorno does not elaborate how or why the pain of conceptual failure provokes 
+a desire to redress the socially induced pain of others. But even if one
 grants that the pangs of nonidentity can engender the adage that “things
 should be different,” such an awakening of moral judgment often does not
-issue in “social change in practice.” In other words, there seems to be a sec-
-ond gap, alongside that between concept and thing, that needs to be
+issue in “social change in practice.” In other words, there seems to be a 
+second gap, alongside that between concept and thing, that needs to be
 addressed: the gap between recognizing the suffering of others and engaging
 in ameliorative action. To the thing-power materialist, one powerful source
 of the energy required to jump the gap is joy—joy as one expression of the
@@ -790,21 +784,21 @@ of negative dialectics does not court the joyful affects, but is designed to
 enhance feelings of guilt, suffering, and a haunting sense of loss.**
 
 Adorno founds his ethics upon attentiveness to nonidentity, an elusive
-force that is discernible, in a dark way, in “the object’s qualitative mom
-ents.”> Qualitative singularities can never be fully grasped, of course, and the
-best one can do is to “grope” toward “the preponderance of the object.”™
-Adorno’s invocation of the object is not a claim about a thing-power distin-
-guishable (even in principle) from human subjectivity. It is not the purpose of
+force that is discernible, in a dark way, in “the object’s qualitative moments.”
+***Qualitative singularities can never be fully grasped, of course, and the
+best one can do is to “grope” toward “the preponderance of the object.”***
+Adorno’s invocation of the object is not a claim about a thing-power distinguishable
+(even in principle) from human subjectivity. It is not the purpose of
 negative dialectics, he writes, “to place the object on the orphaned royal
-throne once occupied by the subject. On that throne the object would be noth-
-ing but an idol.” Adorno insists that the object is accessible only “as it
+throne once occupied by the subject. On that throne the object would be nothing
+but an idol.” Adorno insists that the object is accessible only “as it
 entwines with subjectivity” and speaks of the object’s “preponderance”
 merely as a counter to the dominant philosophical presumption in favor of an
-absolute, transcendental subject.*’ But he retains the vocabulary of “subject”
+absolute, transcendental subject. But he retains the vocabulary of “subject”
 and “object” as a bulwark against the naive realism of a third term, like
-“thing,” which is supposed to be reducible to neither. Instead of the specta-
-cle of swerving primordia, Adorno offers the mysterious recalcitrance of
-nonidentity.? He is extremely cautious about saying anything substantial
+“thing,” which is supposed to be reducible to neither. Instead of the spectacle
+of swerving primordia, Adorno offers the mysterious recalcitrance of
+nonidentity? (note 59) He is extremely cautious about saying anything substantial
 about this force; to say too much, to narrativize, would be an act of hubris.
 Nonidentity is dark and brooding—it makes itself known, to the extent that it
 does, through its mute resistance or infliction of pain.
@@ -825,16 +819,16 @@ rise again,” but the desire for transcendence endures because “nothing could
 be experienced as truly alive if something that transcends life were not prom-
 ised also... . The transcendent is, and it is not.”
 
-Adorno seems, then, to maintain the possibility of transcendence by hon-
-oring nonidentity as an absent absolute, as a messianic promise.” A thing-
+Adorno seems, then, to maintain the possibility of transcendence by honoring
+nonidentity as an absent absolute, as a messianic promise.” A thing-
 power materialist might respond by invoking the wondrous energy of actants
 as itself sufficient to warrant an honorable relation to things, or to justify the
 wisdom of proceeding cautiously in our engagements with the world. To us,
-resistances and swerves are less gestures of transcendence than manifesta-
-tions of the vitality of immanent forces that flow through us as well as course
+resistances and swerves are less gestures of transcendence than manifestations
+of the vitality of immanent forces that flow through us as well as course
 over and under us. These forces are not fully knowable or predictable, but
-their aleatory dimension is not figured as transcendent. Thing-power materi-
-alism, as an adventurous ontological imaginary, offers a picture of matter as
+their aleatory dimension is not figured as transcendent. Thing-power materialism,
+as an adventurous ontological imaginary, offers a picture of matter as
 so active, intricate, and awesome, that it’s no disgrace to be made up wholly
 of the stuff oneself. In this onto-tale, humans and their thoughts, like other
 things, are part of a mobile set of material assemblages, and no term like
@@ -852,16 +846,16 @@ leaves open the possibility of a divine power of transcendence, preferable toa
 materialism that seems to close the question. Nevertheless, despite the theo-
 logical difference between a philosophy of nonidentity and a thing-power
 materialism, both can be seen as sharing an ethical urge to tread more lightly
-
 upon the earth.
-Bennett / STEPS TOWARD AN ECOLOGY OF MATTER — (365
+
+Bennett / STEPS TOWARD AN ECOLOGY OF MATTER — page 365
 
 TOWARD AN ECOLOGY OF MATTER
 
-The force of the ordinary . . . can be obscured, reduced, or eliminated .. . by a lack of
-appreciation of the richness of its connections to the larger world it composes.
+> ***The force of the ordinary . . . can be obscured, reduced, or eliminated .. . by a lack of
+> appreciation of the richness of its connections to the larger world it composes.
 
-—-—Thomas Dumm®
+> —-—Thomas Dunn***
 
 Ecology can be defined as the study or story (Jogos) of the place where we
 live (oikos), or better, the place that we live. For a thing-power materialist,
@@ -881,7 +875,7 @@ Thing-power is the lively energy and/or resistant pressure that issues from
 ‘one material assemblage and is received by others. Thing-power, in other
 words, is immanent in collectives that include humans, the beings best able to
 recount the experience of the force of things. Thing-power materialism
-emphasizes the closeness, the intimacy, of humans and nonhumans.® And it
+emphasizes the closeness, the intimacy, of humans and nonhumans. And it
 is here, in a heightened sense of that mutual implication, that thing-power
 materialism can contribute to an ecological ethos. To call something ecologi-
 cal is to draw attention to its necessary implication in a network of relations,
@@ -909,15 +903,12 @@ should be cautious around things that have the power to do us harm.*”
 Thing-power materialism is also compatible with what James Nash
 described as the ecological virtue of frugality. Distinguishable from auster-
 ity, frugality is a disciplined form of consumption, an “earth-affirming
-norm,” a
-
-‘sparing’ in production and consumption—literally sparing of the resources necessary
+norm,” a ‘sparing’ in production and consumption—literally sparing of the resources necessary
 for human communities and sparing of the other species that are both values in them-
 selves and instrumental values for human needs. Frugality minimizes harm to humans
 and other lifeforms, enabling thereby a greater thriving of all life. At its best, therefore,
 frugality can be described paradoxically as hedonistic self-denial, since it is a sensuous
 concern, or, as Alan Durning notes, ‘a true materialism that does not just care about thing,
-
 but cares for them.’
 
 My primary goal has been to give expression to thing-power. This is not
@@ -1204,14 +1195,13 @@ aiming for the impossible, [negative dialectics] . . . practices negativity and 
 in the realms of the is-not, yet it thereby practices the very non-identity thinking that exemplifies
 the only practicable subject-object reconciliation” Coole, Negativity and Politics, 184-85.
 
-50. Adorno, Negative Dialectics, 202-3. Adorno also describes this pain as the “guilt ofa life
+50. Adorno, Negative Dialectics, 202-3. Adorno also describes this pain as the “guilt of a life
 which purely as a fact will strangle other life” (p. 364). Coles calls it the “ongoing discomfort that
 solicits our critical efforts.” Coole, Negativity and Politics, 89.
 
 51. | make the case for the ethical role of the positive affects in The Enchantment of Modern
-
 Life, especially in chapters 1 and 7.
-_ §2. Adorno himself discerns no such ethical potential in moments of joy or in the attachment
+Adorno himself discerns no such ethical potential in moments of joy or in the attachment
 to life that they can induce. For him, the feeling of “the fullness of life” can only be an illusion ina
 world whose essential characteristic is the gap of nonidentity and, ultimately, death. Adorno
 identifies with Kant, who “disdained the passage to affirmation,” and rejects those who offer
@@ -1222,7 +1212,7 @@ that negative dialectics seeks to combat: the idea of fullness of life “is ins
 desire in which violence and subjugation are inherent. . . , There is no fullness without biceps-
 flexing.” Adorno, Negative Dialectics, 378. From the perspective of the thing-power materialist,
 Adorno teeters on the edge of what Dumm describes as “the overwhelming sense of loss that
-could swamp us when we approach [the thing’s] unknowable vastness.” Dumm, Politics of the
+could swamp us when we approach [the thing’s] unknowable vastness.” Dunn, Politics of the
 Ordinary, 169, emphasis added.
 
 53. Adorno, Negative Dialectics, 43.
