@@ -696,13 +696,13 @@ work in cultural theory has highlighted this force that is experienced as in but
 not quite of oneself. This indeterminate and never fully determinable dimen-
 sion of things has been called differance (Jacques Derrida), the virtual (Gilles
 Deleuze), the invisible (Maurice Merleau-Ponty), the semiotic (Julia
-Kristeva), and nonidentity (Theodor Adorno). J ean-Francois Lyotard
+Kristeva), and nonidentity (Theodor Adorno). Jean-Francois Lyotard
 describes this obstinate remainder, which hovers between the ontological
 and the epistemological registers, as “that which exceeds every putting into
-form or object without being anywhere else but within them’ “3 These various
+form or object without being anywhere else but within them’ ***These various
 terms of art mark the fact that thing-power often first reveals itself as a
 negativity, a confounding or fouling up of an intention, desire, schema, or
-concept. But, as many of the thinkers named above have noted, such
+concept.*** But, as many of the thinkers named above have noted, such
 negativity is also the same stuff out of which positive things emerge. It is a
 negativity that is profoundly productive: the materiality that resists us is also
 the protean source of being, the essentially vague matrix of things.“
@@ -710,8 +710,8 @@ the protean source of being, the essentially vague matrix of things.“
 In the work of Derrida, Deleuze, Merleau-Ponty, Kristeva, and Adorno,
 we find accounts of materiality pitched at the same level as that offered by De
 Rerum Natura. These more recent onto-tales differ from Lucretius’s, how-
-ever, in their greater focus on the difficulty, even impossibility, of compre-
-hending materiality. Adorno has perhaps gone furthest here: he speaks of the
+ever, in their greater focus on the difficulty, even impossibility, of 
+comprehending materiality. Adorno has perhaps gone furthest here: he speaks of the
 resistance as “nonidentity,” or the persistent lack of fit between concept and
 
 ***362 POLITICAL THEORY / June 2004***
