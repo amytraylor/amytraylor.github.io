@@ -36,6 +36,12 @@ glossary_terms:
   - Bergson
   - Deleuze
   - Latour
+  - Kant
+  - Hegel
+  - Augustine
+  - Marx
+  - aleatory
+  - hylozoism
   - Lucretius
   - efficacy
   - capacity
@@ -580,7 +586,7 @@ ence from and resistance to us and other things. A kind of thing-power.
 Deleuze and Guattari allude to the swerve when they say that that which
 has a body by that very token has a spiritedness (an esprit de corps), and even
 a kind of thrust or directionality (a nomos).** There is also an interesting rela-
-tionship to be explored between the swerve and Henri Bergson’s elan vital.”
+tionship to be explored between the swerve and Henri Bergson’s *elan vital*.”
 Finally, a group of neo-Marxists calling themselves “aleatory materialists”
 endorse a modified version of hylozoism. They argue that because classical
 Marxism’s image of the structure of capitalism is more rigid and impervious
@@ -599,12 +605,12 @@ so in part through a willingness to indulge in a moment of naivete.**
 
 WALKING, TALKING MINERALS
 
-Thing-power materialism offers a contestable but, I think, auspicious
-account of how it is that things have the power to move humans, the beings
+**Thing-power materialism offers a contestable but, I think, auspicious
+account of how it is that things have the power to move humans**, the beings
 who—in accounts that emphasize Augustinian free will or Kantian autonomy or 
-Hegelian self-consciousness—are figured as self-movers. It empha-
-sizes the shared material basis, the kinship, of all things, regardless of their
-status as human, animal, vegetable, or mineral. It does not deny that there are
+Hegelian self-consciousness—are figured as self-movers. **It emphasizes 
+the shared material basis, the kinship, of all things, regardless of their
+status as human, animal, vegetable, or mineral.** It does not deny that there are
 differences between human and nonhuman, though it strives to describe them
 without succumbing to the temptation to place humans at the ontological
 center. One way to do so is to distinguish humans as things composed of a
@@ -614,29 +620,28 @@ material system; consciousness, for an effect of language; and language
 for a highly complex material system”; Richard Rorty also suggests that
 human beings are more complex animals, rather than animals “with an extra
 added ingredient called ‘intellect’ or ‘the rational soul.’’ Vernadsky sees
-humans as a particularly potent mix of minerals, as Lynn Margulis’s sum-
-mary shows.
+humans as a particularly potent mix of minerals, as Lynn Margulis’s summary shows.
 
 ***360 POLITICAL THEORY / June 2004***
 
-What struck [Vernadsky] most was that the material of Earth’s crust has been packaged
+What struck [Vernadsky] most was that **the material of Earth’s crust has been packaged
 into myriad moving beings whose reproduction and growth build and break down matter
-ona global scale. People, for example, redistribute and concentrate oxygen... and other
+on a global scale. People, for example, redistribute and concentrate oxygen... and other
 elements of Earth’s crust into two-legged, upright forms that have an amazing propensity
-to wander across, dig into and in countless other ways alter Earth’s surface. 
+to wander across, dig into and in countless other ways alter Earth’s surface.**
 We are walking, talking minerals?
 
 Thing materialism emphasizes the kinship between people and things. So
 far, the case for that kinship has proceeded primarily by presenting non-
-humanity as an active actant. But to make the case for kinship, must it not also
-be shown how humanity participates in thinghood? De Landa cites bone as an
-example of our interior inorganicism; bone reveals one way in which we are
-not only animal and vegetable, but also mineral:
+humanity as an active actant. **But to make the case for kinship, must it not also
+be shown how humanity participates in thinghood?** De Landa cites bone as an
+example of our interior inorganicism; **bone reveals one way in which we are
+not only animal and vegetable, but also mineral:**
 
 > *_.. Soft tissue (gels and aerosols, muscle and nerve) reigned supreme until 5000 million
 > years ago. At that point, some of the conglomerations of fleshy matter-energy that made
 > up life underwent a sudden mineralization, and a new material for constructing living
-> creatures emerge: bone. Itis almostas if the mineral world that had served as a substratum
+> creatures emerge: bone. It is almost as if the mineral world that had served as a substratum
 > for the emergence of biological creatures was reasserting itself.*
 
 The emergence of bone “made new forms of movement control possible
@@ -644,15 +649,15 @@ among animals, freeing them from many constraints and literally setting
 them into motion to conquer every available niche in the air, in water, and on
 land’! Here bone is a mover and shaker, mineralization an agent. There is a
 sense in which we are its object, and improved in our own agency as a result.
-Or perhaps it is most accurate to say that agency is a property less of individ-
-ual entities than of assemblages of humans and nonhumans.
+Or perhaps it is most accurate to say that **agency is a property less of individ-
+ual entities than of assemblages of humans and nonhumans.**
 
 The view that there is a thing-ness to humans, that the human contains no
-distinct substance, but shares the elan vital of less complexly or differently
+distinct substance, but shares the *elan vital* of less complexly or differently
 organized things, risks being used as a justification for the instrumental use of
 persons, for their objectification or commodification. Of course, what is
-immoral here is the goal of domination, not the act of recognizing the pres-
-ence of the nonhuman within the human. But the danger of a harmful or cruel
+immoral here is the goal of domination, not the act of recognizing the presence
+of the nonhuman within the human. But the danger of a harmful or cruel
 instrumentalism is real. It might, however, be mitigated when the blurring of
 the human/nonhuman distinction is combined with the attempt to enhance
 the ethical standing of things. The danger of reducing subjects to “mere
@@ -669,8 +674,8 @@ as one motivation for ethical behavior, nor does it think it possible to
 eliminate completely the conceptual “enframing” that Heidegger criticizes.
 Rather, it seeks to cultivate a more enlightened self-interest, one cognizant of
 our embeddedness in a natural-cultural-technological assemblage. Even
-such an enlightened understanding of interest is not always sufficient to pro-
-voke ethical behavior toward other bodies. Ethical motivation needs also to
+such an enlightened understanding of interest is not always sufficient to 
+provoke ethical behavior toward other bodies. Ethical motivation needs also to
 draw upon co-feeling or sympathy with suffering, and also upon a certain
 love of the world, or enchantment with it. This last source is best inspired, I
 think, by an onto-tale that enhances one’s awareness of the vitality of the
