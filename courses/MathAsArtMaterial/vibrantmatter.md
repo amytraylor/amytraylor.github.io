@@ -759,6 +759,7 @@ infuses the world of objects.
 The self-criticism of conceptualization, the art of clowning, and the exer-
 cise of an unrealistic imagination: such practices can lessen the “rage”
 against nonidentity, which for Adorno is the driving force behind interhuman
+
 Bennett / STEPS TOWARD AN ECOLOGY OF MATTER —363
 
 acts of cruelty and violence. Going even further, he suggests that negative
