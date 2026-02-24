@@ -140,3 +140,7 @@ capacity:
 clinamen:
   def: "Lucretius’s term for the atomic ‘swerve’: a tiny, unpredictable deviation that allows collisions, novelty, and the emergence of new patterns rather than deterministic repetition."
   see: ["swerve", "lucretius", "void", "flow"]
+
+nonidentity:
+  def: "The persistent lack of fit between concept and thing... Also a painful and nagging sense that something’s being forgotten or left out"
+  see: ["swerve", "void, "flow", "non-identity"]
