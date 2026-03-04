@@ -17,11 +17,12 @@ no_sidebar: true
 > bashing it with calculations on fuel reserves and trajectories
 > and human gravitational tolerance.\
 > --Aimee Ogden*\
+
 - <a href="https://clarkesworldmagazine.com/ogden_12_21/"
      target="_blank"
      rel="noopener noreferrer"
      title="Opens the Link in a New Tab">
-    Aimee Ogden, <em>The Cold Calculations</em> (html)
+    Aimee Ogden, <em>The Cold Calculations</em> 
   </a>
   
 <a href="https://clarkesworldmagazine.com/ogden_12_21/" target="_blank">Link to full story</a>
