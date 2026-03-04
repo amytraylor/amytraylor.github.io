@@ -12,6 +12,7 @@ no_sidebar: true
 This course explores ways to connect and make use of "math" as art material.
 
 #### Quick Links
+
 - [Syllabus](syllabus) — course policies, grading, schedule overview
 
 #### Assignments/Projects/Modules/Experiences
