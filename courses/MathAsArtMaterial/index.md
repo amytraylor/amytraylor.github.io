@@ -17,7 +17,8 @@ This course explores ways to connect and make use of "math" as art material.
 #### Assignments/Projects/Modules/Experiences
 
 - [Diffractive Practice in the Wild](DiffractivePracticeInTheWild/)
+- [Making Speculative Machines](MakingSpeculativeMachines/)
 
 #### Tools and Toys
-- [Sketches Boutique Software Toys](../sketches/)
+- [Boutique Software Toys](../sketches/)
 - [p5.js](https://p5js.org/), a JavaScript library for creative coding. 
