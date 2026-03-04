@@ -9,7 +9,7 @@ no_sidebar: true
 
 #### Equations as Speculative Onto-Story
 
-######
+
 > *...For another few rotations, Álvarez studies these subtle geometries, seeking the kind of organic understanding that doesn’t come from math anyway.
 > Then he uses one hand to quietly push himself toward the computer. One more set of numbers to crunch, between her and oblivion.*
 
@@ -18,7 +18,7 @@ no_sidebar: true
 > bashing it with calculations on fuel reserves and trajectories
 > and human gravitational tolerance.\
 > --Aimee Ogden*
-#####
+
 
 
 - <a href="https://clarkesworldmagazine.com/ogden_12_21/"
@@ -32,6 +32,13 @@ no_sidebar: true
 
 <img width="1400" height="1200" alt="calcs 3203736878" src="https://github.com/user-attachments/assets/9976b7ff-ec3b-4830-8c9d-1d47da0c7c9b" />
 
+##### [Link to Instructions for Paper Circuits](https://www.makerspaces.com/simple-series-and-parallel-paper-circuits/)
+
+[simple-circuit.pdf](https://github.com/user-attachments/files/25749451/simple-circuit.pdf)
+
+[parallel-circuit.pdf](https://github.com/user-attachments/files/25749453/parallel-circuit.pdf)
+
+[series-circuit.pdf](https://github.com/user-attachments/files/25749454/series-circuit.pdf)
 
 
 
