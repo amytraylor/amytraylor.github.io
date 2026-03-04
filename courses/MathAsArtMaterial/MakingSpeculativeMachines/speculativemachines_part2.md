@@ -19,6 +19,8 @@ no_sidebar: true
 > and human gravitational tolerance.\
 > --Aimee Ogden*
 #####
+
+
 - <a href="https://clarkesworldmagazine.com/ogden_12_21/"
      target="_blank"
      rel="noopener noreferrer"
