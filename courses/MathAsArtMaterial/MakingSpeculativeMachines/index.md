@@ -8,9 +8,14 @@ no_sidebar: true
 ---
 # Making Speculative Machines
 ## Overview
-This page frames the guiding questions for Making Speculative Machines These are some of the tools and knowledge we will use to "push back" on math. This is a multi-part exercise, starting with circuits.
+### [Part One: ***Deconstructing to Reconstruct***](speculativemachines_part1.md/)
+### [Part Two: ***Equations as Speculative Onto-Stories***](speculativemachines_part2.md/)
 
 <!--
+
+This page frames the guiding questions for Making Speculative Machines These are some of the tools and knowledge we will use to "push back" on math. This is a multi-part exercise, starting with circuits.
+
+
 ### Big Questions
 #### What we’re trying to understand
 - **What is diffractive practice?**
