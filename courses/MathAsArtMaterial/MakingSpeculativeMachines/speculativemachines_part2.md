@@ -16,7 +16,7 @@ no_sidebar: true
 > He smashes the physics wide open like his own personal piñata,
 > bashing it with calculations on fuel reserves and trajectories
 > and human gravitational tolerance.\
-> --Aimee Ogden*\
+> --Aimee Ogden*
 
 - <a href="https://clarkesworldmagazine.com/ogden_12_21/"
      target="_blank"
@@ -25,10 +25,12 @@ no_sidebar: true
     Aimee Ogden, <em>The Cold Calculations</em> 
   </a>
   
+
+
+
+<!--
+
 <a href="https://clarkesworldmagazine.com/ogden_12_21/" target="_blank">Link to full story</a>
-
-
-<--!
 
 ### Part One: ***Core Reading and a Call to Adventure***
 
