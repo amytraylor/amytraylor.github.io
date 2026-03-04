@@ -25,10 +25,12 @@ no_sidebar: true
 <img width="1563" height="1196" alt="specMachines7" src="https://github.com/user-attachments/assets/1f9f4793-fc03-4233-8bf6-2718ddcebe68" />
 <img width="1563" height="1196" alt="specMachines8" src="https://github.com/user-attachments/assets/07e0b0cd-e09d-42e0-8c68-e3f555645bc1" />
 <img width="1563" height="1196" alt="specMachines9" src="https://github.com/user-attachments/assets/0ae086f9-b9ac-4b51-83be-ba3aca52ba15" />
+<img width="1563" height="1196" alt="specMachines10" src="https://github.com/user-attachments/assets/adafbdbf-3273-41f1-9b0a-4f2ef2ee341f" />
 
 
 
-<!--
+<!--![Uploading specMachines10.png…]()
+
 #### Equations as Speculative Onto-Story
 
 ######
