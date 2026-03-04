@@ -9,5 +9,5 @@ no_sidebar: true
 
 # Making Speculative Machines
 ## Overview
-### [Part One: ***Deconstructing to Reconstruct***](speculativemachines_part1.md/)
+### [Part One: ***Deconstructing to Reconstruct***](speculativemachines_part3.md/)
 ### [Part Two: ***Equations as Speculative Onto-Stories***](speculativemachines_part2.md/)
