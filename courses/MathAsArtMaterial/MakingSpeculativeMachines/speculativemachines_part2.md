@@ -9,6 +9,7 @@ no_sidebar: true
 
 #### Equations as Speculative Onto-Story
 
+######
 > *...For another few rotations, Álvarez studies these subtle geometries, seeking the kind of organic understanding that doesn’t come from math anyway.
 > Then he uses one hand to quietly push himself toward the computer. One more set of numbers to crunch, between her and oblivion.*
 
@@ -17,7 +18,7 @@ no_sidebar: true
 > bashing it with calculations on fuel reserves and trajectories
 > and human gravitational tolerance.\
 > --Aimee Ogden*
-
+#####
 - <a href="https://clarkesworldmagazine.com/ogden_12_21/"
      target="_blank"
      rel="noopener noreferrer"
