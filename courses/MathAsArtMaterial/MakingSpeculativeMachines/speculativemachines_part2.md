@@ -28,6 +28,10 @@ no_sidebar: true
     Aimee Ogden, <em>The Cold Calculations</em> 
   </a>
   
+<img width="1200" height="1200" alt="calcs 3201211803" src="https://github.com/user-attachments/assets/75c6fa49-31a7-4db3-967c-0ff2c705d349" />
+
+<img width="1400" height="1200" alt="calcs 3203736878" src="https://github.com/user-attachments/assets/9976b7ff-ec3b-4830-8c9d-1d47da0c7c9b" />
+
 
 
 
