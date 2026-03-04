@@ -13,7 +13,7 @@ no_sidebar: true
 > *The math doesn’t cooperate willingly. But Álvarez doesn’t ask nicely.
 > He smashes the physics wide open like his own personal piñata,
 > bashing it with calculations on fuel reserves and trajectories
-> and human gravitational tolerance.*
+> and human gravitational tolerance.*/
 > --Aimee Ogden
 <a href="https://clarkesworldmagazine.com/ogden_12_21/" target="_blank">Link to full story</a>
 
