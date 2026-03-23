@@ -11,7 +11,9 @@ let rectSize, tS, spacing;
 let rightAlign, leftAlign;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight, P2D);
+  let canvas = createCanvas(windowWidth, windowHeight, P2D);
+  canvas.parent('canvas-container');
+  //createCanvas(windowWidth, windowHeight, P2D);
   recalc();
 }
 
