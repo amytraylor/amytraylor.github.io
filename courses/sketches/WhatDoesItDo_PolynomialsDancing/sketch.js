@@ -124,7 +124,7 @@ function draw() {
   text(" + ", rightAlign-200, 0);
   text("" + nf(b, 1, 1) + "x", rightAlign-100, 0);
   text(" + " + nf(c, 1, 1), rightAlign, 0);
-  link.position(rightAlign-100, height-50);
+  link.position(rightAlign-100, height);
   pop();
 }
 
