@@ -14,6 +14,7 @@ let inc = 25;
 let sinc = 1;
 let rectSize, tS, spacing;
 let rightAlign, leftAlign;
+let link;
 
 let customFont;
 function preload() {
@@ -23,6 +24,9 @@ function preload() {
 function setup() {
   let canvas = createCanvas(windowWidth, windowHeight, P2D);
   canvas.parent('canvas-container');
+  link = createAt('https://editor.p5js.org/amytraylor/sketches/qKvutUdcV', 'Editable Code', '_blank');
+  link.style('color', '#ff0000');
+  link.style('font-family', 'sans-serif');
   //createCanvas(windowWidth, windowHeight, P2D);
   textFont(customFont);
   recalc();
@@ -120,6 +124,7 @@ function draw() {
   text(" + ", rightAlign-200, 0);
   text("" + nf(b, 1, 1) + "x", rightAlign-100, 0);
   text(" + " + nf(c, 1, 1), rightAlign, 0);
+  link.position(rightAlign-100, height-50);
   pop();
 }
 
