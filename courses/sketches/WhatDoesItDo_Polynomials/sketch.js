@@ -115,7 +115,7 @@ function draw() {
              nf(c, 1, 1),
     rightAlign, 0
   );
-  link.position(rightAlign-100, height-50);
+  link.position(rightAlign-100, height);
   pop();
 
 }
