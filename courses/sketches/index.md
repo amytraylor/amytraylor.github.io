@@ -21,9 +21,11 @@ Mapping diffraction through forms.
 [GraphStream](./Graphs)
 
 ##### What Does It do?
-Polynomials-Still
+Polynomials-Still and Dancing
 
 [Polynomials](./WhatDoesItDo_Polynomials)
+
+[Polynomials Dancing](./WhatDoesItDo_PolynomialsDancing)
 
 <!--
 <div class="sketch-list">
