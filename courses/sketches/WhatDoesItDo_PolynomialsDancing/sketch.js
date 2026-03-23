@@ -24,7 +24,7 @@ function preload() {
 function setup() {
   let canvas = createCanvas(windowWidth, windowHeight, P2D);
   canvas.parent('canvas-container');
-  link = createAt('https://editor.p5js.org/amytraylor/sketches/qKvutUdcV', 'Editable Code', '_blank');
+  link = createA('https://editor.p5js.org/amytraylor/sketches/qKvutUdcV', 'Editable Code', '_blank');
   link.style('color', '#ff0000');
   link.style('font-family', 'sans-serif');
   //createCanvas(windowWidth, windowHeight, P2D);
