@@ -213,11 +213,11 @@
       }
     });
 
-    saveBtn.addEventListener("click", () => {
-      if (typeof saveCanvas === "function") {
-        saveCanvas("WhatDoesItDoPolynomials", "png");
-      }
-    });
+    // saveBtn.addEventListener("click", () => {
+    //   if (typeof saveCanvas === "function") {
+    //     saveCanvas("WhatDoesItDoPolynomials", "png");
+    //   }
+    // });
 
     fetch("sketch.js")
       .then(r => r.text())
