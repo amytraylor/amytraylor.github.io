@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Polynomial Explorer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <button id="fs-btn">⛶ Fullscreen</button>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js"></script>
+  <script src="sketch.js"></script>
+  <script>
+    document.getElementById('fs-btn').addEventListener('click', () => {
+      if (!document.fullscreenElement) {
+        document.documentElement.requestFullscreen();
+        document.getElementById('fs-btn').textContent = '✕ Exit';
+      } else {
+        document.exitFullscreen();
+        document.getElementById('fs-btn').textContent = '⛶ Fullscreen';
+      }
+    });
+    document.addEventListener('fullscreenchange', () => {
+      if (!document.fullscreenElement)
+        document.getElementById('fs-btn').textContent = '⛶ Fullscreen';
+    });
+  </script>
+</body>
+</html>
