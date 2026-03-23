@@ -20,6 +20,11 @@ Mapping diffraction through forms.
 
 [GraphStream](./Graphs)
 
+##### What Does It do?
+Polynomials-Still
+
+[Polynomials](./WhatDoesItDo_Polynomials)
+
 <!--
 <div class="sketch-list">
   <a href="Sound/">
