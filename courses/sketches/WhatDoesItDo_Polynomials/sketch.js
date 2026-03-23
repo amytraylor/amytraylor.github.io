@@ -110,6 +110,8 @@ function draw() {
              nf(c, 1, 1),
     rightAlign, 0
   );
+  textSize(tS/2);
+  text("Editable code: https://editor.p5js.org/amytraylor/sketches/Y38r94rbM", rightAlign, 50, 500, 200);
   pop();
 
 }
