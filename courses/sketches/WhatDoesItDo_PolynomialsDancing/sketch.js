@@ -21,7 +21,9 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(windowWidth, windowHeight, P2D);
+  let canvas = createCanvas(windowWidth, windowHeight, P2D);
+  canvas.parent('canvas-container');
+  //createCanvas(windowWidth, windowHeight, P2D);
   textFont(customFont);
   recalc();
 }
