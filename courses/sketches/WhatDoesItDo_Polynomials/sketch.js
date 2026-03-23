@@ -9,10 +9,15 @@ let inc = 25;
 let sinc = 1;
 let rectSize, tS, spacing;
 let rightAlign, leftAlign;
+let link;
 
 function setup() {
   let canvas = createCanvas(windowWidth, windowHeight, P2D);
   canvas.parent('canvas-container');
+  link = createA('https://editor.p5js.org/amytraylor/sketches/Y38r94rbM', 'Editable Code', '_blank');
+    // Optional: Style the link using CSS
+  link.style('color', '#ff0000');
+  link.style('font-family', 'sans-serif');
   //createCanvas(windowWidth, windowHeight, P2D);
   recalc();
 }
@@ -110,8 +115,7 @@ function draw() {
              nf(c, 1, 1),
     rightAlign, 0
   );
-  textSize(tS/2);
-  text("Editable code: https://editor.p5js.org/amytraylor/sketches/Y38r94rbM", rightAlign, 50, 500, 200);
+  link.position(rightAlign-100, height-50);
   pop();
 
 }
