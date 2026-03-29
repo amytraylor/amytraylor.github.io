@@ -9,7 +9,7 @@ const params = {
   vy:    { label: "Term 4 y", val: 3,  min: 1, max: 16 },
   scale:    { label: "Scale",     val: 20, min: 5, max: 50 },
   maxBoxes: { label: "Max # Boxes", val: 1000,  min: 500, max: 10000 },
-  boxSpacing: { label: "Box Spacing", val: 0.1,  min: 0.01, max: 1.0 },
+  boxSpacing: { label: "Box Spacing", val: 1.0,  min: 1.0, max: 100.0 },
   boxSize: { label: "Box Size", val: 5,  min: 1, max: 50 }
 };
 
@@ -80,7 +80,7 @@ function drawCurve() {
   //noStroke();
   stroke(1);
   fill(255);
-
+  spacing = spacing/100.0;
   for (let t = 0; t < mBox; t += spacing) {
     const x = nx * cos(t) + jx * cos((kx * t) / vx);
     const y = ny * sin(t) - jy * sin((ky * t) / vy);
