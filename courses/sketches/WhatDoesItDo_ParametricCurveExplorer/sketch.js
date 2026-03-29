@@ -7,10 +7,9 @@ const params = {
   ky:    { label: "Term 3 y", val: 8,  min: 0, max: 16 },
   vx:    { label: "Term 4 x", val: 3,  min: 1, max: 16 },
   vy:    { label: "Term 4 y", val: 3,  min: 1, max: 16 },
-  scale: { label: "Scale",    val: 20, min: 5, max: 50  }
+  scale:    { label: "Scale",     val: 20, min: 5, max: 50 },
+  rectSize: { label: "Rect Size", val: 5,  min: 1, max: 20 }
 };
-
-let link;
 
 function getVals() {
   return Object.fromEntries(Object.entries(params).map(([k, v]) => [k, v.val]));
@@ -71,14 +70,12 @@ function timestamp() {
 }
 
 function drawCurve() {
-  const { nx, ny, jx, jy, kx, ky, vx, vy, scale: m } = getVals();
-  const sq = m / 4;
+  const { nx, ny, jx, jy, kx, ky, vx, vy, scale: m, rectSize: sq } = getVals();
 
   background(10);
   push();
   translate(width / 2, height / 2);
-  //noStroke();
-  stroke(1);
+  noStroke();
   fill(255);
 
   for (let t = 0; t < 10000; t += 0.05) {
@@ -104,12 +101,6 @@ function setup() {
 
   buildControls();
   updateEquations();
-
-  link = createA('https://editor.p5js.org/amytraylor/sketches/aB9wqEXNa', 'Editable Code', '_blank');
-  link.position(windowWidth - 100, height - 50);
-  link.style('color', '#ff0000');
-  link.style('font-family', 'sans-serif');
-  link.style('font-size', '13px');
 
   drawCurve();
 }
