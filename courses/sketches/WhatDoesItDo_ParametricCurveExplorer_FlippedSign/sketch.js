@@ -150,7 +150,7 @@ function drawCurve() {
   background(10);
   push();
   translate(width / 2, height / 2);
-  noStroke();
+  stroke(1);
   fill(255);
 
   for (let t = 0; t < maxBoxes; t += spacing) {
