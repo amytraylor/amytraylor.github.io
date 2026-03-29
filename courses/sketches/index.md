@@ -29,6 +29,8 @@ Polynomials-Still and Dancing
 
 [Parametric Curve Explorer](./WhatDoesItDo_ParametricCurveExplorer)
 
+[Parametric Curve Explorer with One Flipped Sign](./WhatDoesItDo_ParametricCurveExplorer_FlippedSign)
+
 <!--
 <div class="sketch-list">
   <a href="Sound/">
