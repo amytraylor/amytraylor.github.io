@@ -77,7 +77,8 @@ function drawCurve() {
   background(10);
   push();
   translate(width / 2, height / 2);
-  noStroke();
+  //noStroke();
+  stroke(1);
   fill(255);
 
   for (let t = 0; t < 10000; t += 0.05) {
