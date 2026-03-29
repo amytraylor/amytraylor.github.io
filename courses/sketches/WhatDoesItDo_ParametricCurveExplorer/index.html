@@ -88,25 +88,57 @@
     .info h1 { font-size: 1.25rem; margin-bottom: 1rem; }
 
     .info p {
-      margin: 0.75rem 0;
-      line-height: 1.6;
-      color: #ccc;
+      margin: 0.5rem 0;
+      line-height: 1.5;
+      color: #888;
+      font-size: 0.75rem;
     }
 
-    .info ul { margin: 0.75rem 0; padding-left: 1.25rem; }
+    .info ul { margin: 0.5rem 0; padding-left: 1.25rem; }
 
-    .info li { margin: 0.25rem 0; color: #ccc; }
+    .info li { margin: 0.2rem 0; color: #888; font-size: 0.75rem; }
 
     .info code {
       background: #2a2a2a;
       padding: 0.2em 0.4em;
       border-radius: 3px;
-      font-size: 0.9em;
+      font-size: 0.85em;
+    }
+
+    #live-eq {
+      margin-bottom: 1.25rem;
+      padding: 0.75rem;
+      background: #1e1e1e;
+      border: 1px solid #444;
+      border-radius: 4px;
+      font-family: monospace;
+      font-size: 0.85rem;
+      color: #f0f0f0;
+      line-height: 2;
     }
 
     details { margin-top: 1.5rem; }
 
-    summary { cursor: pointer; color: #60a5fa; }
+    summary {
+      cursor: pointer;
+      color: #60a5fa;
+      font-size: 0.85rem;
+    }
+
+    .code-links {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .editable-link {
+      font-size: 0.85rem;
+      color: #ff0000;
+      text-decoration: none;
+      font-family: sans-serif;
+    }
+
+    .editable-link:hover { text-decoration: underline; }
 
     pre {
       margin-top: 0.5rem;
@@ -142,11 +174,13 @@
 
     <div class="info">
       <h1>Parametric Curve Explorer</h1>
-      <p>Explore hypotrochoid-family curves by adjusting the eight coefficients of the parametric equations:</p>
-      <p>
-        <code>x = nx·cos(t) − jx·cos((kx·t)/vx)</code><br/>
-        <code>y = ny·sin(t) − jy·sin((ky·t)/vy)</code>
-      </p>
+
+      <div id="live-eq">
+        <div id="eq1">x = 8·cos(t) − 6·cos((8·t)/3)</div>
+        <div id="eq2">y = 8·sin(t) − 6·sin((8·t)/3)</div>
+      </div>
+
+      <p>Explore hypotrochoid-family curves by adjusting the eight coefficients above.</p>
 
       <p><strong>Try this:</strong></p>
       <ul>
@@ -163,7 +197,13 @@
       </ul>
 
       <details>
-        <summary>View Code</summary>
+        <summary class="code-links">
+          <span>View Code</span>
+          <a href="https://editor.p5js.org/amytraylor/sketches/aB9wqEXNa"
+             class="editable-link"
+             target="_blank"
+             onclick="event.stopPropagation()">Editable Code</a>
+        </summary>
         <pre id="code-display"></pre>
       </details>
     </div>
