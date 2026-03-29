@@ -27,6 +27,8 @@ Polynomials-Still and Dancing
 
 [Polynomials Dancing](./WhatDoesItDo_PolynomialsDancing)
 
+[Parametric Curve Explorer](./WhatDoesItDo_ParametricCurveExplorer)
+
 <!--
 <div class="sketch-list">
   <a href="Sound/">
