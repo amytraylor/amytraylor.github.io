@@ -1,3 +1,7 @@
+// +1 = addition (epitrochoid family), -1 = subtraction (hypotrochoid family)
+let signX = -1;
+let signY = -1;
+
 const params = {
   nx:    { label: "Term 1 x", val: 8,  min: 0, max: 16 },
   ny:    { label: "Term 1 y", val: 8,  min: 0, max: 16 },
@@ -7,10 +11,10 @@ const params = {
   ky:    { label: "Term 3 y", val: 8,  min: 0, max: 16 },
   vx:    { label: "Term 4 x", val: 3,  min: 1, max: 16 },
   vy:    { label: "Term 4 y", val: 3,  min: 1, max: 16 },
-  scale:    { label: "Scale",     val: 20, min: 5, max: 50 },
-  maxBoxes: { label: "Max # Boxes", val: 1000,  min: 500, max: 10000 },
-  boxSpacing: { label: "Box Spacing", val: 1.0,  min: 1.0, max: 100.0 },
-  boxSize: { label: "Box Size", val: 5,  min: 1, max: 50 }
+  scale:      { label: "Scale",       val: 20,   min: 5,   max: 50    },
+  boxSize:    { label: "Box Size",    val: 5,    min: 1,   max: 50    },
+  maxBoxes:   { label: "Max # Boxes", val: 1000, min: 500, max: 10000, step: 100 },
+  boxSpacing: { label: "Box Spacing", val: 10,   min: 1,   max: 100   }
 };
 
 function getVals() {
@@ -19,10 +23,13 @@ function getVals() {
 
 function updateEquations() {
   const { nx, ny, jx, jy, kx, ky, vx, vy } = getVals();
+  const sx = signX === 1 ? "+" : "−";
+  const sy = signY === 1 ? "+" : "−";
   document.getElementById("eq1").textContent =
-    `x = ${nx}*cos(t) - ${jx}*cos((${kx}*t)/${vx})`;
+    `x = ${nx}·cos(t) ${sx} ${jx}·cos((${kx}·t)/${vx})`;
   document.getElementById("eq2").textContent =
-    `y = ${ny}*sin(t) - ${jy}*sin((${ky}*t)/${vy})`;
+    `y = ${ny}·sin(t) ${sy} ${jy}·sin((${ky}·t)/${vy})`;
+  updateFamilyLabel();
 }
 
 function buildControls() {
@@ -45,7 +52,7 @@ function buildControls() {
     sl.type  = "range";
     sl.min   = p.min;
     sl.max   = p.max;
-    sl.step  = 1;
+    sl.step  = p.step || 1;
     sl.value = p.val;
     sl.style.flex = "1";
 
@@ -63,6 +70,56 @@ function buildControls() {
     row.append(lbl, sl, valSpan);
     container.appendChild(row);
   });
+
+  // Sign toggles
+  const toggleSection = document.createElement("div");
+  toggleSection.style.cssText = "margin-top:1rem;padding-top:0.75rem;border-top:1px solid #333;";
+
+  [["signX", "X sign"], ["signY", "Y sign"]].forEach(([id, label]) => {
+    const row = document.createElement("div");
+    row.style.cssText = "display:flex;align-items:center;gap:8px;margin-bottom:8px;";
+
+    const lbl = document.createElement("span");
+    lbl.textContent = label;
+    lbl.style.cssText = "min-width:80px;font-size:11px;color:#888;font-family:monospace;";
+
+    const btnMinus = document.createElement("button");
+    btnMinus.textContent = "−";
+    btnMinus.dataset.id = id;
+    btnMinus.dataset.val = "-1";
+
+    const btnPlus = document.createElement("button");
+    btnPlus.textContent = "+";
+    btnPlus.dataset.id = id;
+    btnPlus.dataset.val = "1";
+
+    const btnStyle = "padding:2px 10px;font-size:13px;font-family:monospace;cursor:pointer;border-radius:3px;border:1px solid #555;background:#222;color:#fff;";
+    btnMinus.style.cssText = btnStyle;
+    btnPlus.style.cssText  = btnStyle;
+
+    function updateToggle() {
+      const current = id === "signX" ? signX : signY;
+      btnMinus.style.background = current === -1 ? "#2563eb" : "#222";
+      btnPlus.style.background  = current ===  1 ? "#2563eb" : "#222";
+    }
+
+    [btnMinus, btnPlus].forEach(btn => {
+      btn.onclick = () => {
+        const val = parseInt(btn.dataset.val);
+        if (btn.dataset.id === "signX") signX = val;
+        else signY = val;
+        updateToggle();
+        updateEquations();
+        drawCurve();
+      };
+    });
+
+    updateToggle();
+    row.append(lbl, btnMinus, btnPlus);
+    toggleSection.appendChild(row);
+  });
+
+  container.appendChild(toggleSection);
 }
 
 function timestamp() {
@@ -71,19 +128,34 @@ function timestamp() {
           d.getHours(), d.getMinutes(), d.getSeconds()].join("_");
 }
 
+function updateFamilyLabel() {
+  const el = document.getElementById("family-label");
+  if (!el) return;
+  const families = {
+    "--": { name: "Hypotrochoid", desc: "Both terms subtract — point on a circle rolling inside another circle. Classic spirograph inner curves." },
+    "+-": { name: "Hybrid (epi-x / hypo-y)", desc: "X uses addition, Y subtraction. Not a standard named family — produces asymmetric, exotic forms." },
+    "-+": { name: "Hybrid (hypo-x / epi-y)", desc: "X uses subtraction, Y addition. Mirror-asymmetric hybrid family." },
+    "++": { name: "Epitrochoid", desc: "Both terms add — point on a circle rolling outside another circle. Classic spirograph outer curves and rose curves." }
+  };
+  const key = (signX === -1 ? "-" : "+") + (signY === -1 ? "-" : "+");
+  const f = families[key];
+  el.querySelector(".family-name").textContent = f.name;
+  el.querySelector(".family-desc").textContent = f.desc;
+}
+
 function drawCurve() {
-  const { nx, ny, jx, jy, kx, ky, vx, vy, scale: m, maxBoxes: mBox, boxSpacing: spacing, boxSize: sq } = getVals();
+  const { nx, ny, jx, jy, kx, ky, vx, vy, scale: m, boxSize: sq, maxBoxes, boxSpacing: rawSpacing } = getVals();
+  const spacing = rawSpacing / 100.0;
 
   background(10);
   push();
   translate(width / 2, height / 2);
-  //noStroke();
-  stroke(1);
+  noStroke();
   fill(255);
-  spacing = spacing/100.0;
-  for (let t = 0; t < mBox; t += spacing) {
-    const x = nx * cos(t) + jx * cos((kx * t) / vx);
-    const y = ny * sin(t) - jy * sin((ky * t) / vy);
+
+  for (let t = 0; t < maxBoxes; t += spacing) {
+    const x = nx * cos(t) + signX * jx * cos((kx * t) / vx);
+    const y = ny * sin(t) + signY * jy * sin((ky * t) / vy);
     rect(x * m, y * m, sq, sq);
   }
 
