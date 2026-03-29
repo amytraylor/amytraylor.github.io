@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Parametric Curve Explorer</title>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #1a1a1a;
+      color: #e5e5e5;
+      min-height: 100vh;
+    }
+
+    #fs-btn {
+      position: fixed;
+      top: 0.75rem;
+      right: 0.75rem;
+      z-index: 1000;
+      padding: 0.5rem 0.75rem;
+      background: #2563eb;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    #fs-btn:hover { background: #1d4ed8; }
+
+    .nav {
+      padding: 0.75rem 1.5rem;
+      background: #2a2a2a;
+      border-bottom: 1px solid #333;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .nav a {
+      color: #999;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+
+    .nav a:hover { color: #60a5fa; }
+
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 320px;
+      min-height: calc(100vh - 50px);
+    }
+
+    .canvas-area {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      background: #000;
+    }
+
+    .controls {
+      display: flex;
+      gap: 0.5rem;
+      margin-top: 1rem;
+    }
+
+    .controls button {
+      padding: 0.5rem 1rem;
+      background: #2563eb;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .controls button:hover { background: #1d4ed8; }
+
+    .info {
+      padding: 1.5rem;
+      border-left: 1px solid #333;
+      overflow-y: auto;
+    }
+
+    .info h1 { font-size: 1.25rem; margin-bottom: 1rem; }
+
+    .info p {
+      margin: 0.5rem 0;
+      line-height: 1.5;
+      color: #888;
+      font-size: 0.75rem;
+    }
+
+    .info ul { margin: 0.5rem 0; padding-left: 1.25rem; }
+
+    .info li { margin: 0.2rem 0; color: #888; font-size: 0.75rem; }
+
+    .info code {
+      background: #2a2a2a;
+      padding: 0.2em 0.4em;
+      border-radius: 3px;
+      font-size: 0.85em;
+    }
+
+    #live-eq {
+      margin-bottom: 1.25rem;
+      padding: 0.75rem;
+      background: #1e1e1e;
+      border: 1px solid #444;
+      border-radius: 4px;
+      font-family: monospace;
+      font-size: 0.85rem;
+      color: #f0f0f0;
+      line-height: 2;
+    }
+
+    details { margin-top: 1.5rem; }
+
+    summary {
+      cursor: pointer;
+      color: #60a5fa;
+      font-size: 0.85rem;
+    }
+
+    .code-links {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .editable-link {
+      font-size: 0.85rem;
+      color: #ff0000;
+      text-decoration: none;
+      font-family: sans-serif;
+    }
+
+    .editable-link:hover { text-decoration: underline; }
+
+    pre {
+      margin-top: 0.5rem;
+      background: #2a2a2a;
+      padding: 1rem;
+      overflow: auto;
+      max-height: 300px;
+      font-size: 0.8rem;
+      border-radius: 4px;
+    }
+
+    @media (max-width: 900px) {
+      .container { grid-template-columns: 1fr; }
+      .info { border-left: none; border-top: 1px solid #333; }
+    }
+  </style>
+</head>
+<body>
+  <button id="fs-btn">⛶ Fullscreen</button>
+
+  <nav class="nav">
+    <a href="../">&larr; Back to Sketches</a>
+    <span>Parametric Curve Explorer</span>
+  </nav>
+
+  <div class="container">
+    <div class="canvas-area">
+      <div id="canvas-container"></div>
+      <div class="controls">
+        <button id="save-btn">Save Image</button>
+      </div>
+    </div>
+
+    <div class="info">
+      <h1>Parametric Curve Explorer</h1>
+
+      <div id="live-eq">
+        <div id="eq1">x = 8·cos(t) − 6·cos((8·t)/3)</div>
+        <div id="eq2">y = 8·sin(t) − 6·sin((8·t)/3)</div>
+      </div>
+
+      <p>Explore hypotrochoid-family curves by adjusting the eight coefficients above.</p>
+
+      <p><strong>Try this:</strong></p>
+      <ul>
+        <li>Drag any slider to reshape the curve in real time</li>
+        <li>Click the canvas to force a redraw</li>
+        <li>Press <code>E</code> to save a PNG</li>
+      </ul>
+
+      <p>This sketch demonstrates:</p>
+      <ul>
+        <li>Hypotrochoids and Lissajous-family curves</li>
+        <li>Parametric equations with independent x/y coefficients</li>
+        <li>Dot-plot rendering at variable scale</li>
+      </ul>
+
+      <details>
+        <summary class="code-links">
+          <span>View Code</span>
+          <a href="https://editor.p5js.org/amytraylor/sketches/aB9wqEXNa"
+             class="editable-link"
+             target="_blank"
+             onclick="event.stopPropagation()">Editable Code</a>
+        </summary>
+        <pre id="code-display"></pre>
+      </details>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js"></script>
+  <script src="sketch.js"></script>
+
+  <script>
+    const fsBtn   = document.getElementById("fs-btn");
+    const saveBtn = document.getElementById("save-btn");
+
+    fsBtn.addEventListener("click", () => {
+      if (!document.fullscreenElement) {
+        document.documentElement.requestFullscreen();
+        fsBtn.textContent = "✕ Exit";
+      } else {
+        document.exitFullscreen();
+        fsBtn.textContent = "⛶ Fullscreen";
+      }
+    });
+
+    document.addEventListener("fullscreenchange", () => {
+      if (!document.fullscreenElement) {
+        fsBtn.textContent = "⛶ Fullscreen";
+      }
+    });
+
+    saveBtn.addEventListener("click", () => {
+      if (typeof saveCanvas === "function") {
+        saveCanvas("parametric_curve", "png");
+      }
+    });
+
+    fetch("sketch.js")
+      .then(r => r.text())
+      .then(code => {
+        document.getElementById("code-display").textContent = code;
+      })
+      .catch(err => {
+        document.getElementById("code-display").textContent =
+          "Could not load sketch.js\n\n" + err;
+      });
+  </script>
+</body>
+</html>
