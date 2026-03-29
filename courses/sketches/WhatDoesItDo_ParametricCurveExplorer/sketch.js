@@ -8,7 +8,7 @@ const params = {
   vx:    { label: "Term 4 x", val: 3,  min: 1, max: 16 },
   vy:    { label: "Term 4 y", val: 3,  min: 1, max: 16 },
   scale:    { label: "Scale",     val: 20, min: 5, max: 50 },
-  rectSize: { label: "Rect Size", val: 5,  min: 1, max: 20 }
+  rectSize: { label: "Rect Size", val: 5,  min: 1, max: 50 }
 };
 
 function getVals() {
@@ -75,10 +75,11 @@ function drawCurve() {
   background(10);
   push();
   translate(width / 2, height / 2);
-  noStroke();
+  //noStroke();
+  stroke(1);
   fill(255);
 
-  for (let t = 0; t < 10000; t += 0.05) {
+  for (let t = 0; t < 1000; t += 0.1) {
     const x = nx * cos(t) - jx * cos((kx * t) / vx);
     const y = ny * sin(t) - jy * sin((ky * t) / vy);
     rect(x * m, y * m, sq, sq);
