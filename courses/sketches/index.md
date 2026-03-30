@@ -14,6 +14,8 @@ Using sound to map diffraction
 
 [Speech to Text](./SpeechToText)
 
+[Polynomial Plus MIDI Sound](./PolyMIDI)
+
 
 ##### Form
 Mapping diffraction through forms.
