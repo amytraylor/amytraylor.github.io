@@ -84,7 +84,8 @@ function drawCurve() {
     const y = ny * sin(t) - jy * sin((ky * t) / vy);
     rect(x * m, y * m, sq, sq);
   }
-
+  text(`x = ${nx}*cos(t) - ${jx}*cos((${kx}*t)/${vx})`, 0, 0);  
+  text(`y = ${ny}*sin(t) - ${jy}*sin((${ky}*t)/${vy})`, 0, 100);
   pop();
 }
 
