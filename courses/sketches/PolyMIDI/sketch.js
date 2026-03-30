@@ -14,6 +14,7 @@
 
 // ---------- Font ----------
 let customFont;
+let link;
 function preload() {
   customFont = loadFont("Nobile-Regular.ttf");
 }
@@ -198,7 +199,13 @@ function processStrum() {
 
 // ---------- p5 setup ----------
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  
+  let canvas = createCanvas(windowWidth, windowHeight);
+  canvas.parent('canvas-container');
+  link = createA('https://editor.p5js.org/amytraylor/sketches/VQih7yYTq', 'Editable Code', '_blank');
+    // Optional: Style the link using CSS
+  link.style('color', '#ff0000');
+  link.style('font-family', 'sans-serif');
   textFont(customFont);
   recalc();
   document.addEventListener("click", () => { if (!audioCtx) initAudio(); });
@@ -377,6 +384,7 @@ function drawUI() {
     "y = " + nf(a,1,2) + "x\u00B2 + " + nf(b,1,2) + "x + " + nf(c,1,1),
     width * 0.95, 0
   );
+    link.position(width*0.95, 50);
   pop();
 }
 
