@@ -14,7 +14,7 @@ const params = {
   scale:      { label: "Scale",       val: 20,   min: 5,   max: 50    },
   boxSize:    { label: "Box Size",    val: 5,    min: 1,   max: 50    },
   maxBoxes:   { label: "Max # Boxes", val: 1000, min: 100, max: 2000, step: 100 },
-  boxSpacing: { label: "Box Spacing", val: 10,   min: 1,   max: 100, step: 10 }
+  boxSpacing: { label: "Box Spacing", val: 10,   min: 1,   max: 100   }
 };
 
 function getVals() {
@@ -34,11 +34,6 @@ function updateEquations() {
 
 function buildControls() {
   const container = document.getElementById("sliders");
-
-  const eqDiv = document.createElement("div");
-  eqDiv.style.cssText = "margin-bottom:1rem;font-family:monospace;font-size:11px;color:#aaa;line-height:1.8;";
-  eqDiv.innerHTML = '<div id="eq1"></div><div id="eq2"></div>';
-  container.appendChild(eqDiv);
 
   Object.entries(params).forEach(([key, p]) => {
     const row = document.createElement("div");
@@ -145,7 +140,7 @@ function updateFamilyLabel() {
 
 function drawCurve() {
   const { nx, ny, jx, jy, kx, ky, vx, vy, scale: m, boxSize: sq, maxBoxes, boxSpacing: rawSpacing } = getVals();
-  const spacing = rawSpacing / 1000.0;
+  const spacing = rawSpacing / 500.0;
 
   background(10);
   push();
