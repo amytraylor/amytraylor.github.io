@@ -13,8 +13,8 @@ const params = {
   vy:    { label: "Term 4 y", val: 3,  min: 1, max: 16 },
   scale:      { label: "Scale",       val: 20,   min: 5,   max: 50    },
   boxSize:    { label: "Box Size",    val: 5,    min: 1,   max: 50    },
-  maxBoxes:   { label: "Max # Boxes", val: 1000, min: 500, max: 10000, step: 100 },
-  boxSpacing: { label: "Box Spacing", val: 10,   min: 1,   max: 100   }
+  maxBoxes:   { label: "Max # Boxes", val: 1000, min: 100, max: 2000, step: 100 },
+  boxSpacing: { label: "Box Spacing", val: 10,   min: 1,   max: 100, step: 10 }
 };
 
 function getVals() {
@@ -145,7 +145,7 @@ function updateFamilyLabel() {
 
 function drawCurve() {
   const { nx, ny, jx, jy, kx, ky, vx, vy, scale: m, boxSize: sq, maxBoxes, boxSpacing: rawSpacing } = getVals();
-  const spacing = rawSpacing / 100.0;
+  const spacing = rawSpacing / 1000.0;
 
   background(10);
   push();
