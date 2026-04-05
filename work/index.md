@@ -12,13 +12,11 @@ title: Work
       <div class="work-item-info">
         <h3>Working Thesis</h3>
         <p>Comprehensive Exam Chapters.</p>
-        - <a href="https://pages.mtu.edu/~jdslack/readings/CSReadings/Bennett_Jane_The_Force_of_Things.pdf"
+        - <a href="https://github.com/amytraylor/amytraylor.github.io/tree/main/courses/thesis/"
          target="_blank"
          rel="noopener noreferrer"
-         title="Opens the PDF in a new tab">
-    Jane Bennett, <em>Vibrant Matter</em> (PDF)
-  </a>
-- [Special Annotated Text](/courses/MathAsArtMaterial/vibrantmatter/)
+         title="Opens in a new tab">
+     </a>
       </div>
     </a>
     
