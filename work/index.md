@@ -16,6 +16,7 @@ title: Work
          target="_blank"
          rel="noopener noreferrer"
          title="Opens in a new tab">
+        Jane Bennett, <em>Vibrant Matter</em> (MD)
      </a>
       </div>
     </a>
