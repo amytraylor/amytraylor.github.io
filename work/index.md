@@ -10,11 +10,13 @@ title: Work
     <a href="#" class="work-item">
       <img src="/assets/images/placeholder.svg" alt="Project thumbnail">
       <div class="work-item-info">
-        <h3>Project Title</h3>
-        <p>Brief description of the project.</p>
+        <h3>Working Thesis</h3>
+        <p>Comprehensive Exam Chapters.</p>
+        
       </div>
     </a>
     
     <!-- Add more work items as needed -->
   </div>
 </div>
+[Comps](../courses/thesis/comps_draft_v27 (3).md)
