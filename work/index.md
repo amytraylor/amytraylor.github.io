@@ -13,4 +13,4 @@ Selected projects across research, writing, and art.
 
 Comprehensive Exam Chapters.
 
-- [Questions]({{ '/courses/thesis/' | relative_url }})
+- [Questions]({{ '/thesis/' | relative_url }})
