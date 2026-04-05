@@ -14,3 +14,4 @@ Selected projects across research, writing, and art.
 Comprehensive Exam Chapters.
 
 - [Comprehensive Exam](./comprehensive_exam.md/)
+- [Working Bibliography](./working_bibliography.md/)
