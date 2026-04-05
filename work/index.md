@@ -12,7 +12,7 @@ title: Work
       <div class="work-item-info">
         <h3>Working Thesis</h3>
         <p>Comprehensive Exam Chapters.</p>
-        - <a href="https://github.com/amytraylor/amytraylor.github.io/tree/main/courses/thesis/"
+        - <a href="https://github.com/amytraylor/amytraylor.github.io/tree/main/courses/thesis/index.md"
          target="_blank"
          rel="noopener noreferrer"
          title="Opens in a new tab">
