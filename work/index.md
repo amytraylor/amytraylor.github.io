@@ -19,4 +19,6 @@ title: Work
     <!-- Add more work items as needed -->
   </div>
 </div>
-[Comps](../courses/thesis/comps_draft_v27 (3).md)
+
+
+[Comps](/courses/thesis/comps_draft_v27 (3).md)
