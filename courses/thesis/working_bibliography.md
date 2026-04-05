@@ -1,3 +1,8 @@
+---
+layout: default
+title: Working Bibliography
+permalink: /courses/thesis/working-bibliography/
+---
 # Working Bibliography — Comps Draft v27
 
 Last updated: April 2026  
