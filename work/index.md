@@ -13,4 +13,4 @@ Selected projects across research, writing, and art.
 
 Comprehensive Exam Chapters.
 
-- [Questions]({{ '/thesis/' | relative_url }})
+- [Comprehensive Exam](./comprehensive_exam.md/)
