@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Working Bibliography
-permalink: /courses/thesis/working-bibliography/
+permalink: /work/working-bibliography/
 ---
+
 # Working Bibliography — Comps Draft v27
 
 Last updated: April 2026  
@@ -62,7 +63,8 @@ Status markers: ✓ = citation verified from text in hand | [page TK] = page num
 
 **Braidotti, R. (2023).** [full ref TK — cited: "New materialism is the most relevant philosophical framework for rethinking the relationship to the complex environmental and social ecologies that define the posthuman era (Braidotti, 2023)"]
 
-**Britton, C., Klumbytė, G., & Draude, C. (2019).** [full ref TK — cited as "Doing thinking" / Britton et al., 2019. Art + new materialism; three hybrid methodologies. Confirm full title and publisher.]
+**Britton, C., Klumbytė, G., & Draude, C. (2019).** Doing thinking: Revisiting computing with artistic research and technofeminism. *Digital Creativity*, [volume/pages TK]. DOI TK.  
+✓ Full title and journal confirmed from research notes. Year confirmed. Used: p. 316 (methodological openness; "doing thinking as a material-speculative practice"); creating situations for intra-action; agency as distributed across human and non-human elements; research/researched mutually constituted.
 
 **Burnham, J. (1968).** Systems esthetics. *Artforum*, 7(1).  
 [Referenced in lineage argument; no direct quote.]
@@ -72,6 +74,9 @@ Status markers: ✓ = citation verified from text in hand | [page TK] = page num
 ## C
 
 **Calvo-Pascual, M. A. (2024).** [full ref TK — "connections — or, rather, intra-actions — among critical posthumanism, environmental/animal studies, and new materialism"; Alaimo trans-corporeality; Barad ethics of accountability]
+
+**Cull Ó Maoilearca, L. (2019).** Artistic research and performance. In P. de Assis & L. D'Errico (Eds.), *Artistic Research: Charting a Field in Expansion* (pp. 146–174). Rowman & Littlefield International.  
+✓ Confirmed from PDF. Used: p. 154 (representationalist vs. performative paradigms); p. 156 ("performance is a form of knowledge that shares its insights through what it does rather than what it means").
 
 **Canagarajah, A. S. (2018).** [full ref TK — cited via Siffrinn and Coda, 2025, p. 39; "diverse semiotic resources... collaborative role"]
 
@@ -97,6 +102,10 @@ Status markers: ✓ = citation verified from text in hand | [page TK] = page num
 **D'Errico, L. (2015).** Aberrant likenesses. In M. Schwab (Ed.), *Transpositions: Aesthetico-epistemic operators in artistic research*. Leuven University Press.  
 ✓ Referenced in synthesis (anamorphic resemblance, score/performance hiatus).
 
+**de Assis, P., & D'Errico, L. (Eds.). (2019).** *Artistic Research: Charting a Field in Expansion*. Rowman & Littlefield International. ISBN: 978-1-78661-149-9  
+✓ Confirmed from PDF. Contains Schwab's "Expositionality" chapter (ch. 2, pp. 27–45) and Cull Ó Maoilearca's "Artistic Research and Performance" (ch. 10, pp. 146–174).  
+**Note:** This is a separate volume from *Transpositions* (Schwab, Ed., 2018, Leuven University Press). The draft citation "Schwab, 2018, pp. 8–9" refers to the Introduction of *Transpositions*, not this volume.
+
 **Dolphijn, R., & van der Tuin, I. (2010).** The transversality of new materialism. *Women: A Cultural Review*, 21(2), 153–171.  
 ✓ Used: p. 153 (fascinated by affect, force and movement), p. 95 (via Ferrando). Also cited as "van der Tuin and Dolphijn (2010)" throughout.
 
@@ -120,6 +129,13 @@ Status markers: ✓ = citation verified from text in hand | [page TK] = page num
 **Fox, N. J., & Alldred, P. (2021).** Applied research, diffractive methodology, and the research-assemblage: Challenges and opportunities. *Sociological Research Online*, 26(2).  
 ✓ Used: researcher-centric caution; education, health, sustainability domains; sexual harassment/vaccine hesitancy examples.
 
+**Groen, A. (2016).** *This wonder which is not one: A cartography of potentials* [RMA thesis]. Graduate School of Humanities, Utrecht University. (Supervisor: dr. Kathrin Thiele; Second Reader: dr. Iris van der Tuin.)  
+✓ Text in project folder. RMA Gender & Ethnicity thesis. On wonder in philosophical discourse (Plato, Aristotle, Descartes, Spinoza, Irigaray, Malabou). Does not cite Bennett. Not currently cited in draft — potential source for wonder/enchantment content.
+
+---
+
+## F
+
 **Franinović, K. (2016).** Thinking active materials: Actively thinking materials. In R. Kirschner (Ed.), *Raw Flows: Fluid Mattering in Arts and Research* (pp. 124–143). [Publisher TK].  
 ✓ Used: pp. 129 (seed-space), 130 (activate materials), 133 (question shifts to how), 134 (purposeless material), 135 (fluid affordance), 136 (pulled into process), 139–140 (agency controversy, fluid affordances enable open-ended processes).
 
@@ -128,6 +144,9 @@ Status markers: ✓ = citation verified from text in hand | [page TK] = page num
 ---
 
 ## G
+
+**Groen, A. (2016).** *This wonder which is not one: A cartography of potentials* [RMA thesis]. Graduate School of Humanities, Utrecht University. (Supervisor: dr. Kathrin Thiele; Second Reader: dr. Iris van der Tuin.)  
+✓ Text in project folder. RMA Gender & Ethnicity thesis. On wonder in philosophical discourse (Plato, Aristotle, Descartes, Spinoza, Irigaray, Malabou). Does not cite Bennett. Not currently cited in draft.
 
 **Gamble, C., Hanan, J., & Rossdale, C. (2019).** Rethinking the post/nonhuman. *Theory, Culture & Society*, 36(7–8), 3–23.  
 ✓ Used: three-strand NM typology (vital materialism / negative materialism / performative materialism).
@@ -138,21 +157,29 @@ Status markers: ✓ = citation verified from text in hand | [page TK] = page num
 
 **Haraway, D. (1988).** Situated knowledges: The science question in feminism and the privilege of partial perspective. *Feminist Studies*, 14(3), 575–599.  
 ✓ Confirmed from PDF. Key passages:  
-— "I am arguing for politics and epistemologies of location, positioning, and situating, where partiality and not universality is the condition of being heard to make rational knowledge claims." p. 589.  
-— "Only partial perspective promises objective vision." p. 583.  
-— God trick first appears p. 581.  
-— Diffraction, Trinh, speaking nearby NOT in this text — those are in Modest Witness (1997).
+— "I am arguing for politics and epistemologies of location, positioning, and situating, where partiality and not universality is the condition of being heard to make rational knowledge claims." **p. 589** ✓  
+— "Only partial perspective promises objective vision." **p. 583** ✓  
+— God trick first appears **p. 581** ✓  
+— Diffraction, Trinh, and speaking nearby do NOT appear in this text.
 
 **Haraway, D. (1991).** A Cyborg Manifesto: Science, technology, and socialist-feminism in the late twentieth century. In *Simians, Cyborgs, and Women: The Reinvention of Nature* (pp. 149–181). Routledge.  
 [PDF in project folder as Chapter 18 reprint — scan only, no extractable text. Page numbers refer to Routledge edition.]
 
+**Haraway, D. (1992).** The promises of monsters: A regenerative politics for inappropriate/d others. In L. Grossberg, C. Nelson, & P. A. Treichler (Eds.), *Cultural Studies* (pp. 295–337). Routledge.  
+✓ PDF in project folder (haraway_Promises_of_Monsters.pdf — scan, readable via pypdf). **This is the origin text for the diffraction metaphor in feminist theory.**  
+Key passages confirmed:  
+— pp. 299–300: Trinh Minh-ha's "critical difference within" quoted and extended into the diffraction metaphor. Passage Barad (2003) quotes verbatim: "Diffraction does not produce 'the same' displaced, as reflection and refraction do. Diffraction is a mapping of interference, not of replication, reflection, or reproduction. A diffraction pattern does not map where differences appear, but rather maps where the effects of differences appear."  
+— Trinh appears at pp. 299 and 335 (footnote 17).  
+**Note:** The draft previously misattributed this passage to Haraway (1997, p. 271) — corrected. The 1997 *Modest Witness* is a separate further development.
+
 **Haraway, D. (1997).** *Modest_Witness@Second_Millennium.FemaleMan©_Meets_OncoMouse™*. Routledge.  
-[NOT in project folder. Page TK items still needed:]  
-— [page TK] diffraction vs. reflexivity passage ("the history of interaction, interference, reinforcement, difference") — currently cited at p. 273 in the draft; verify.  
-— [page TK] figuration passage ("performative images that can be inhabited") — currently cited at p. 11 in the draft; verify.  
-— [page TK] passage where Haraway cites Trinh and connects speaking nearby to situated knowledge and diffraction.  
-— [page TK] "diffracting the rays of technoscience" — currently cited at p. 16; verify.  
-— Gene passage (Haraway, 1997, p. 142) — currently cited as such via Braidotti (2006, p. 27); likely correct.
+✓ Text in project folder. All key page numbers confirmed:  
+— "Figurations are performative images that can be inhabited" — **p. 11** ✓  
+— "diffract the rays of technoscience" — **p. 16** ✓  
+— Reflexivity vs. diffraction passage ("reflexivity, like reflection, only displaces the same elsewhere") — **p. 16** ✓  
+— The phrase "diffraction patterns record the history of interaction, interference, reinforcement, difference" (p. 271) is a separate, later passage about Lynn Randolph's painting "A Diffraction." The earlier, theoretically foundational diffraction-from-Trinh passage is in Haraway (1992) *Promises of Monsters*, pp. 299–300, not in this text. Draft corrected accordingly.  
+— Gene passage (Haraway, 1997, p. 142) — cited via Braidotti (2006, p. 27); plausible but not independently verified from this file.  
+— **Note:** Trinh T. Minh-ha does not appear anywhere in Modest Witness. The claim that Haraway cites Trinh in this text was incorrect and has been removed from the draft.
 
 **Haraway, D. (2013).** *When Species Meet*. University of Minnesota Press.  
 [Referenced via Torosyan et al.; "becoming with."]
@@ -169,7 +196,8 @@ Status markers: ✓ = citation verified from text in hand | [page TK] = page num
 **Hill, C. M. (2017).** More-than-reflective practice: Becoming a diffractive practitioner. *Teacher Learning and Professional Development*, 2(1), 1–17.  
 ✓ Confirmed from PDF. Simon Fraser University. Used: pp. 6–14 (three modes of becoming-diffractive; diffractive reading vs. diffractive apparatus; Schön analogy).
 
-**Hillary, R. (2021).** [full ref TK — PhD dissertation. Public art practice. Methodology list p. 29; handling p. 31. Confirm institution and title.]
+**Hillary, F. (2021).** *A creative cartography: [full subtitle TK — includes "rehearsal of the future" and posthuman publics]* [PhD dissertation]. [Institution TK — Australian context based on coordinates cited in research notes: 37°57'02.5"S 144°38'02.0"E = Melbourne, likely RMIT or University of Melbourne.]  
+✓ First name confirmed as Fiona (not "R.") from research notes. Year confirmed. Used: pp. 29 (methodology list), 31 (handling/multisensory engagement).
 
 **Hinterwaldner, I. (2016).** Surfing the waves: The roles of marker materials in turbulence experiments. In R. Kirschner (Ed.), *Raw Flows: Fluid Mattering in Arts and Research* (pp. 48–63). [Publisher TK].  
 ✓ Used: p. 49 (Bennett thing-power; intra-acting; markers as material agents).
@@ -229,7 +257,8 @@ Status markers: ✓ = citation verified from text in hand | [page TK] = page num
 
 **Moss, P.** See Clark & Moss (2001).
 
-**Mäkikoskela, L.** [full ref TK — "artistic thinking" as movement between materiality and conceptuality; feminist new materialism; cited in draft without year or full title. Likely a chapter in Transpositions or a separate article.]
+**Mäkikoskela, R. I. (2019).** On material and artistic thinking. [Journal/publisher TK — confirmed as standalone article/chapter from research notes. Full name: Riikka Irina Mäkikoskela.]  
+✓ Title and year confirmed from research notes. Used: "artistic thinking" as the often unnoticed movement between materiality and conceptuality in visual art practice; feminist new materialism (Barad); dialogical thinking with materials; artistic research methodology tracking the thinking of the artist through the process.
 
 ---
 
@@ -276,16 +305,20 @@ Status markers: ✓ = citation verified from text in hand | [page TK] = page num
 
 **Schwab, M. (2013).** [full ref TK — "luxury to jump right in"; forced acting, incoherent scripts. Cited as "Schwab, 2013, in Transpositions" — this may be a 2013 precursor article or a conference paper that preceded the 2018 volume. Confirm.]
 
+**Schwab, M. (Ed.). (2018).** *Transpositions: Aesthetico-epistemic operators in artistic research*. Leuven University Press.  
+✓ Volume confirmed. Introduction (Schwab, 2018, pp. 8–9) is cited in draft for: "something 'artistic' is increasingly needed in other areas of research to realize complicated relationships with knowledge objects." Page numbers confirmed as from the Introduction to this volume, not from *Charting a Field in Expansion* (de Assis & D'Errico, 2019).
+
 **Shklovsky, V. (1917).** Art as technique. In L. T. Lemon & M. J. Reis (Trans.), *Russian Formalist Criticism: Four Essays* (1965, pp. 3–24). University of Nebraska Press.  
 [No direct quote; concept of ostranenie referenced.]
 
 **Siffrinn, N., & Coda, J. (2025).** [full ref TK — Applied linguistics; posthumanist and new materialist research survey; pp. 194, 195, 196, 197, 198. Journal and volume TK.]
 
-**Smelik, A. (2018).** [full ref TK — "posthumanism as context for new materialism"; posthumanism introduced the explicit decentering of the human.]
+**Smelik, A. (2018).** New materialism: A theoretical framework for fashion in the age of technological innovation. *International Journal of Fashion Studies*, 5(1), 33–54. https://doi.org/10.1386/infs.5.1.33_1  
+✓ Confirmed via web search. Used in draft for: posthumanism as context for new materialism; posthumanism introduced the explicit decentering of the human.
 
 **Srnicek, N. (2017).** [full ref TK — groups posthumanism, speculative realism, and OOO as subgroup variants of new materialism.]
 
-**Sullivan, G.** [full ref TK — particle physics directly influenced emergence of conceptual art; art education researcher. No year given in draft. Full reference needed.]
+**Sullivan, G.** [full ref TK — cited as "scholars in art education have traced a lineage in which quantum overthrow of classical determinism found its cultural articulation in the dematerialization of the art object." No year, institution, or title confirmed. Likely: Sullivan, G. (2005). *Art Practice as Research: Inquiry in Visual Arts*. Sage. Verify.]
 
 ---
 
@@ -296,8 +329,8 @@ Status markers: ✓ = citation verified from text in hand | [page TK] = page num
 **Thrift, N. (2007).** *Non-Representational Theory: Space, Politics, Affect*. Routledge.  
 ✓ Used: p. 217 ("decisions have to be made for the moment, by the moment"), cited via Siffrinn and Coda, 2025, p. 198.
 
-**Timeto, F. (2011).** Diffracting the rays of technoscience: A situated critique of representation. *Vs: Quaderni di studi semiotici*, [volume/pages TK].  
-✓ Used: p. 157 (Hayles constrained constructivism; "riding the cusp"). Hayles → Haraway → Barad genealogy.
+**Timeto, F. (2011).** Diffracting the rays of technoscience: A situated critique of representation. *Poiesis & Praxis*, 8, 151–167. DOI: 10.1007/s10202-011-0099-5  
+✓ Confirmed from PDF. Used: p. 157 ("riding the cusp"; constrained constructivism). Hayles → Haraway → Barad genealogy.
 
 **Torosyan, T., Reis, P., & Wuschitz, S. (2021).** Interferences of the multitude. In *Proceedings of Politics of the Machines — Rogue Research 2021* (pp. 55–62). BCS Learning and Development.  
 ✓ Confirmed from PDF. Used: pp. 55–56 (interference + diffraction as foundational; intra-action; God's trick), 57 (trans-feminist hacking), 58 (*Becoming a Tomato*; Brechtian Verfremdungseffekt; opacity of nonhuman matter), 60 (co-becoming; deep conversation between theory and practice).
@@ -336,18 +369,36 @@ Status markers: ✓ = citation verified from text in hand | [page TK] = page num
 
 ---
 
-## Outstanding Page TK Items — Priority List
+## Outstanding Items — Remaining Priority List
 
-1. **Bennett, *Vibrant Matter*** — "walking, talking matter" and "we are not one body" passages. Check pp. 100–120 range.
-2. **Haraway (1997), *Modest Witness*** — four items: diffraction vs. reflexivity passage (currently p. 273 in draft), figuration passage (currently p. 11), Trinh/speaking nearby citation, "diffracting the rays of technoscience" (currently p. 16). Need the book.
-3. **Haraway (2016), *Staying with the Trouble*** — one citation at draft line 109.
-4. **Barad (2007)** — Trinh/Haraway chain passage.
-5. **Sullivan** — no year, no full reference. Needs identification.
-6. **Leibniz (1703)** — letter to Bouvet, page TK.
-7. **Hill (2017)** — journal volume, issue, and page range.
-8. **Hillary (2021)** — dissertation title and institution.
-9. **Schwab (2013)** — confirm whether this is a precursor article or should be Schwab (2018).
-10. **Mäkikoskela** — no year or full reference in draft.
+### Still needs source text (book not in project folder)
+1. **Bennett, *Vibrant Matter* (2010)** — two passages still [page TK]:  
+   — "walking, talking matter" (approx. p. 111 based on secondary sources — verify)  
+   — "we are not one body or embodied, rather we are an array of bodies" + "cultivate a talent for remembering it" (approx. pp. 112–113 — verify)  
+
+2. **Haraway (2016), *Staying with the Trouble*** — one citation at draft line 109. One page number needed.
+
+### Resolved this session
+3. ~~**Haraway (1997), *Modest Witness*** — all four passages confirmed: p. 11, p. 16 (×2), p. 271~~  
+4. ~~**Leibniz 1703 letter** — converted to prose note in draft, no citation needed~~  
+5. ~~**Barad (2007) Trinh/Haraway chain** — claim removed from draft as unverifiable~~  
+6. ~~**Haraway-cites-Trinh** — removed from draft; Trinh not in Modest Witness~~  
+7. ~~**Hill (2017)** — confirmed: *Teacher Learning and Professional Development*, 2(1), 1–17~~  
+8. ~~**Timeto (2011)** — confirmed: *Poiesis & Praxis*, 8, 151–167~~  
+9. ~~**Martin et al. (2025)** — confirmed: *Gender, Work & Organization*, 32(2), 505–524~~  
+10. ~~**Militsi (2021)** — confirmed: Master's thesis, Linköping University~~  
+
+### Still needs full reference (no file available)
+11. **Sullivan** — year and title unconfirmed (likely Sullivan, 2005, *Art Practice as Research*)
+12. **Hillary (2021)** — dissertation title and institution TK
+13. **Schwab (2013)** — confirm whether this is a precursor article or the 2018 volume intro
+14. **Mäkikoskela** — no year or full reference anywhere in draft or project files
+15. **Blok (2024)** — full reference needed
+16. **Calvo-Pascual (2024)** — full reference needed
+17. **Dudley (2024)** — full reference needed
+18. **Ibrisim (2020)** — full reference needed
+19. **Smelik (2018)** — full reference needed
+20. **Srnicek (2017)** — likely *Platform Capitalism* (Polity Press) — verify
 
 ---
 
