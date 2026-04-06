@@ -5,12 +5,6 @@ course_title: "Thesis"
 course_root: /work
 permalink: /work/comprehensive_exam/
 
-layout: course
-title: "Bennett Excerpt — Thing-Power"
-course_title: "Math As Art Material"
-course_root: /courses/MathAsArtMaterial
-permalink: /courses/MathAsArtMaterial/vibrantmatter/
-
 # Terms to auto-highlight on this page:
 glossary_terms:
   - thing-power
