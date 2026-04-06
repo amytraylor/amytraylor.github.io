@@ -2,8 +2,51 @@
 layout: default
 title: Comps Draft v27 Part 3
 permalink: /work/thesis/comprehensive_exam/
----
 
+# Terms to auto-highlight on this page:
+glossary_terms:
+  - thing-power
+  - assemblage
+  - actant
+  - agency
+  - materiality
+  - material
+  - matter
+  - materialism
+  - materialists
+  - vibrant matter
+  - nonhuman
+  - human
+  - object
+  - subject
+  - swerve
+  - void
+  - flow
+  - ecology
+  - ecological
+  - ontology
+  - ontological
+  - epistemology
+  - recalcitrance
+  - artifact
+  - Spinoza
+  - Kafka
+  - Bergson
+  - Deleuze
+  - Latour
+  - Kant
+  - Hegel
+  - Augustine
+  - nonidentity
+  - Marx
+  - Adorno
+  - aleatory
+  - hylozoism
+  - Lucretius
+  - efficacy
+  - capacity
+  - clinamen
+---
 
 ## Part One: Posthumanism and New Materialism
 
