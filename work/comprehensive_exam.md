@@ -49,7 +49,7 @@ glossary_terms:
   - capacity
   - clinamen
 ---
-
+## Introduction
 ## Part One: Posthumanism and New Materialism
 
 ### All Things Are Co-Constituted
@@ -2301,3 +2301,5 @@ the specific human-nonhuman assemblage that generated the findings.
 The necessity of explicitly tying specific methods to research insights
 is ignoring the emergent causality of the field and that the
 entanglement of becoming/knowing/doing is a feature, not a bug.
+
+## Conclusion
