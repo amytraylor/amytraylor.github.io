@@ -596,3 +596,38 @@ body.glossary_focus_mode mark.glossary-hit.is-active {
   h3 { font-size: 1.2rem; }
 }
 
+/* =========================================
+   Collapsible thesis headings
+   ========================================= */
+
+.collapsible-heading {
+  cursor: pointer;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.collapsible-heading::after {
+  content: "▾";
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: transform 0.2s ease;
+  color: var(--text-muted);
+}
+
+.collapsible-heading:hover {
+  color: var(--accent);
+}
+
+.collapsible-heading.is-collapsed::after {
+  transform: rotate(-90deg);
+}
+
+.collapsible-content {
+  margin-bottom: 1rem;
+}
+
+.collapsible-content.is-collapsed {
+  display: none;
+}
+
