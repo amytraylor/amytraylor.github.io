@@ -634,7 +634,7 @@ body.glossary_focus_mode mark.glossary-hit.is-active {
 /* H3 subsections: make them look subordinate */
 main .collapsible-heading-h3 {
   margin-top: 0.75rem;
-  margin-left: 1.5rem;
+  margin-left: 2.0rem;
   padding-left: 0.75rem;
   padding-right: 1.5rem;
   font-size: 1rem;
@@ -643,7 +643,7 @@ main .collapsible-heading-h3 {
 }
 
 main .collapsible-content-h3 {
-  margin-left: 2.25rem;
+  margin-left: 2.75rem;
   margin-bottom: 0.75rem;
 }
 
