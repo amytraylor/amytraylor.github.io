@@ -612,22 +612,30 @@ body.glossary_focus_mode mark.glossary-hit.is-active {
   right: 0;
   top: 0;
   transition: transform 0.2s ease;
-  color: var(--text-muted);
-}
-
-.collapsible-heading:hover {
-  color: var(--accent);
 }
 
 .collapsible-heading.is-collapsed::after {
   transform: rotate(-90deg);
 }
 
-.collapsible-content {
-  margin-bottom: 1rem;
+.collapsible-heading-h3 {
+  margin-top: 0.75rem;
 }
 
 .collapsible-content.is-collapsed {
   display: none;
 }
 
+/* Special behavior for collapsed h2:
+   hide normal content, but keep h3 headings visible */
+.collapsible-content-h2.is-collapsed-h2 > * {
+  display: none;
+}
+
+.collapsible-content-h2.is-collapsed-h2 > h3.collapsible-heading-h3 {
+  display: block;
+}
+
+.collapsible-content-h2.is-collapsed-h2 > .collapsible-content-h3 {
+  display: none;
+}
