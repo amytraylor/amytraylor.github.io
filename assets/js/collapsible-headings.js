@@ -3,51 +3,99 @@ document.addEventListener("DOMContentLoaded", () => {
     return;
   }
 
-  makeCollapsible("h2");
+  makeH2Sections();
+  makeH3Subsections();
 });
 
-function makeCollapsible(selector) {
-  const headings = Array.from(
-    document.querySelectorAll("main " + selector + ", .page " + selector + ", .course-content " + selector)
-  );
+function makeH2Sections() {
+  const headings = Array.from(document.querySelectorAll("main h2"));
 
   headings.forEach((heading) => {
     if (heading.dataset.collapsibleProcessed === "true") {
       return;
     }
+
     heading.dataset.collapsibleProcessed = "true";
 
-    const content = document.createElement("div");
-    content.className = "collapsible-content";
+    const wrapper = document.createElement("div");
+    wrapper.className = "collapsible-content collapsible-content-h2";
 
-    let sibling = heading.nextElementSibling;
-    while (sibling && !isSameOrHigherHeading(sibling, selector)) {
-      const next = sibling.nextElementSibling;
-      content.appendChild(sibling);
-      sibling = next;
+    let node = heading.nextSibling;
+    let movedAnything = false;
+
+    while (node) {
+      const next = node.nextSibling;
+
+      if (
+        node.nodeType === Node.ELEMENT_NODE &&
+        /^H[1-2]$/.test(node.tagName)
+      ) {
+        break;
+      }
+
+      wrapper.appendChild(node);
+      movedAnything = true;
+      node = next;
     }
 
-    if (!content.children.length) {
+    if (!movedAnything) {
       return;
     }
 
-    heading.classList.add("collapsible-heading");
-    heading.parentNode.insertBefore(content, heading.nextSibling);
+    heading.classList.add("collapsible-heading", "collapsible-heading-h2");
+    heading.parentNode.insertBefore(wrapper, heading.nextSibling);
 
     heading.addEventListener("click", () => {
       heading.classList.toggle("is-collapsed");
-      content.classList.toggle("is-collapsed");
+      wrapper.classList.toggle("is-collapsed-h2");
     });
   });
 }
 
-function isSameOrHigherHeading(element, selector) {
-  const level = parseInt(selector.substring(1), 10);
+function makeH3Subsections() {
+  const headings = Array.from(document.querySelectorAll("main h3"));
 
-  if (!/^H[1-6]$/.test(element.tagName)) {
-    return false;
-  }
+  headings.forEach((heading) => {
+    if (heading.dataset.subcollapsibleProcessed === "true") {
+      return;
+    }
 
-  const siblingLevel = parseInt(element.tagName.substring(1), 10);
-  return siblingLevel <= level;
+    heading.dataset.subcollapsibleProcessed = "true";
+
+    const wrapper = document.createElement("div");
+    wrapper.className = "collapsible-content collapsible-content-h3";
+
+    let node = heading.nextSibling;
+    let movedAnything = false;
+
+    while (node) {
+      const next = node.nextSibling;
+
+      if (
+        node.nodeType === Node.ELEMENT_NODE &&
+        /^H[1-3]$/.test(node.tagName)
+      ) {
+        break;
+      }
+
+      wrapper.appendChild(node);
+      movedAnything = true;
+      node = next;
+    }
+
+    if (!movedAnything) {
+      return;
+    }
+
+    heading.classList.add("collapsible-heading", "collapsible-heading-h3");
+    heading.classList.add("is-collapsed");
+    wrapper.classList.add("is-collapsed");
+    heading.parentNode.insertBefore(wrapper, heading.nextSibling);
+
+    heading.addEventListener("click", (event) => {
+      event.stopPropagation();
+      heading.classList.toggle("is-collapsed");
+      wrapper.classList.toggle("is-collapsed");
+    });
+  });
 }
