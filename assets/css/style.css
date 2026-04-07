@@ -600,6 +600,10 @@ body.glossary_focus_mode mark.glossary-hit.is-active {
    Collapsible thesis headings
    ========================================= */
 
+/* =========================================
+   Collapsible thesis headings
+   ========================================= */
+
 .collapsible-heading {
   cursor: pointer;
   position: relative;
@@ -618,16 +622,38 @@ body.glossary_focus_mode mark.glossary-hit.is-active {
   transform: rotate(-90deg);
 }
 
-.collapsible-heading-h3 {
-  margin-top: 0.75rem;
+/* H2 sections */
+.collapsible-heading-h2 {
+  margin-top: 1.5rem;
 }
 
+.collapsible-content-h2 {
+  margin-bottom: 1rem;
+}
+
+/* H3 subsections: make them look subordinate */
+main .collapsible-heading-h3 {
+  margin-top: 0.75rem;
+  margin-left: 1.5rem;
+  padding-left: 0.75rem;
+  padding-right: 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+main .collapsible-content-h3 {
+  margin-left: 2.25rem;
+  margin-bottom: 0.75rem;
+}
+
+/* Generic collapsed content */
 .collapsible-content.is-collapsed {
   display: none;
 }
 
 /* Special behavior for collapsed h2:
-   hide normal content, but keep h3 headings visible */
+   hide ordinary content, but keep h3 headings visible as an outline */
 .collapsible-content-h2.is-collapsed-h2 > * {
   display: none;
 }
