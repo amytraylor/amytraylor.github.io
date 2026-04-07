@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  if (!window.location.pathname.includes("/courses/thesis/")) {
+  if (!window.location.pathname.includes("/work/")) {
     return;
   }
 
