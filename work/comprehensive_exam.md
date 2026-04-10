@@ -11,6 +11,7 @@ glossary_terms:
   - assemblage
   - actant
   - agency
+  - agential
   - materiality
   - material
   - matter
@@ -48,6 +49,12 @@ glossary_terms:
   - efficacy
   - capacity
   - clinamen
+  - dual
+  - representational
+  - entangle
+  - nature
+  - culture
+  - vitalist
 ---
 # Comprehensive Examination Draft
 
