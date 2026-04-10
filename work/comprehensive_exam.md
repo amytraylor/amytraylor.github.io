@@ -55,6 +55,12 @@ glossary_terms:
   - nature
   - culture
   - vitalist
+  - immanent
+  - recursive
+  - Cartesian
+  - transposition
+  - cartography
+  - apparatus
 ---
 # Comprehensive Examination Draft
 
