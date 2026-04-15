@@ -6,4 +6,4 @@ course_root: /courses/Math As Art Material
 no_sidebar: true
 ---
 
--[FinalProjectIdeation](FinalProjectIdeation/)
+-[FinalProjectIdeation](FinalProjectIdeation.md/)
