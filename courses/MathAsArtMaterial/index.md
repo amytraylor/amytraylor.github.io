@@ -20,6 +20,9 @@ This course explores ways to connect and make use of "math" as art material.
 - [Diffractive Practice in the Wild](DiffractivePracticeInTheWild/)
 - [Making Speculative Machines](MakingSpeculativeMachines/)
 
+#### Final Project
+- [Final Project Ideation Steps: Math as Art Material](FinalProjectIdeation/)
+
 #### Tools and Toys
 - [Boutique Software Toys](../sketches/)
 - [p5.js](https://p5js.org/), a JavaScript library for creative coding. 
