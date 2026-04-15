@@ -21,7 +21,7 @@ This course explores ways to connect and make use of "math" as art material.
 - [Making Speculative Machines](MakingSpeculativeMachines/)
 
 #### Final Project
-- [Final Project Ideation Steps: Math as Art Material](FinalProjectIdeation/)
+- [Final Project Ideation Steps: Math as Art Material](FinalProject/)
 
 #### Tools and Toys
 - [Boutique Software Toys](../sketches/)
