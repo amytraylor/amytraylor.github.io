@@ -1,4 +1,13 @@
-content = r"""# Final Project: Ideation Protocol
+---
+layout: default
+title: 
+course_title: Math As Art Material
+course_root: /courses/Math As Art Material
+no_sidebar: true
+---
+
+
+# Final Project: Ideation Protocol
 *Math as Art Material*
 
 Your final project will **not** look the same as anyone else’s. That is expected.
@@ -300,8 +309,4 @@ A project does **not** need to be polished, expensive, or technically perfect in
 
 Your final project does not need to explain math in the usual classroom way.  
 It does need to show that you have been thinking with the materials of this course and making something deliberate out of that encounter.
-"""
-path = "/mnt/data/final_project_ideation_protocol.md"
-with open(path, "w", encoding="utf-8") as f:
-    f.write(content)
-print(path)
+
