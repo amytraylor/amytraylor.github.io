@@ -30,8 +30,11 @@ Before beginning this ideation process, make sure you have gathered the followin
 - any photos, notes, sketches, blackout poems, maps, circuits, sticky-note graphs, or other materials from this semester that still feel important to you
 
 Keep these in one working folder and in your working document.
+
 Images of all of your physical work can be found here: 
+
 [Link to Photo Album]("https://photos.app.goo.gl/ULikrgrA4Eo8paim8")
+
 It is okay if you use an image that isn't exactly your work, but representative of the project or how you feel about the project.
 
 ---
