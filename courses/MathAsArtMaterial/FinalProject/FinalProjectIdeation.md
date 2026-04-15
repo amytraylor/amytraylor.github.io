@@ -247,9 +247,9 @@ Strong work here is thoughtful and specific. It shows that the prototype taught 
 
 ---
 
-## Step 8: Prepare for conference
+## If you need to brain storm with me
 
-Bring the following to conference:
+Bring the following to talk:
 
 - your gathered source materials
 - your project lens sentence
@@ -291,26 +291,6 @@ In general, stronger projects will show:
 
 A project does **not** need to be polished, expensive, or technically perfect in order to do well. What matters most is whether it shows genuine thinking, making, and development.
 
----
-
-## Suggested timeline
-
-### First pass
-- gather materials
-- write your lens
-- make three combinations
-
-### Second pass
-- test three forms
-- decide what the project does
-- make a rough prototype
-
-### Third pass
-- reflect
-- revise
-- prepare for conference
-
----
 
 ## Final reminder
 
