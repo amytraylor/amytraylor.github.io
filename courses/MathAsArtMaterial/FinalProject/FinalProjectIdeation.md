@@ -35,7 +35,6 @@ Images of all of your physical work can be found here:
 
 [Link to Photo Album](https://photos.app.goo.gl/ULikrgrA4Eo8paim8)
 
-https://photos.app.goo.gl/ULikrgrA4Eo8paim8
 
 It is okay if you use an image that isn't exactly your work, but representative of the project or how you feel about the project.
 
