@@ -11,7 +11,7 @@ Selected projects across research, writing, and art.
 
 ![Project thumbnail]({{ '/assets/images/placeholder.svg' | relative_url }})
 
-Comprehensive Exam Chapters.
-
-- [Comprehensive Exam](./comprehensive_exam.md/)
+Comprehensive Exam
+- [Comprehensive Exam](./comprehensive_exam_noglossary.md/) 
+- [Comprehensive Exam with Glossary](./comprehensive_exam.md/)
 - [Working Bibliography](./working_bibliography.md/)
