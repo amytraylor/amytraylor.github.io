@@ -3,7 +3,7 @@ layout: page
 body_class: comps-layout
 title: Comprehensive Examination
 course_root: /work
-permalink: /work/comprehensive_exam/
+permalink: /work/comprehensive_exam_noglossary/
 ---
 # Introduction
 
