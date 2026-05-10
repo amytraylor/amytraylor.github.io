@@ -1,8 +1,66 @@
 ---
 layout: page
-title: Comprehensive Examination
 body_class: comps-layout
-permalink: /comprehensive_exam/
+title: Comprehensive Examination
+course_root: /work
+permalink: /work/comprehensive_exam/
+---
+# Terms to auto-highlight on this page:
+glossary_terms:
+  - thing-power
+  - assemblage
+  - actant
+  - agency
+  - agential
+  - materiality
+  - material
+  - matter
+  - materialism
+  - materialists
+  - vibrant matter
+  - nonhuman
+  - human
+  - object
+  - subject
+  - swerve
+  - void
+  - flow
+  - ecology
+  - ecological
+  - ontology
+  - ontological
+  - epistemology
+  - recalcitrance
+  - artifact
+  - Spinoza
+  - Kafka
+  - Bergson
+  - Deleuze
+  - Latour
+  - Kant
+  - Hegel
+  - Augustine
+  - nonidentity
+  - Marx
+  - Adorno
+  - aleatory
+  - hylozoism
+  - Lucretius
+  - efficacy
+  - capacity
+  - clinamen
+  - dual
+  - representational
+  - entangle
+  - nature
+  - culture
+  - vitalist
+  - immanent
+  - recursive
+  - Cartesian
+  - transposition
+  - cartography
+  - apparatus
 ---
 
 # Introduction
