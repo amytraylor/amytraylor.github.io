@@ -7,9 +7,7 @@ title: Work
 
 Selected projects across research, writing, and art.
 
-## Working Thesis
-
-![Project thumbnail]({{ '/assets/images/placeholder.svg' | relative_url }})
+## PhD Progress
 
 Comprehensive Exam
 - [Comprehensive Exam](./comprehensive_exam_noglossary.md/) 
