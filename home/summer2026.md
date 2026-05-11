@@ -1,5 +1,5 @@
 
-![home repair](./repair_images/20260509_083827.jpg){: width="400" height="300"} <br>
+![home repair](./repair_images/20260509_083827.jpg){: width="300" style="transform: rotate(90deg); border-radius: 8px;"} <br>
 [home repair](20260509_083834.jpg)
 [home repair](20260509_083836.jpg)
 [home repair](20260509_083849.jpg)
