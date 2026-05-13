@@ -8,6 +8,7 @@ permalink: /work/comprehensive_exam/
 # Terms to auto-highlight on this page:
 glossary_terms:
   - worry
+  - ResearchToMe
 ---
 
 # Exam Day
@@ -450,9 +451,9 @@ The title phrase names the movement that organizes both practice and research. M
 
 ## 5. Andersen: Magic Machines as Research
 
-Kristina Andersen opens her account by saying, “Like most of us, I oscillate between reading and making. Often the objects I make can be seen as diagrams of ideas, of manifestations of the relationships between one notion and another” ([Andersen, 2016, p. 42](#ref-andersen2016)). She then places reading under the same material pressure: “I don’t read texts properly – in truth I am not sure I know how to – instead the texts are like images, like scraps of colour and texture. I carry them with me, take them out, rearrange them, reconsider them. Most snippets of texts are with me for years, worn and known. Recited quietly like curses, changing meaning over time, coming into focus and disappearing back into incomprehension again” (p. 42). Reading is not extraction. It is another mode of handling.
+ResearchToMe Kristina Andersen opens her account by saying, “Like most of us, I oscillate between reading and making. Often the objects I make can be seen as diagrams of ideas, of manifestations of the relationships between one notion and another” ([Andersen, 2016, p. 42](#ref-andersen2016)). She then places reading under the same material pressure: “I don’t read texts properly – in truth I am not sure I know how to – instead the texts are like images, like scraps of colour and texture. I carry them with me, take them out, rearrange them, reconsider them. Most snippets of texts are with me for years, worn and known. Recited quietly like curses, changing meaning over time, coming into focus and disappearing back into incomprehension again” (p. 42). Reading is not extraction. It is another mode of handling.
 
-She returns to that relation: “When asked to write this chapter, I was thrown back into consideration of how I interact with words and things. How I collect and abuse them, assign them power as curses and shields. I taught myself to write academically, I needed to know how to do that. Now, when asked to write subjectively, I find that I write like a child” (p. 42). The statement does not describe a lack of reflection. It names a problem of form. Academic writing does not carry the practice over intact. It changes the voice through which the practice had been working.
+Worry. She returns to that relation: “When asked to write this chapter, I was thrown back into consideration of how I interact with words and things. How I collect and abuse them, assign them power as curses and shields. I taught myself to write academically, I needed to know how to do that. Now, when asked to write subjectively, I find that I write like a child” (p. 42). The statement does not describe a lack of reflection. It names a problem of form. Academic writing does not carry the practice over intact. It changes the voice through which the practice had been working.
 
 The machines themselves are introduced in the same vocabulary of partial knowledge and material encounter. “Over the years my work has emerged around the notion of making machines. They are machines for thinking, living, or expression, and sometimes for making sense with” (p. 42). Earlier they were functional, but “now they seem to be more and more abstract, often haphazard or even hypothetical. I make them as a way of arriving at an understanding, as if I can only process something if I re-make it myself first” (p. 42). The machine is not the endpoint of the thought. It is how the thought becomes available.
 
