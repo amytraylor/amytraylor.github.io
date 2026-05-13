@@ -63,6 +63,26 @@ glossary_terms:
   - apparatus
 ---
 
+# Exam Day
+Intro to Text
+My lens
+Vulnerability
+ADHD/Autism/Artist/Educator
+I know that I know the material, but I worry about not making sense to other people, and I worry that I won't understand your questions.
+
+Research Process
+Needed to see the expansive field before I could come back to the specifics. 
+I write a lot of code to help me understand.
+I wrote code to search for key terms and authors, record each citation, and then go back and download each text.
+After downloading I wrote code to pull each instance of the keyword and the surrounding 200 characters so I could work through the breadth of how that notion/author was being utilized in the literature.
+Only after surveying close to 1000 texts was I able to start making tighter circles around the questions through my own frame.
+Art, History, Practice, Education, Computation, Math, Quantum theory, anthropology
+
+Adrienne Rich
+Visual Anthropology
+
+
+
 # Introduction
 
 This document answers three questions. What are the theoretical and methodological distinctions between posthumanism and new materialism? How have other posthumanist theorists conceptualized diffractive practice? How have new materialist theorists conceptualized art practice as research? The questions are arranged in that order because each supplies the ground on which the next stands. Part One establishes what the world is, in the accounts posthumanism and new materialism give of it. Part Two establishes how to inhabit and work within that world as a researcher. Part Three establishes what artistic research becomes when those commitments are enacted by named practitioners whose medium is the apparatus through which the research is conducted.
