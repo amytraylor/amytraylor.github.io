@@ -7,60 +7,7 @@ permalink: /work/comprehensive_exam/
 ---
 # Terms to auto-highlight on this page:
 glossary_terms:
-  - thing-power
-  - assemblage
-  - actant
-  - agency
-  - agential
-  - materiality
-  - material
-  - matter
-  - materialism
-  - materialists
-  - vibrant matter
-  - nonhuman
-  - human
-  - object
-  - subject
-  - swerve
-  - void
-  - flow
-  - ecology
-  - ecological
-  - ontology
-  - ontological
-  - epistemology
-  - recalcitrance
-  - artifact
-  - Spinoza
-  - Kafka
-  - Bergson
-  - Deleuze
-  - Latour
-  - Kant
-  - Hegel
-  - Augustine
-  - nonidentity
-  - Marx
-  - Adorno
-  - aleatory
-  - hylozoism
-  - Lucretius
-  - efficacy
-  - capacity
-  - clinamen
-  - dual
-  - representational
-  - entangle
-  - nature
-  - culture
-  - vitalist
-  - immanent
-  - recursive
-  - Cartesian
-  - transposition
-  - cartography
-  - apparatus
+  - worry
 ---
 
 # Exam Day
@@ -139,7 +86,9 @@ Postmodernism began the dismantling of the nature/culture divide, but Ferrando (
 
 Gamble et al. ([Gamble et al., 2019](#ref-gamble-hanan-nail2019)) do not perceive all strands under new materialism to be equivalent, and distinguish among vital materialism, negative materialism, and performative materialism. All three strands “share at least one common theoretical commitment: to problematize the anthropocentric and constructivist orientations of most twentieth-century theory in a way that encourages closer attention to the sciences by the humanities” ([Gamble et al., 2019](#ref-gamble-hanan-nail2019), pg. 111). The present project draws on vital and performative materialisms. Vitalist materialism, the most prevalent strand, emerged from Spinoza and Leibniz via Deleuze in the 1960s to Jane Bennett’s vibrant matter today. Performative materialism, which Gamble et al. find the most promising strand, is grounded in the work of Karen Barad and Vicki Kirby. Barad’s account of posthumanist performativity (performative materialism) joins an anti-anthropocentric critique of the human subject to an account of matter as active and co-constitutive. Barad draws from earlier feminist and science theorists, as Militsi ([Militsi, 2021](#ref-militisi2021)) summarizes, and presents posthumanist performativity as a “diffractive elaboration” of Butler and Haraway ([Barad, 2003, p. 808](#ref-barad2003)).
 
-The relation between the two traditions is also contested. Srnicek (2017) groups posthumanism, speculative realism, and object-oriented philosophy as variants within a broader new materialist field, while noting that posthumanism contributes concepts of agency, structure, and epistemology to that grouping. Smelik (2018), by contrast, situates new materialism within a posthuman context, arguing that posthumanism’s decentering of the human opened conceptual space for agency to be attributed to things and nature. Wolfe ([Wolfe, 2010](#ref-wolfe2010)) cautions that some posthumanist scholarship continues to preserve a residual human exceptionalism, even after rejecting the classical figure of Man. Srnicek (2017) echoes that some posthumanist approaches preserve distinctions between human and nonhuman systems, especially around self-reflection and intentional action. The notion of vitality everywhere is also critiqued from within: Blok, 2024, argues new materialists may overlook a fundamental difference and limit hybridisation of theory by viewing Earth’s materiality primarily through the lens of the organic and alive. Blok proposes the notions of conativity vs. responsivity as a corrective, in which he rejects the idea that conativity and responsivity are shared symmetrically by all material entities and argues instead that some entities are conative (rocks, sand dunes) but not responsive ([Blok, 2023](#ref-blok2023)). Ferrando names hegemonic essentialism as a potential failure of posthumanist research; the habit of producing a posthumanist text in content while framing it within the hegemonic traditions posthumanism sets out to unsettle. As she writes, “A text written by such standards might claim a posthuman content, but does not appear posthuman in its praxis. Its inner contradiction is obvious: while attempting to produce a discourse critical of humanism, it uncritically frames itself within those same traditions from which humanism developed” ([Ferrando, 2012, p. 12](#ref-ferrando2012)).
+The relation between the two traditions is also contested. Srnicek (2017) groups posthumanism, speculative realism, and object-oriented philosophy as variants within a broader new materialist field, while noting that posthumanism contributes concepts of agency, structure, and epistemology to that grouping. Smelik (2018), by contrast, situates new materialism within a posthuman context, arguing that posthumanism’s decentering of the human opened conceptual space for agency to be attributed to things and nature. Wolfe ([Wolfe, 2010](#ref-wolfe2010)) cautions that some posthumanist scholarship continues to preserve a residual human exceptionalism, even after rejecting the classical figure of Man. Srnicek (2017) echoes that some posthumanist approaches preserve distinctions between human and nonhuman systems, especially around self-reflection and intentional action. The notion of vitality everywhere is also critiqued from within: Blok, 2024, argues new materialists may overlook a fundamental difference and limit hybridisation of theory by viewing Earth’s materiality primarily through the lens of the organic and alive. Blok proposes the notions of conativity vs. responsivity as a corrective, in which he rejects the idea that conativity and responsivity are shared symmetrically by all material entities and argues instead that some entities are conative (rocks, sand dunes) but not responsive ([Blok, 2023](#ref-blok2023)). 
+
+Worry. Ferrando names hegemonic essentialism as a potential failure of posthumanist research; the habit of producing a posthumanist text in content while framing it within the hegemonic traditions posthumanism sets out to unsettle. As she writes, “A text written by such standards might claim a posthuman content, but does not appear posthuman in its praxis. Its inner contradiction is obvious: while attempting to produce a discourse critical of humanism, it uncritically frames itself within those same traditions from which humanism developed” ([Ferrando, 2012, p. 12](#ref-ferrando2012)).
 
 ## 4. What the Two Critiques Produce
 
@@ -463,7 +412,7 @@ The commitment to speaking nearby is grounded in a prior claim about what truth 
 
 Trinh’s account of form is consistent with this refusal of instrumentalization. “Every time one puts forth an image, a word, a sound or a silence, these are never instruments simply called upon to serve a story or a message. They have a set of meanings, a function, and a rhythm of their own within the world that each film builds anew” ([Chen, 1992, p. 85](#ref-minh-ha1992)). The elements of the film are not vehicles for an argument that exists independently of them. They are the argument, or rather, they are the world within which any argument the film can make becomes possible. The distinction between form and content has no purchase here because neither precedes the other: form is the material-discursive condition under which content becomes articulable, and content is what form has made available to be received. “The nature of poetry is to offer meaning in such a way that it can never end with what is said or shown, destabilizing thereby the speaking subject and exposing the fiction of all rationalization” ([Chen, 1992, p. 85](#ref-minh-ha1992)). Poetry here is not a genre among others but a name for the mode in which language can remain reflexive rather than instrumental.
 
-In *Woman, Native, Other* (1989), Trinh develops the critique of instrumental language at its most explicit. Clarity, she writes, “as a purely rhetorical attribute serves the purpose of a classical feature in language, namely, its instrumentality”: a language reduced “to a mere vehicle of thought” that “may be used to orient toward a goal or to sustain an act, but it does not constitute an act in itself.” For Trinh, “clarity is a means of subjection, a quality both of official, taught language and of correct writing, two old mates of power” ([Minh-ha, 1989, pp. 16–17](#ref-minh-ha1989)). The demand for clarity is not neutral; it is the demand that language remain transparent to the meaning it carries, which is to say, remain subordinate to the authority that determines what meaning is to be carried. Trinh’s practice refuses this subordination by producing work whose form is its content, whose difficulty is its political condition, and whose refusal to clarify is what keeps it from being absorbed into the terms it is trying to criticize.
+Worry. In *Woman, Native, Other* (1989), Trinh develops the critique of instrumental language at its most explicit. Clarity, she writes, “as a purely rhetorical attribute serves the purpose of a classical feature in language, namely, its instrumentality”: a language reduced “to a mere vehicle of thought” that “may be used to orient toward a goal or to sustain an act, but it does not constitute an act in itself.” For Trinh, “clarity is a means of subjection, a quality both of official, taught language and of correct writing, two old mates of power” ([Minh-ha, 1989, pp. 16–17](#ref-minh-ha1989)). The demand for clarity is not neutral; it is the demand that language remain transparent to the meaning it carries, which is to say, remain subordinate to the authority that determines what meaning is to be carried. Trinh’s practice refuses this subordination by producing work whose form is its content, whose difficulty is its political condition, and whose refusal to clarify is what keeps it from being absorbed into the terms it is trying to criticize.
 
 Multivocality in this frame is not automatically emancipatory. Trinh is careful to distinguish two versions of the practice. Accumulative multivocality: “juxtaposing voices that continue to speak within identified boundaries”: can “lead to the bland ‘melting-pot’ type of attitude, in which ‘multi’ means ‘no’: no voice: or is used only to better mask the Voice: that very place from where meaning is put together.” Genuine multivocality, by contrast, “can open up to a non-identifiable ground where boundaries are always undone, at the same time as they are accordingly assumed” ([Chen, 1992, p. 84](#ref-minh-ha1992)). The difference between the two is methodological: the first retains the boundaries it claims to cross; the second works at the borderline, such that “if one crosses that border, if one can depart from where one is, one can also return to it more freely, without attachment to the norms generated on one side or the other” ([Chen, 1992, p. 84](#ref-minh-ha1992)). This is what accountability to the apparatus looks like in artistic research before the vocabulary existed to name it that way: a practice that stages its own interior and exterior rather than assuming either as a stable given.
 
@@ -539,7 +488,7 @@ Fluid affordance is the name she gives to this condition. With dynamic materials
 
 ## 7. The Violence of Traditional Methods
 
-Trinh T. Minh-ha’s critique of anthropology in *Woman, Native, Other* (1989) names the violence of traditional methods in its most sustained form in the corpus gathered here. The problem is not that particular disciplinary practices are badly executed but that the traditional methodological apparatus operates as a form of compulsion. “Speaking, writing, and discoursing are not mere acts of communication; they are above all acts of compulsion” ([Minh-ha, 1989, p. 52](#ref-minh-ha1989)). Language itself carries the operation: “language is one of the most complex forms of subjugation, being at the same time the locus of power and unconscious servility” ([Minh-ha, 1989, p. 52](#ref-minh-ha1989)). The methods that purport to let the subject speak for itself are the same methods that determine what can be heard as speaking in the first place.
+Worry. Trinh T. Minh-ha’s critique of anthropology in *Woman, Native, Other* (1989) names the violence of traditional methods in its most sustained form in the corpus gathered here. The problem is not that particular disciplinary practices are badly executed but that the traditional methodological apparatus operates as a form of compulsion. “Speaking, writing, and discoursing are not mere acts of communication; they are above all acts of compulsion” ([Minh-ha, 1989, p. 52](#ref-minh-ha1989)). Language itself carries the operation: “language is one of the most complex forms of subjugation, being at the same time the locus of power and unconscious servility” ([Minh-ha, 1989, p. 52](#ref-minh-ha1989)). The methods that purport to let the subject speak for itself are the same methods that determine what can be heard as speaking in the first place.
 
 The specific shape of this compulsion in traditional research is what Trinh calls “the positivist dream of a neutralized language that strips off all its singularity to become nature’s exact, unmisted reflection” ([Minh-ha, 1989, p. 53](#ref-minh-ha1989)). The dream is not of clarity in the ordinary sense but of a language that effaces itself in favor of what it names: “The claim to objectivity subjects words to a willed meaning-intention.” The words themselves become disposable: “Words are solicited only for their effacement from the page. Their materiality, their glaring bodies must somehow sink and disappear from the field of visibility, to yield ground to the ‘pure presence’ or that which he attempts to capture and retain, which, however, always lies outside of words” ([Minh-ha, 1989, p. 53](#ref-minh-ha1989)). Artistic research cannot operate under this regime without ceasing to be research in the sense Parts One and Two have established: the materiality of the apparatus is constitutive of what the research can produce, and a method that requires the apparatus to disappear has already foreclosed the knowledge the apparatus makes available.
 
