@@ -7,8 +7,7 @@
 ![home repair](./repair_smaller/20260509_084019.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
 ![home repair](./repair_smaller/20260509_084032.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_084043.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_084047.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_084059.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
+![home repair](./repair_smaller/20260509_084047.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
 ![home repair](./repair_smaller/20260509_084105.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_084122.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_084130.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
@@ -216,6 +215,10 @@
 ## Finish
 
 ![home repair](./repair_smaller/20260509_084021.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
+
+## Inventory
+
+![home repair](./repair_smaller/20260509_084059.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 
 
 
