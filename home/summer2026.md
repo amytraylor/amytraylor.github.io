@@ -1,22 +1,16 @@
+## Add more bracing. Build steps.
+
 ![home repair](./repair_smaller/20260509_083827.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_083834.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_083836.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_083849.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
-![home repair](./repair_smaller/20260509_083933.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_084000.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
-![home repair](./repair_smaller/20260509_084032.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_084043.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_084047.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
-![home repair](./repair_smaller/20260509_084105.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_084122.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_084130.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
+
+
 ![home repair](./repair_smaller/20260509_084138.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
 ![home repair](./repair_smaller/20260509_084157.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_084200.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_084208.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_084218.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
-![home repair](./repair_smaller/20260509_084223.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_084233.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
+ <br> <br>
 ![home repair](./repair_smaller/20260509_090748.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_090801.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_090824.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
@@ -188,6 +182,7 @@
 ![home repair](./repair_smaller/20260509_090838.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_090849.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
 ![home repair](./repair_smaller/20260509_091000.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
+
 ![home repair](./repair_smaller/20260509_090816.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
 
 ## Finish Fences
@@ -236,9 +231,23 @@
 
 ![home repair](./repair_smaller/20260509_104119.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
 
+## Trash/weeds/debris
+
+![home repair](./repair_smaller/20260509_084105.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
+![home repair](./repair_smaller/20260509_084122.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
+![home repair](./repair_smaller/20260509_084130.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
+![home repair](./repair_smaller/20260509_083933.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
+![home repair](./repair_smaller/20260509_084218.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
+![home repair](./repair_smaller/20260509_084223.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
+![home repair](./repair_smaller/20260509_084233.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
+![home repair](./repair_smaller/20260509_084000.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} 
+![home repair](./repair_smaller/20260509_084032.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
+
 ## Organize and Inventory
 
 ![home repair](./repair_smaller/20260509_084059.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
+![home repair](./repair_smaller/20260509_084043.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
+![home repair](./repair_smaller/20260509_084047.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
 
 
 
