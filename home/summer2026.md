@@ -50,9 +50,7 @@
 ![home repair](./repair_smaller/20260509_091738.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_091743.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_091747.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
-![home repair](./repair_smaller/20260509_091752.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_091755.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_091807.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
+
 ![home repair](./repair_smaller/20260509_091823.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
 ![home repair](./repair_smaller/20260509_091831.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_091843.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
@@ -200,6 +198,9 @@
 
 ## Hang Me
 
+![home repair](./repair_smaller/20260509_091752.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
+![home repair](./repair_smaller/20260509_091755.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
+![home repair](./repair_smaller/20260509_091807.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_092553.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_091552.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_091555.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
