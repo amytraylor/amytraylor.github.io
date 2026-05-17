@@ -6,17 +6,6 @@
 ![home repair](./repair_smaller/20260509_083836.jpg "083836"){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_083849.jpg "083849"){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit...
-
-<figure>
-  <img src="{{site.url}}/assets/image.jpg" alt="my alt text"/>
-  <figcaption>This is my caption text.</figcaption>
-</figure>
-
-Vestibulum eu vulputate magna...
-
-
-![home repair](./repair_smaller/20260509_084138.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
 ![home repair](./repair_smaller/20260509_084157.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_084200.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_084208.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
@@ -259,7 +248,9 @@ Vestibulum eu vulputate magna...
 ![home repair](./repair_smaller/20260509_084043.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_084047.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
 
+## Stack in the back
 
+![home repair](./repair_smaller/20260509_084138.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
 
 
 
