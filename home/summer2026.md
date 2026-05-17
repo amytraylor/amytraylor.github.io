@@ -4,8 +4,7 @@
 ![home repair](./repair_smaller/20260509_083849.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
 ![home repair](./repair_smaller/20260509_083933.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_084000.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_084019.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_084021.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
+![home repair](./repair_smaller/20260509_084019.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
 ![home repair](./repair_smaller/20260509_084032.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_084043.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_084047.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
@@ -213,6 +212,10 @@
 ![home repair](./repair_smaller/20260509_104127.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_104131.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_115710.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
+
+## Finish
+
+![home repair](./repair_smaller/20260509_084021.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 
 
 
