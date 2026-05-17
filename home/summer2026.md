@@ -1,5 +1,5 @@
-![home repair](./repair_smaller/20260509_083827.jpg){: width="200" style="transform: rotate(90deg); display: inline-block; border-radius: 8px;"} <br>
-![home repair](./repair_smaller/20260509_083834.jpg){: width="200" style="transform: rotate(90deg); display: inline-block; border-radius: 8px;"} <br>
+![home repair](./repair_smaller/20260509_083827.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
+![home repair](./repair_smaller/20260509_083834.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_083836.jpg){: width="200" style="transform: rotate(90deg); display: inline-block; border-radius: 8px;"} <br> <br>
 ![home repair](./repair_smaller/20260509_083849.jpg){: width="200" style="transform: rotate(90deg); display: inline-block; border-radius: 8px;"} <br>
 ![home repair](./repair_smaller/20260509_083933.jpg){: width="200" style="transform: rotate(90deg); display: inline-block; border-radius: 8px;"} <br>
