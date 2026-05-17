@@ -135,10 +135,10 @@
 ![home repair](./repair_smaller/20260509_093015.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_093022.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
 ![home repair](./repair_smaller/20260509_093038.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_093040.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
+
 ![home repair](./repair_smaller/20260509_093048.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_093054.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
-![home repair](./repair_smaller/20260509_093105.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
+
 ![home repair](./repair_smaller/20260509_093118.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_093124.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_093143.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
@@ -214,7 +214,10 @@
 
 ## Finish
 
-![home repair](./repair_smaller/20260509_084021.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
+![home repair](./repair_smaller/20260509_084021.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br>
+
+![home repair](./repair_smaller/20260509_093040.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} 
+![home repair](./repair_smaller/20260509_093105.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
 
 ## Inventory
 
