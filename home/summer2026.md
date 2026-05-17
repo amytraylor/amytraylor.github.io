@@ -48,9 +48,7 @@
 ![home repair](./repair_smaller/20260509_091235.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
 ![home repair](./repair_smaller/20260509_091512.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_091521.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_091552.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_091555.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
-![home repair](./repair_smaller/20260509_091618.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
+![home repair](./repair_smaller/20260509_091618.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
 ![home repair](./repair_smaller/20260509_091633.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_091639.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_091644.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
@@ -219,7 +217,12 @@
 ![home repair](./repair_smaller/20260509_093040.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} 
 ![home repair](./repair_smaller/20260509_093105.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
 
-## Inventory
+## Hang Me
+
+![home repair](./repair_smaller/20260509_091552.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
+![home repair](./repair_smaller/20260509_091555.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
+
+## Organize and Inventory
 
 ![home repair](./repair_smaller/20260509_084059.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 
