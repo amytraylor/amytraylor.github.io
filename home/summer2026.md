@@ -3,8 +3,7 @@
 ![home repair](./repair_smaller/20260509_083836.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_083849.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
 ![home repair](./repair_smaller/20260509_083933.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_084000.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_084019.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
+![home repair](./repair_smaller/20260509_084000.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
 ![home repair](./repair_smaller/20260509_084032.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_084043.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_084047.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
@@ -18,21 +17,12 @@
 ![home repair](./repair_smaller/20260509_084218.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
 ![home repair](./repair_smaller/20260509_084223.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_084233.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
-![home repair](./repair_smaller/20260509_090742.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_090748.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_090801.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_090816.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
 ![home repair](./repair_smaller/20260509_090824.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_090829.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_090838.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_090849.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
+![home repair](./repair_smaller/20260509_090829.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
 ![home repair](./repair_smaller/20260509_090857.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_090916.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_090922.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_090934.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
-![home repair](./repair_smaller/20260509_090941.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_090946.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_091000.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_091013.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
 ![home repair](./repair_smaller/20260509_091026.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_091031.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
@@ -93,20 +83,13 @@
 ![home repair](./repair_smaller/20260509_092422.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_092426.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
 ![home repair](./repair_smaller/20260509_092432.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_092441.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_092445.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_092447.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
+![home repair](./repair_smaller/20260509_092441.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
 ![home repair](./repair_smaller/20260509_092450.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_092452.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_092513.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_092518.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
+
 ![home repair](./repair_smaller/20260509_092522.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_092532.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_092541.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_092544.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
-![home repair](./repair_smaller/20260509_092548.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_092553.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_092558.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_092607.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
 ![home repair](./repair_smaller/20260509_092611.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_092615.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
@@ -114,7 +97,7 @@
 ![home repair](./repair_smaller/20260509_092626.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
 ![home repair](./repair_smaller/20260509_092631.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_092636.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_092639.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
+
 ![home repair](./repair_smaller/20260509_092652.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
 ![home repair](./repair_smaller/20260509_092658.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_092703.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
@@ -198,29 +181,59 @@
 ![home repair](./repair_smaller/20260509_094822.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
 ![home repair](./repair_smaller/20260509_094829.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_094838.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_094846.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_094855.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
-![home repair](./repair_smaller/20260509_094946.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_095032.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_095036.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_104119.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
-![home repair](./repair_smaller/20260509_104121.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_104124.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_104127.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_104131.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
-![home repair](./repair_smaller/20260509_115710.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
+![home repair](./repair_smaller/20260509_094846.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
 
-## Finish
+## Pick Up Leaves/Spread Mulch
+
+![home repair](./repair_smaller/20260509_084019.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
+![home repair](./repair_smaller/20260509_090742.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
+![home repair](./repair_smaller/20260509_090838.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
+![home repair](./repair_smaller/20260509_090849.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
+![home repair](./repair_smaller/20260509_091000.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
+![home repair](./repair_smaller/20260509_090816.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
+
+## Finish Fences
 
 ![home repair](./repair_smaller/20260509_084021.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br>
-
 ![home repair](./repair_smaller/20260509_093040.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} 
 ![home repair](./repair_smaller/20260509_093105.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
 
 ## Hang Me
 
+![home repair](./repair_smaller/20260509_092553.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_091552.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_091555.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
+
+## Repair and/or Replace
+
+![home repair](./repair_smaller/20260509_090922.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
+![home repair](./repair_smaller/20260509_090934.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} 
+![home repair](./repair_smaller/20260509_090941.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
+![home repair](./repair_smaller/20260509_090946.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
+![home repair](./repair_smaller/20260509_095032.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
+![home repair](./repair_smaller/20260509_095036.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
+![home repair](./repair_smaller/20260509_094855.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
+![home repair](./repair_smaller/20260509_104124.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
+![home repair](./repair_smaller/20260509_104127.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
+![home repair](./repair_smaller/20260509_092445.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
+![home repair](./repair_smaller/20260509_104131.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
+
+## Finish or Repair trim/moulding/baseboards
+
+![home repair](./repair_smaller/20260509_094946.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
+![home repair](./repair_smaller/20260509_104121.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
+![home repair](./repair_smaller/20260509_092639.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
+![home repair](./repair_smaller/20260509_115710.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
+![home repair](./repair_smaller/20260509_092447.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} 
+![home repair](./repair_smaller/20260509_092513.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
+![home repair](./repair_smaller/20260509_092518.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} 
+![home repair](./repair_smaller/20260509_092544.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
+![home repair](./repair_smaller/20260509_092558.jpg){: width="200" style="display: inline-block; border-radius: 8px;"}
+![home repair](./repair_smaller/20260509_092548.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
+
+## Needs Bulbs
+
+![home repair](./repair_smaller/20260509_104119.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
 
 ## Organize and Inventory
 
