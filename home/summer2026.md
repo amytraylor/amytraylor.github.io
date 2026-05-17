@@ -5,9 +5,15 @@
 ![home repair](./repair_smaller/20260509_083834.jpg "083834"){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_083836.jpg "083836"){: width="200" style="display: inline-block; border-radius: 8px;"}
 ![home repair](./repair_smaller/20260509_083849.jpg "083849"){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
-|:--:| :--:| |:--:| :--:| 
-| *Space* | *Space* | *Space* | *Space* |
-| Lots of text, lalalalalalaal| Lots of text, lalalalalalaal| Lots of text, lalalalalalaal| Lots of text, lalalalalalaal|
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+
+<figure>
+  <img src="{{site.url}}/assets/image.jpg" alt="my alt text"/>
+  <figcaption>This is my caption text.</figcaption>
+</figure>
+
+Vestibulum eu vulputate magna...
 
 
 ![home repair](./repair_smaller/20260509_084138.jpg){: width="200" style="display: inline-block; border-radius: 8px;"} <br> <br>
