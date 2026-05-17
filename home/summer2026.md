@@ -1,7 +1,8 @@
 
-| ![space-1.jpg](./repair_smaller/20260509_083827.jpg) | 
-|:--:| 
-| *Space* |
+| ![space-1.jpg](./repair_smaller/20260509_083827.jpg) {: width="200" style="display: inline-block; border-radius: 8px;"}| ![home repair](./repair_smaller/20260509_083834.jpg "083834"){: width="200" style="display: inline-block; border-radius: 8px;"}|
+|:--:| :--:| 
+| *Space* | *Space* |
+| Lots of text, lalalalalalaal| Lots of text, lalalalalalaal|
 
 
 
