@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Live Face Capture Export</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/p5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ml5@1.3.1/dist/ml5.min.js"></script>
+    <style>
+      body { margin: 0; background: #111; color: #eee; font-family: Arial, sans-serif; }
+      main { max-width: 980px; margin: 0 auto; padding: 16px; }
+      button { padding: 8px 12px; margin: 4px; }
+      .note { color: #bbb; line-height: 1.4; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Live Face Capture</h1>
+      <p class="note">Freeze a FaceMesh capture and export it as a JSON mesh compatible with the floating-skin designer.</p>
+      <div id="sketch-holder"></div>
+    </main>
+    <script src="./capture_sketch.js"></script>
+  </body>
+</html>

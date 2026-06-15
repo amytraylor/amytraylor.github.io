@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8" /><title>Machine-Learning Logic Demo</title>
+<style>body{font-family:Arial,sans-serif;line-height:1.55;margin:0;background:#101010;color:#eee}main{max-width:960px;margin:0 auto;padding:24px}section{background:#1b1b1b;padding:16px;margin:16px 0;border:1px solid #333;border-radius:10px}canvas{background:#ddd;border:1px solid #555;width:100%;max-width:600px}code{background:#222;padding:2px 4px}</style></head>
+<body><main>
+<h1>Machine-Learning Logic in the Floating-Skin App</h1>
+<section><h2>1. Pixels become numbers</h2><p>A computer image is a grid of numbers. Each pixel has red, green, and blue values. Here we often reduce those values to brightness.</p><p><label>Brightness: <input id="brightnessSlider" type="range" min="0" max="255" value="128" /></label> <span id="brightnessValue">128</span></p><canvas id="brightnessCanvas" width="400" height="120"></canvas></section>
+<section><h2>2. Brightness becomes displacement</h2><p>The app maps brightness to geometry: <code>displacement = lerp(minDisplacement, maxDisplacement, brightness)</code>.</p><p>Black can move inward, white can move outward, and gray can stay near the original face.</p></section>
+<section><h2>3. A face model predicts landmarks</h2><p>Face landmark models predict many point locations. Those predicted points become a mesh. In this project, the mesh is an artistic scaffold rather than an identity-recognition system.</p></section>
+<section><h2>4. Weights mix visual choices</h2><p>A simple machine-learning idea is weighted combination: <code>output = weightA × A + weightB × B + weightC × C</code>. Texture mixing, region selection, and displacement are approachable ways to teach this visually.</p></section>
+</main><script>
+const slider=document.getElementById("brightnessSlider");const value=document.getElementById("brightnessValue");const canvas=document.getElementById("brightnessCanvas");const ctx=canvas.getContext("2d");function draw(){const b=Number(slider.value);value.textContent=b;ctx.fillStyle=`rgb(${b},${b},${b})`;ctx.fillRect(0,0,canvas.width,canvas.height);ctx.fillStyle=b>128?"black":"white";ctx.font="20px Arial";ctx.fillText(`brightness = ${b}`,20,65)}slider.addEventListener("input",draw);draw();
+</script></body></html>

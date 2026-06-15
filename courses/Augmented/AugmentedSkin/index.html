@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>UV Floating Skin + Triangle Centers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--
+      CLASSIC / NON-MODULE VERSION
+
+      Use this version if you are getting:
+      "Cannot use import statement outside a module"
+
+      This loads THREE as a global variable instead of using import statements.
+    -->
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
+
+    <style>
+      html, body {
+        margin: 0;
+        height: 100%;
+        background: #111;
+        color: #eee;
+        font-family: Arial, sans-serif;
+        overflow: hidden;
+      }
+
+      #app {
+        display: grid;
+        grid-template-columns: 340px 1fr;
+        height: 100%;
+      }
+
+      #panel {
+        background: #1a1a1a;
+        border-right: 1px solid #333;
+        padding: 12px;
+        overflow-y: auto;
+      }
+
+      #panel h2, #panel h3 {
+        margin: 8px 0;
+      }
+
+      #panel .group {
+        margin-bottom: 14px;
+        padding: 10px;
+        background: #222;
+        border: 1px solid #333;
+        border-radius: 8px;
+      }
+
+      #panel label {
+        display: block;
+        font-size: 13px;
+        margin-top: 8px;
+      }
+
+      #panel input[type="range"] {
+        width: 100%;
+      }
+
+      #panel button {
+        margin-top: 8px;
+        padding: 8px 10px;
+        border: 1px solid #444;
+        background: #2f2f2f;
+        color: white;
+        border-radius: 6px;
+        cursor: pointer;
+      }
+
+      #panel button:hover {
+        background: #3b3b3b;
+      }
+
+      #panel canvas {
+        width: 100%;
+        height: auto;
+        border: 1px solid #444;
+        background: #fff;
+        image-rendering: pixelated;
+      }
+
+      #viewer {
+        position: relative;
+      }
+
+      #viewer canvas {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+
+      .row {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        margin-top: 6px;
+      }
+
+      .row > * {
+        flex: 1;
+      }
+
+      .small {
+        font-size: 12px;
+        color: #bbb;
+        line-height: 1.4;
+      }
+
+      .stat {
+        font-size: 12px;
+        color: #9fd;
+        margin-top: 4px;
+        white-space: pre-line;
+      }
+
+      input[type="checkbox"] {
+        transform: translateY(1px);
+        margin-right: 6px;
+      }
+
+      .textureLibrary {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+      }
+
+      .textureThumb {
+        border: 2px solid #666;
+        cursor: pointer;
+        background: #222;
+        padding: 4px;
+        border-radius: 6px;
+      }
+
+      .textureThumb.selected {
+        border-color: #00d8ff;
+        box-shadow: 0 0 8px rgba(0, 216, 255, 0.7);
+      }
+
+      .textureThumb img {
+        width: 100%;
+        display: block;
+        border-radius: 4px;
+      }
+
+      .textureThumb .caption {
+        font-size: 10px;
+        color: #ccc;
+        text-align: center;
+        margin-top: 3px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+
+
+      .viewThumbGrid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+        margin-top: 8px;
+      }
+
+      .viewThumb {
+        background: #111;
+        border: 1px solid #444;
+        border-radius: 6px;
+        padding: 4px;
+      }
+
+      .viewThumb img {
+        width: 100%;
+        display: block;
+        border-radius: 4px;
+      }
+
+      .viewThumb .caption {
+        font-size: 10px;
+        color: #ccc;
+        text-align: center;
+        margin-top: 3px;
+      }
+
+
+      #processingOverlay {
+        position: absolute;
+        left: 16px;
+        right: 16px;
+        bottom: 16px;
+        display: none;
+        flex-direction: column;
+        gap: 8px;
+        padding: 12px;
+        border: 1px solid #555;
+        border-radius: 10px;
+        background: rgba(0, 0, 0, 0.78);
+        color: white;
+        font-size: 13px;
+        z-index: 10;
+        pointer-events: none;
+      }
+
+      #buildProgressOuter {
+        width: 100%;
+        height: 12px;
+        border: 1px solid #777;
+        border-radius: 999px;
+        overflow: hidden;
+        background: #222;
+      }
+
+      #buildProgressBar {
+        width: 0%;
+        height: 100%;
+        background: #e8e8e8;
+      }
+
+      @media (max-width: 900px) {
+        #app {
+          grid-template-columns: 1fr;
+          grid-template-rows: auto 1fr;
+        }
+
+        #panel {
+          max-height: 42vh;
+          border-right: none;
+          border-bottom: 1px solid #333;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="app">
+      <div id="panel">
+        <h2>UV Floating Skin Prototype</h2>
+        <div class="small">
+          Files needed in this same folder:
+          <br />• index.html
+          <br />• sketch.js
+          <br />• preset_face_mesh.json
+        </div>
+
+        <div class="group">
+          <h3>Visibility</h3>
+          <label><input id="showMesh" type="checkbox" checked /> Show base wire mesh</label>
+          <label><input id="showPoints" type="checkbox" checked /> Show UV floating points</label>
+          <label><input id="showTriGlyphs" type="checkbox" checked /> Show triangle-center glyphs</label>
+          <label><input id="flipY" type="checkbox" checked /> Flip model vertically</label>
+          <label><input id="flipDesignY" type="checkbox" checked /> Flip design image vertically before applying</label>
+          <label><input id="useCylindricalProjectionTexture" type="checkbox" checked /> Map design by cylindrical wrap around face</label>
+          <label><input id="useFrontProjectionTexture" type="checkbox" /> Map design by front X/Y projection</label>
+          <label><input id="fitTextureToFaceUvBounds" type="checkbox" checked /> Fit full design image to face UV bounds when using UV mapping</label>
+          <label><input id="filterStretchedTriangles" type="checkbox" checked /> Hide stretched boundary triangles from point sampling</label>
+        </div>
+
+        <div class="group">
+          <h3>UV Floating Points</h3>
+
+          <label>UV Sample Step: <span id="sampleStepValue">1</span></label>
+          <div class="small">Smaller step = denser points. Sampling now uses a uniform UV pixel grid, so point spacing is more even and the design pattern keeps the same relative scale as the 1000×1000 source image.</div>
+          <input id="sampleStep" type="range" min="1" max="12" step="1" value="1" />
+
+          <label>Base Offset: <span id="pointBaseOffsetValue">0.0</span></label>
+          <input id="pointBaseOffset" type="range" min="-10" max="10" step="0.1" value="0.0" />
+
+          <label>Min Displacement (black): <span id="pointMinDispValue">-6.0</span></label>
+          <input id="pointMinDisp" type="range" min="-20" max="20" step="0.1" value="-6.0" />
+
+          <label>Max Displacement (white): <span id="pointMaxDispValue">6.0</span></label>
+          <input id="pointMaxDisp" type="range" min="-20" max="20" step="0.1" value="6.0" />
+
+          <div class="small">Brightness is mapped continuously from min to max, so black can go inward and white can go outward at the same time.</div>
+
+          <label>Point Size: <span id="pointSizeValue">1.8</span></label>
+          <input id="pointSize" type="range" min="0.5" max="6" step="0.1" value="1.8" />
+
+          <label>Max Floating Points: <span id="maxFloatingPointsValue">360000</span></label>
+          <input id="maxFloatingPoints" type="range" min="1000" max="500000" step="1000" value="360000" />
+          <div class="small">Point cloud is rebuilt once in animation-frame batches after a change. The sampler distributes the exact requested point count by 3D surface area. By default the design image wraps cylindrically around the face, so the pattern can reach side/back regions instead of behaving like a flat front projection.</div>
+        </div>
+
+        <div class="group">
+          <h3>Triangle-Center Glyphs</h3>
+
+          <label>Triangle Glyph Base Offset: <span id="triBaseOffsetValue">0.0</span></label>
+          <input id="triBaseOffset" type="range" min="-10" max="10" step="0.1" value="0.0" />
+
+          <label>Triangle Glyph Min Displacement (black): <span id="triMinDispValue">-7.0</span></label>
+          <input id="triMinDisp" type="range" min="-20" max="20" step="0.1" value="-7.0" />
+
+          <label>Triangle Glyph Max Displacement (white): <span id="triMaxDispValue">7.0</span></label>
+          <input id="triMaxDisp" type="range" min="-20" max="20" step="0.1" value="7.0" />
+
+          <label>Triangle Glyph Radius: <span id="triScaleValue">1.8</span></label>
+          <input id="triScale" type="range" min="0.1" max="8" step="0.1" value="1.8" />
+        </div>
+
+        <div class="group">
+          <h3>Design Canvas</h3>
+          <div class="small">
+            This is a placeholder design texture. Later, your weighted-region image mixer can draw into this canvas.
+          </div>
+
+          <canvas id="designCanvas" width="1000" height="1000"></canvas>
+
+          <label>Boundary Softening / Blur Radius: <span id="blurRadiusValue">0</span> px</label>
+          <input id="blurRadius" type="range" min="0" max="40" step="1" value="0" />
+
+          <label>
+            <input id="useBlurredDesign" type="checkbox" checked />
+            Use softened design for displacement
+          </label>
+
+          <div class="small">The visible canvas is the raw design. The preview below is the softened/blurred version used for final displacement.</div>
+          <canvas id="blurPreviewCanvas" width="1000" height="1000"></canvas>
+
+
+          <div class="row">
+            <button id="demoDesignBtn">Generate Geometric Circle Design</button>
+            <button id="clearDesignBtn">Clear</button>
+          </div>
+
+          <div class="row">
+            <button id="rebuildBtn">Rebuild Geometry</button>
+          </div>
+        </div>
+
+
+        <div class="group">
+          <h3>Texture Choices</h3>
+          <div class="small">
+            Click a texture, then paint or stamp it onto the UV design canvas above.
+            The 3D floating skin rebuilds from that design canvas.
+          </div>
+
+          <label>
+            Upload texture images
+            <input id="textureFiles" type="file" accept="image/*" multiple />
+          </label>
+
+          <div id="textureLibrary" class="textureLibrary"></div>
+
+          <label>Stamp Size: <span id="stampSizeValue">120</span></label>
+          <input id="stampSize" type="range" min="20" max="400" step="5" value="120" />
+
+          <label>Stamp Opacity: <span id="stampOpacityValue">1.00</span></label>
+          <input id="stampOpacity" type="range" min="0" max="1" step="0.05" value="1" />
+
+          <label>
+            <input id="useTextureStamp" type="checkbox" checked />
+            Use selected texture when painting on design canvas
+          </label>
+        </div>
+
+
+        <div class="group">
+          <h3>Export + Standard Views</h3>
+          <div class="small">
+            Save the current generated face without requiring the student to rotate it by hand.
+          </div>
+
+          <label>XYZ Export Step: <span id="xyzExportStepValue">4</span></label>
+          <input id="xyzExportStep" type="range" min="2" max="20" step="1" value="4" />
+          <div class="small">Smaller step exports more points. This can create large CSV files.</div>
+
+          <div class="row">
+            <button id="previewViewsBtn">Preview Standard Views</button>
+            <button id="exportViewsBtn">Export View Images</button>
+          </div>
+
+          <div class="row">
+            <button id="exportXYZRawBtn">Export Raw XYZ</button>
+            <button id="exportXYZBlurredBtn">Export Softened XYZ</button>
+          </div>
+
+          <div class="row">
+            <button id="exportRenderedXYZBtn">Export Rendered Points XYZ</button>
+          </div>
+
+          <div class="row">
+            <button id="exportManifestBtn">Export Project JSON</button>
+            <button id="exportProjectZipBtn">Export Project ZIP</button>
+          </div>
+
+          <div id="viewThumbGrid" class="viewThumbGrid"></div>
+        </div>
+
+        <div class="group">
+          <h3>Stats</h3>
+          <div id="stats" class="stat">Loading...</div>
+        </div>
+      </div>
+
+      <div id="viewer">
+        <div id="processingOverlay">
+          <div id="buildProgressText">Building dense point cloud...</div>
+          <div id="buildProgressOuter"><div id="buildProgressBar"></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Classic script, not type="module". -->
+    <script src="./project_state.js"></script>
+    <script src="./sketch.js"></script>
+    <script src="./export_tools.js"></script>
+  </body>
+</html>
