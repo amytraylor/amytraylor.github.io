@@ -1,0 +1,192 @@
+{
+  "created": "2026-06-20",
+  "method": "UV bounds normalization + nearest MediaPipe reference-triangle region transfer",
+  "referenceUvBounds": {
+    "minU": 0.0076,
+    "minV": 0.1071,
+    "maxU": 0.9924,
+    "maxV": 0.9545
+  },
+  "meshes": [
+    {
+      "mode": "student_bald3",
+      "label": "Bald head 3",
+      "file": "student_bald3_mesh.json",
+      "sourceFile": "bald3.json",
+      "vertexCount": 3479,
+      "triangleCount": 6464,
+      "sourceUvBounds": {
+        "minU": 0.0,
+        "minV": 0.0,
+        "maxU": 0.588715,
+        "maxV": 0.99503
+      },
+      "targetUvBounds": {
+        "minU": 0.0076,
+        "minV": 0.1071,
+        "maxU": 0.9924,
+        "maxV": 0.9545
+      },
+      "regionTriangleCounts": {
+        "lips": 29,
+        "leftEye": 11,
+        "rightEye": 0,
+        "leftEyebrow": 5,
+        "rightEyebrow": 0,
+        "nose": 88,
+        "forehead": 22,
+        "leftCheek": 2261,
+        "rightCheek": 1427,
+        "chin": 2510,
+        "skin": 95,
+        "mouthInterior": 2,
+        "leftEyeInterior": 14,
+        "rightEyeInterior": 0
+      }
+    },
+    {
+      "mode": "student_bald13",
+      "label": "Bald head 13",
+      "file": "student_bald13_mesh.json",
+      "sourceFile": "bald13.json",
+      "vertexCount": 3464,
+      "triangleCount": 6460,
+      "sourceUvBounds": {
+        "minU": 0.0,
+        "minV": 0.0,
+        "maxU": 0.588715,
+        "maxV": 0.99503
+      },
+      "targetUvBounds": {
+        "minU": 0.0076,
+        "minV": 0.1071,
+        "maxU": 0.9924,
+        "maxV": 0.9545
+      },
+      "regionTriangleCounts": {
+        "lips": 29,
+        "leftEye": 11,
+        "rightEye": 0,
+        "leftEyebrow": 5,
+        "rightEyebrow": 0,
+        "nose": 89,
+        "forehead": 21,
+        "leftCheek": 2401,
+        "rightCheek": 1788,
+        "chin": 2004,
+        "skin": 96,
+        "mouthInterior": 2,
+        "leftEyeInterior": 14,
+        "rightEyeInterior": 0
+      }
+    },
+    {
+      "mode": "student_bald38",
+      "label": "Bald head 38",
+      "file": "student_bald38_mesh.json",
+      "sourceFile": "bald38.json",
+      "vertexCount": 3554,
+      "triangleCount": 6500,
+      "sourceUvBounds": {
+        "minU": 0.0,
+        "minV": 0.0,
+        "maxU": 0.583344,
+        "maxV": 0.99503
+      },
+      "targetUvBounds": {
+        "minU": 0.0076,
+        "minV": 0.1071,
+        "maxU": 0.9924,
+        "maxV": 0.9545
+      },
+      "regionTriangleCounts": {
+        "lips": 36,
+        "leftEye": 12,
+        "rightEye": 0,
+        "leftEyebrow": 5,
+        "rightEyebrow": 0,
+        "nose": 94,
+        "forehead": 22,
+        "leftCheek": 2385,
+        "rightCheek": 1057,
+        "chin": 2780,
+        "skin": 91,
+        "mouthInterior": 4,
+        "leftEyeInterior": 14,
+        "rightEyeInterior": 0
+      }
+    },
+    {
+      "mode": "student_brunette",
+      "label": "Brunette head",
+      "file": "student_brunette_mesh.json",
+      "sourceFile": "brunette.json",
+      "vertexCount": 2162,
+      "triangleCount": 4094,
+      "sourceUvBounds": {
+        "minU": 0.005,
+        "minV": 0.0193,
+        "maxU": 0.9943,
+        "maxV": 0.99565
+      },
+      "targetUvBounds": {
+        "minU": 0.0076,
+        "minV": 0.1071,
+        "maxU": 0.9924,
+        "maxV": 0.9545
+      },
+      "regionTriangleCounts": {
+        "lips": 391,
+        "leftEye": 8,
+        "rightEye": 5,
+        "leftEyebrow": 6,
+        "rightEyebrow": 14,
+        "nose": 1117,
+        "forehead": 113,
+        "leftCheek": 727,
+        "rightCheek": 750,
+        "chin": 269,
+        "skin": 633,
+        "mouthInterior": 51,
+        "leftEyeInterior": 4,
+        "rightEyeInterior": 6
+      }
+    },
+    {
+      "mode": "student_mpfb",
+      "label": "MPFB head",
+      "file": "student_mpfb_mesh.json",
+      "sourceFile": "mpfb.json",
+      "vertexCount": 3203,
+      "triangleCount": 6232,
+      "sourceUvBounds": {
+        "minU": 0.641249,
+        "minV": 0.148696,
+        "maxU": 0.993515,
+        "maxV": 0.817634
+      },
+      "targetUvBounds": {
+        "minU": 0.0076,
+        "minV": 0.1071,
+        "maxU": 0.9924,
+        "maxV": 0.9545
+      },
+      "regionTriangleCounts": {
+        "lips": 265,
+        "leftEye": 62,
+        "rightEye": 4,
+        "leftEyebrow": 56,
+        "rightEyebrow": 33,
+        "nose": 1744,
+        "forehead": 121,
+        "leftCheek": 2480,
+        "rightCheek": 219,
+        "chin": 228,
+        "skin": 954,
+        "mouthInterior": 26,
+        "leftEyeInterior": 30,
+        "rightEyeInterior": 10
+      }
+    }
+  ]
+}
