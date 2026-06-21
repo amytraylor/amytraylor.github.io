@@ -12,5 +12,14 @@ Augmented
     <strong>Augmented</strong><br>
     <small></small>
   </a>
-  
+
+    <a href="AugmentedSkin2/">
+    <strong>Augmented</strong><br>
+    <small></small>
+  </a>
+
+    <a href="AugmentedSkin3/">
+    <strong>Augmented</strong><br>
+    <small></small>
+  </a>
 </div>
