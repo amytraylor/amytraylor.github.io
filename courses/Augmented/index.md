@@ -12,12 +12,12 @@ Augmented
     <strong>Augmented</strong><br>
     <small></small>
   </a>
-
-    <a href="AugmentedSkin2/">
+<div class="sketch-list">
+    <a href="AugmentedFace/">
     <strong>Augmented</strong><br>
     <small></small>
   </a>
-
+<div class="sketch-list">
     <a href="AugmentedSkin3/">
     <strong>Augmented</strong><br>
     <small></small>
