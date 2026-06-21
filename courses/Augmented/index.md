@@ -9,17 +9,17 @@ Augmented
 
 <div class="sketch-list">
   <a href="AugmentedSkin/">
-    <strong>Augmented</strong><br>
+    <strong>AugmentedSkinv1</strong><br>
     <small></small>
   </a>
 <div class="sketch-list">
     <a href="AugmentedFace/">
-    <strong>Augmented</strong><br>
+    <strong>AugmentedSkinv2</strong><br>
     <small></small>
   </a>
 <div class="sketch-list">
     <a href="AugmentedSkin3/">
-    <strong>Augmented</strong><br>
+    <strong>AugmentedSkinv3</strong><br>
     <small></small>
   </a>
 </div>
