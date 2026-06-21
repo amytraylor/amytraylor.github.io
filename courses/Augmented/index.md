@@ -13,7 +13,7 @@ Augmented
     <small></small>
   </a>
 <div class="sketch-list">
-    <a href="AugmentedFace/">
+    <a href="AugmentedSkinv2/">
     <strong>AugmentedSkinv2</strong><br>
     <small></small>
   </a>
