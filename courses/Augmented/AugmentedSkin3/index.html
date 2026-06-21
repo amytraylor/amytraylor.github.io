@@ -1,0 +1,847 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Future Face / Head Designer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--
+      CLASSIC / NON-MODULE VERSION
+
+      Use this version if you are getting:
+      "Cannot use import statement outside a module"
+
+      This loads THREE as a global variable instead of using import statements.
+    -->
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
+
+    <style>
+      html, body {
+        margin: 0;
+        height: 100%;
+        background: #111;
+        color: #eee;
+        font-family: Arial, sans-serif;
+        overflow: hidden;
+      }
+
+      #app {
+        display: grid;
+        grid-template-columns: 340px 1fr;
+        height: 100%;
+      }
+
+      #panel {
+        background: #1a1a1a;
+        border-right: 1px solid #333;
+        padding: 12px;
+        overflow-y: auto;
+      }
+
+      #panel h2, #panel h3 {
+        margin: 8px 0;
+      }
+
+      #panel .group {
+        margin-bottom: 14px;
+        padding: 10px;
+        background: #222;
+        border: 1px solid #333;
+        border-radius: 8px;
+      }
+
+
+      details.group > summary {
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 16px;
+        list-style: none;
+      }
+
+      details.group > summary::-webkit-details-marker {
+        display: none;
+      }
+
+      details.group > summary::before {
+        content: "▶";
+        display: inline-block;
+        margin-right: 6px;
+        transition: transform 0.12s ease;
+      }
+
+      details.group[open] > summary::before {
+        transform: rotate(90deg);
+      }
+
+      #advancedControlsGroup {
+        margin-top: 24px;
+        border-color: #555;
+        background: #181818;
+      }
+
+      #advancedControlsGroup .group {
+        background: #202020;
+      }
+
+      #panel label {
+        display: block;
+        font-size: 13px;
+        margin-top: 8px;
+      }
+
+      #panel input[type="range"] {
+        width: 100%;
+      }
+
+      #panel button {
+        margin-top: 8px;
+        padding: 8px 10px;
+        border: 1px solid #444;
+        background: #2f2f2f;
+        color: white;
+        border-radius: 6px;
+        cursor: pointer;
+      }
+
+      #panel button:hover {
+        background: #3b3b3b;
+      }
+
+      #panel canvas {
+        width: 100%;
+        height: auto;
+        border: 1px solid #444;
+        background: #fff;
+        image-rendering: pixelated;
+      }
+
+      #viewer {
+        position: relative;
+      }
+
+      #viewer canvas {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+
+      .row {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        margin-top: 6px;
+      }
+
+      .row > * {
+        flex: 1;
+      }
+
+      .small {
+        font-size: 12px;
+        color: #bbb;
+        line-height: 1.4;
+      }
+
+      .stat {
+        font-size: 12px;
+        color: #9fd;
+        margin-top: 4px;
+        white-space: pre-line;
+      }
+
+      input[type="checkbox"] {
+        transform: translateY(1px);
+        margin-right: 6px;
+      }
+
+      .textureLibrary {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+      }
+
+      .textureThumb {
+        border: 2px solid #666;
+        cursor: pointer;
+        background: #222;
+        padding: 4px;
+        border-radius: 6px;
+      }
+
+      .textureThumb.selected {
+        border-color: #00d8ff;
+        box-shadow: 0 0 8px rgba(0, 216, 255, 0.7);
+      }
+
+      .textureThumb img {
+        width: 100%;
+        display: block;
+        border-radius: 4px;
+      }
+
+      .textureThumb .caption {
+        font-size: 10px;
+        color: #ccc;
+        text-align: center;
+        margin-top: 3px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+
+
+
+      .navLinks {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 6px;
+      }
+
+      .navLinks a {
+        color: #fff;
+        text-decoration: none;
+        background: #303030;
+        border: 1px solid #444;
+        border-radius: 6px;
+        padding: 7px 8px;
+        font-size: 12px;
+        text-align: center;
+      }
+
+      .navLinks a:hover {
+        background: #3b3b3b;
+      }
+
+      @media (max-width: 1050px) {
+        #app {
+          grid-template-columns: 300px 1fr;
+        }
+
+        #panel {
+          padding: 8px;
+        }
+
+        #panel .group {
+          padding: 8px;
+        }
+      }
+
+      @media (max-width: 760px) {
+        html, body {
+          overflow: auto;
+        }
+
+        #app {
+          display: flex;
+          flex-direction: column;
+          min-height: 100vh;
+          height: auto;
+        }
+
+        #panel {
+          height: 48vh;
+          border-right: none;
+          border-bottom: 1px solid #333;
+        }
+
+        #viewer {
+          min-height: 52vh;
+          height: 52vh;
+        }
+
+        .row {
+          flex-direction: column;
+        }
+
+        .navLinks {
+          grid-template-columns: 1fr;
+        }
+      }
+
+
+      .modelButtons {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 6px;
+      }
+      #modelMode {
+        width: 100%;
+        padding: 8px;
+        background: #111;
+        color: #eee;
+        border: 1px solid #444;
+        border-radius: 6px;
+      }
+      .templatePreview {
+        width: 100%;
+        max-height: 220px;
+        object-fit: contain;
+        background: #eee;
+        border: 1px solid #444;
+        border-radius: 6px;
+        margin-top: 8px;
+      }
+
+      .viewThumbGrid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+        margin-top: 8px;
+      }
+
+      .viewThumb {
+        background: #111;
+        border: 1px solid #444;
+        border-radius: 6px;
+        padding: 4px;
+      }
+
+      .viewThumb img {
+        width: 100%;
+        display: block;
+        border-radius: 4px;
+      }
+
+      .viewThumb .caption {
+        font-size: 10px;
+        color: #ccc;
+        text-align: center;
+        margin-top: 3px;
+      }
+
+
+
+      /* Device-aware layout. JS adds body.device-desktop / .device-tablet / .device-phone. */
+      .deviceBadge {
+        display: inline-block;
+        margin-top: 6px;
+        padding: 4px 8px;
+        border: 1px solid #555;
+        border-radius: 999px;
+        color: #9fd;
+        background: #151515;
+        font-size: 12px;
+      }
+
+      body.device-desktop #app {
+        grid-template-columns: 360px 1fr;
+      }
+
+      body.device-tablet #app {
+        grid-template-columns: 320px 1fr;
+      }
+
+      body.device-phone {
+        overflow: auto;
+      }
+
+      body.device-phone #app {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        height: auto;
+      }
+
+      body.device-phone #viewer {
+        order: 1;
+        height: 58vh;
+        min-height: 360px;
+        border-bottom: 1px solid #333;
+      }
+
+      body.device-phone #panel {
+        order: 2;
+        height: auto;
+        max-height: none;
+        border-right: none;
+        border-bottom: none;
+      }
+
+      body.device-phone .textureLibrary {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      body.device-phone .row {
+        flex-direction: column;
+      }
+
+      body.device-phone button,
+      body.device-phone select,
+      body.device-phone input[type="file"] {
+        min-height: 42px;
+        font-size: 15px;
+      }
+
+      .faceRegionControls {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 6px;
+        margin-top: 8px;
+      }
+
+      #faceRegionSvg {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-top: 8px;
+        background: #d8d8d8;
+        border: 1px solid #444;
+        border-radius: 8px;
+        touch-action: manipulation;
+      }
+
+      #faceRegionSvg .region-poly {
+        stroke: rgba(0, 0, 0, 0.38);
+        stroke-width: 1.2;
+        cursor: pointer;
+        transition: opacity 0.12s, stroke-width 0.12s;
+      }
+
+      #faceRegionSvg .region-poly:hover {
+        opacity: 0.9;
+        stroke: #fff;
+        stroke-width: 3;
+      }
+
+      #faceRegionSvg .region-poly.selected {
+        stroke: #00e5ff;
+        stroke-width: 4;
+        filter: drop-shadow(0 0 3px rgba(0, 229, 255, 0.9));
+      }
+
+      #faceRegionChips {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        margin-top: 8px;
+      }
+
+      .regionChip {
+        display: inline-flex;
+        align-items: center;
+        padding: 3px 8px;
+        border-radius: 999px;
+        border: 1px solid #555;
+        background: #202020;
+        color: #ddd;
+        font-size: 11px;
+      }
+
+      body.hide-region-map #faceRegionGroup {
+        opacity: 0.55;
+      }
+
+      #processingOverlay {
+        position: absolute;
+        left: 16px;
+        right: 16px;
+        bottom: 16px;
+        display: none;
+        flex-direction: column;
+        gap: 8px;
+        padding: 12px;
+        border: 1px solid #555;
+        border-radius: 10px;
+        background: rgba(0, 0, 0, 0.78);
+        color: white;
+        font-size: 13px;
+        z-index: 10;
+        pointer-events: none;
+      }
+
+      #buildProgressOuter {
+        width: 100%;
+        height: 12px;
+        border: 1px solid #777;
+        border-radius: 999px;
+        overflow: hidden;
+        background: #222;
+      }
+
+      #buildProgressBar {
+        width: 0%;
+        height: 100%;
+        background: #e8e8e8;
+      }
+
+      .workflowSteps {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+        margin: 8px 0;
+      }
+
+      .workflowSteps button.activeStage {
+        background: #e8e8e8;
+        color: #111;
+        border-color: #fff;
+      }
+
+      .stageNote {
+        border-left: 3px solid #e8e8e8;
+        padding-left: 8px;
+        margin-top: 8px;
+      }
+
+      .stageHidden {
+        display: none !important;
+      }
+
+      body.stage-shape #processingOverlay {
+        display: none !important;
+      }
+
+      @media (max-width: 900px) {
+        #app {
+          grid-template-columns: 1fr;
+          grid-template-rows: auto 1fr;
+        }
+
+        #panel {
+          max-height: 42vh;
+          border-right: none;
+          border-bottom: 1px solid #333;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="app">
+      <div id="panel">
+        <h2>Future Face / Head Designer</h2>
+
+
+
+        
+
+        <div class="group" id="workflowGroup">
+          <h3>Workflow State</h3>
+          <div class="workflowSteps">
+            <button id="shapeStageBtn" class="activeStage">1. Shape head</button>
+            <button id="textureStageBtn">2. Add images</button>
+          </div>
+          <div id="workflowStatus" class="small stageNote">State 1 shows only the base face/head mesh and the shape sliders. Texture, pattern, SVG-region, point-cloud, and export controls are hidden until the head shape is finished.</div>
+          <div class="row">
+            <button id="continueToTextureBtn">Continue to image / texture stage</button>
+            <button id="backToShapeBtn">Back to shape stage</button>
+          </div>
+        </div>
+
+        
+
+        <div class="group" id="baseHeadGroup">
+          <h3>Base Face / Head Mesh</h3>
+          <label>Student head choice</label>
+          <select id="modelMode">
+            <option value="face" selected>Base classroom head</option>
+            <option value="student_bald3">Bald head 3</option>
+            <option value="student_bald13">Bald head 13</option>
+            <option value="student_bald38">Bald head 38</option>
+            <option value="student_brunette">Brunette head</option>
+            <option value="student_mpfb">MPFB head</option>
+          </select>
+          <div class="small">Choose a base head first. The imported head choices have been UV-remapped into the same MediaPipe/SVG design canvas so the texture stage works the same way across models.</div>
+
+          <label>Base face depth / z compression: <span id="modelDepthScaleValue">0.22</span></label>
+          <input id="modelDepthScale" type="range" min="0.05" max="0.70" step="0.01" value="0.22" />
+          <div class="small">Lower values make the classroom base profile less stretched. Imported student head choices keep their own depth by default.</div>
+        </div>
+
+        <div class="group" id="faceRegionGroup">
+          <h3>SVG Face Section Selection</h3>
+          <div class="small">Click face sections on the SVG map. Shift-click or normal click toggles sections. The map follows the current 468-point face UVs, so selected regions line up with the face mesh.</div>
+          <label><input id="limitToSelectedFaceRegions" type="checkbox" /> Limit geometry to selected face sections</label>
+          <div class="faceRegionControls">
+            <button id="selectAllFaceRegionsBtn">Select all</button>
+            <button id="clearFaceRegionsBtn">Clear selection</button>
+            <button id="selectCoreFaceRegionsBtn">Core face</button>
+            <button id="applySelectedTextureToRegionsBtn">Apply source to selected</button>
+          </div>
+          <div id="faceRegionChips"><span class="small">No sections selected</span></div>
+          <svg id="faceRegionSvg" viewBox="0 0 1000 1000" aria-label="Clickable SVG face region map"></svg>
+          <div class="small">“Apply source to selected” paints the chosen pattern/upload only inside selected UV regions and switches to fitted UV mapping so the SVG sections line up. Texture can still appear on eyes, mouth, and nose; the protection controls mainly reduce geometry deformation.</div>
+        </div>
+
+        
+
+        
+
+        
+
+        <div class="group" id="uvFloatingGroup">
+          <h3>UV Floating Points</h3>
+
+          <label>Min Displacement (black): <span id="pointMinDispValue">-6.0</span></label>
+          <input id="pointMinDisp" type="range" min="-20" max="20" step="0.1" value="-6.0" />
+
+          <label>Max Displacement (white): <span id="pointMaxDispValue">6.0</span></label>
+          <input id="pointMaxDisp" type="range" min="-20" max="20" step="0.1" value="6.0" />
+
+          <div class="small">Brightness maps continuously between these two values. Black can move inward and white can move outward.</div>
+        </div>
+
+        <div class="group" id="designCanvasGroup">
+          <h3>Design Canvas</h3>
+          <div class="small">
+            Choose one full-face source below. The selected code pattern or uploaded texture fills this 1000&times;1000 design map, then the softened version below drives displacement.
+          </div>
+
+          <canvas id="designCanvas" width="1000" height="1000"></canvas>
+
+          <label>Boundary Softening / Blur Radius: <span id="blurRadiusValue">0</span> px</label>
+          <input id="blurRadius" type="range" min="0" max="40" step="1" value="0" />
+
+          <label>
+            <input id="useBlurredDesign" type="checkbox" checked />
+            Use softened design for displacement
+          </label>
+
+          <div class="small">The visible canvas is the raw design. The preview below is the softened/blurred version used for final displacement.</div>
+          <canvas id="blurPreviewCanvas" width="1000" height="1000"></canvas>
+
+
+          <div class="row">
+            <button id="demoDesignBtn">Apply Circles Pattern</button>
+            <button id="clearDesignBtn">Clear</button>
+          </div>
+
+          <div class="row">
+            <button id="rebuildBtn">Rebuild Geometry</button>
+          </div>
+        </div>
+
+
+        
+
+
+        
+
+        
+        <div class="group" id="textureChoicesGroup">
+          <h3>Texture Choices</h3>
+          <div class="small">
+            This is State 2. The head shape from State 1 stays in place. Pick a built-in pattern or upload an image, then apply it to the full face or to SVG-selected regions.
+          </div>
+
+          <label>
+            Upload texture images
+            <input id="textureFiles" type="file" accept="image/*" multiple />
+          </label>
+
+          <div id="textureLibrary" class="textureLibrary"></div>
+
+          <button id="applyFullFaceTextureBtn" style="width:100%;margin:4px 0 8px 0;">Apply selected source to full face</button>
+        </div>
+
+        <div class="group" id="exportGroup">
+          <h3>Export</h3>
+          <div class="small">Use these two buttons for the workshop deliverables. View images download as separate PNG files; they are not zipped.</div>
+
+          <div class="row">
+            <button id="exportViewsBtn">Export View Images</button>
+            <button id="exportProjectZipBtn">Export Project ZIP</button>
+          </div>
+        </div>
+
+        <div id="stats" class="stat" style="display:none">Loading...</div>
+
+        <details class="group" id="advancedControlsGroup">
+          <summary>Advanced controls</summary>
+          <div class="small">Instructor-only settings, workshop-page links, and technical notes are collected here so the default student view stays simple.</div>
+
+        <details class="group" id="faceMorphGroup">
+          <summary>Manual Face / Head Shape</summary>
+          <div class="small">These sliders reshape only the base mesh. They are separated from texture/pattern work so students can clearly see what the mesh sliders do before moving on.</div>
+
+          <label>Face width / roundness: <span id="morphFaceRoundnessValue">0.00</span></label>
+          <input id="morphFaceRoundness" type="range" min="-1" max="1" step="0.01" value="0" />
+
+          <label>Jaw width / angularity: <span id="morphJawWidthValue">0.00</span></label>
+          <input id="morphJawWidth" type="range" min="-1" max="1" step="0.01" value="0" />
+
+          <label>Chin length: <span id="morphChinLengthValue">0.00</span></label>
+          <input id="morphChinLength" type="range" min="-1" max="1" step="0.01" value="0" />
+
+          <label>Cheekbone height / prominence: <span id="morphCheekbonesValue">0.00</span></label>
+          <input id="morphCheekbones" type="range" min="-1" max="1" step="0.01" value="0" />
+
+          <label>Nose width: <span id="morphNoseWidthValue">0.00</span></label>
+          <input id="morphNoseWidth" type="range" min="-1" max="1" step="0.01" value="0" />
+
+          <label>Nose projection: <span id="morphNoseProjectionValue">0.00</span></label>
+          <input id="morphNoseProjection" type="range" min="-1" max="1" step="0.01" value="0" />
+
+          <label>Eye spacing: <span id="morphEyeSpacingValue">0.00</span></label>
+          <input id="morphEyeSpacing" type="range" min="-1" max="1" step="0.01" value="0" />
+
+          <label>Eye size: <span id="morphEyeSizeValue">0.00</span></label>
+          <input id="morphEyeSize" type="range" min="-1" max="1" step="0.01" value="0" />
+
+          <label>Forehead height: <span id="morphForeheadHeightValue">0.00</span></label>
+          <input id="morphForeheadHeight" type="range" min="-1" max="1" step="0.01" value="0" />
+
+          <label>Age impression: <span id="morphAgeValue">0.00</span></label>
+          <input id="morphAge" type="range" min="-1" max="1" step="0.01" value="0" />
+
+          <label>Angular ↔ soft presentation: <span id="morphPresentationValue">0.00</span></label>
+          <input id="morphPresentation" type="range" min="-1" max="1" step="0.01" value="0" />
+
+          <div class="row">
+            <button id="resetMorphsBtn">Reset face sliders</button>
+            <button id="continueToTextureBtn2">Continue to image / texture stage</button>
+          </div>
+        </details>
+
+
+          <div class="group" id="aboutBuildGroup">
+            <h3>Build Notes</h3>
+            <div class="small">
+          Student-facing build: Stage 1 manual face/head shaping, then Stage 2 SVG-region texture design.
+          <br />Files needed in this same folder include:
+          <br />• index.html, sketch.js, export_tools.js
+          <br />• face_region_data.js, face_svg_static.js
+          <br />• preset_face_mesh.json, preset_hands_mesh.json, preset_face_hands_mesh.json
+          <br />• hand_uv_map.svg
+        </div>
+          </div>
+
+<div class="group navGroup">
+          <h3>Workshop Pages</h3>
+          <div class="navLinks">
+            <a href="./index.html">Designer</a>
+            <a href="./learn_machine_learning.html">ML logic</a>
+            <a href="./history_opencv_faces.html">OpenCV history</a>
+          </div>
+          <div class="small">Workflow is intentionally split: first design the base head shape, then move to image/pattern application.</div>
+        </div>
+
+<div class="group" id="deviceLayoutGroup">
+          <h3>Device Layout</h3>
+          <label>Interface mode</label>
+          <select id="uiLayoutMode">
+            <option value="auto" selected>Auto-detect device</option>
+            <option value="desktop">Desktop / large screen</option>
+            <option value="tablet">Tablet / medium touch</option>
+            <option value="phone">Phone / compact touch</option>
+          </select>
+          <div id="deviceStatus" class="deviceBadge">Detecting device...</div>
+          <div class="small">Auto mode uses screen width, pointer type, and device pixel ratio. Phone mode reduces default point count and stacks the viewer above the controls.</div>
+        </div>
+
+<div class="group" id="visibilityGroup">
+          <h3>Advanced visibility / mapping</h3>
+          <label><input id="showMesh" type="checkbox" checked /> Show base wire mesh</label>
+          <label><input id="showPoints" type="checkbox" checked /> Show UV floating points</label>
+          <label><input id="showTriGlyphs" type="checkbox" /> Show triangle-center glyphs</label>
+          <label><input id="flipY" type="checkbox" checked /> Flip model vertically</label>
+          <label><input id="flipDesignY" type="checkbox" checked /> Flip design image vertically before applying</label>
+          <label><input id="useCylindricalProjectionTexture" type="checkbox" checked /> Map design by cylindrical wrap around face</label>
+          <label><input id="useFrontProjectionTexture" type="checkbox" checked /> Map design by front X/Y projection</label>
+          <label><input id="fitTextureToFaceUvBounds" type="checkbox" checked /> Fit full design image to face UV bounds when using UV mapping</label>
+          <label><input id="filterStretchedTriangles" type="checkbox" /> Hide stretched boundary triangles from point sampling</label>
+        </div>
+
+        <div class="group" id="advancedUvFloatingGroup">
+          <h3>Advanced UV Floating Points</h3>
+
+          <label>UV Sample Step: <span id="sampleStepValue">1</span></label>
+          <div class="small">Smaller step = denser points. Sampling uses a uniform UV pixel grid, so point spacing is more even and the design pattern keeps the same relative scale as the 1000×1000 source image.</div>
+          <input id="sampleStep" type="range" min="1" max="12" step="1" value="1" />
+
+          <label>Base Offset: <span id="pointBaseOffsetValue">0.0</span></label>
+          <input id="pointBaseOffset" type="range" min="-10" max="10" step="0.1" value="0.0" />
+
+          <label><input id="limitNonplanarOffset" type="checkbox" /> Limit nonplanar offset for print-safe surface</label>
+
+          <label>Max Nonplanar Offset: <span id="maxNonplanarOffsetValue">2.5</span> mm</label>
+          <input id="maxNonplanarOffset" type="range" min="0.1" max="10" step="0.1" value="2.5" />
+
+          <label><input id="protectFeatureRegions" type="checkbox" checked /> Stabilize eyes, mouth, and nose shape</label>
+
+          <label>Feature Stable Radius: <span id="featureProtectRadiusValue">8.0</span></label>
+          <input id="featureProtectRadius" type="range" min="0" max="30" step="0.5" value="8.0" />
+
+          <label>Feature Falloff: <span id="featureProtectFalloffValue">16.0</span></label>
+          <input id="featureProtectFalloff" type="range" min="1" max="50" step="0.5" value="16.0" />
+
+          <label>Point Size: <span id="pointSizeValue">1.5</span></label>
+          <input id="pointSize" type="range" min="0.5" max="6" step="0.1" value="1.5" />
+
+          <label>Max Floating Points: <span id="maxFloatingPointsValue">180000</span></label>
+          <input id="maxFloatingPoints" type="range" min="1000" max="500000" step="1000" value="180000" />
+
+          <div class="small">These settings are available for instructor tuning and advanced experiments, but are hidden from the default student path.</div>
+        </div>
+
+
+<div class="group" id="triGlyphGroup">
+          <h3>Triangle-Center Glyphs</h3>
+
+          <label>Triangle Glyph Base Offset: <span id="triBaseOffsetValue">0.0</span></label>
+          <input id="triBaseOffset" type="range" min="-10" max="10" step="0.1" value="0.0" />
+
+          <label>Triangle Glyph Min Displacement (black): <span id="triMinDispValue">-7.0</span></label>
+          <input id="triMinDisp" type="range" min="-20" max="20" step="0.1" value="-7.0" />
+
+          <label>Triangle Glyph Max Displacement (white): <span id="triMaxDispValue">7.0</span></label>
+          <input id="triMaxDisp" type="range" min="-20" max="20" step="0.1" value="7.0" />
+
+          <label>Triangle Glyph Radius: <span id="triScaleValue">1.8</span></label>
+          <input id="triScale" type="range" min="0.1" max="8" step="0.1" value="1.8" />
+        </div>
+
+        <div class="group" id="advancedBrushGroup">
+          <h3>Advanced Brush / Stamp</h3>
+          <div class="small">Optional experimental brush/stamp mode. The default workshop path is full-face or SVG-region source assignment.</div>
+
+          <label>Brush Size: <span id="stampSizeValue">120</span></label>
+          <input id="stampSize" type="range" min="20" max="400" step="5" value="120" />
+
+          <label>Brush Opacity: <span id="stampOpacityValue">1.00</span></label>
+          <input id="stampOpacity" type="range" min="0" max="1" step="0.05" value="1" />
+
+          <label>Brush Shape</label>
+          <select id="textureBrushShape">
+            <option value="round" selected>Round brush</option>
+            <option value="square">Square brush</option>
+          </select>
+
+          <label>
+            <input id="useTextureStamp" type="checkbox" />
+            Use selected texture as a flowing brush instead of whole-face source
+          </label>
+        </div>
+
+
+        <div class="group" id="advancedExportGroup" style="display:none;">
+          <h3>Hidden Export Internals</h3>
+          <label>XYZ Export Step: <span id="xyzExportStepValue">4</span></label>
+          <input id="xyzExportStep" type="range" min="2" max="20" step="1" value="4" />
+          <div id="viewThumbGrid" class="viewThumbGrid"></div>
+        </div>
+
+        </details>
+      </div>
+
+      <div id="viewer">
+        <div id="processingOverlay">
+          <div id="buildProgressText">Building dense point cloud...</div>
+          <div id="buildProgressOuter"><div id="buildProgressBar"></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Classic script, not type="module". -->
+    <script src="./project_state.js"></script>
+    <script src="./face_region_data.js"></script>
+    <script src="./face_svg_static.js"></script>
+    <script src="./sketch.js"></script>
+    <script src="./export_tools.js"></script>
+  </body>
+</html>
