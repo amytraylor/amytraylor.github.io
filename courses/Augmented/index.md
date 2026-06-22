@@ -20,7 +20,7 @@ course_root: /courses
   </a>
   </div>
 
-<img width="1676/2" height="865/2" alt="floating_skin_three_quarter_right_20260621_163055" src="https://github.com/user-attachments/assets/6ea4f91f-9105-45ad-b728-bb51e6603e82" />
+<img width="600" height="300" alt="floating_skin_three_quarter_right_20260621_163055" src="https://github.com/user-attachments/assets/6ea4f91f-9105-45ad-b728-bb51e6603e82" />
 
 ### Step One: Open the software
 Right click on the link above and open the software in a new tab
