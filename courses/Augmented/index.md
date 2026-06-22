@@ -33,9 +33,10 @@ Then click on the "Continue to image/texture stage" page button.
   
 <img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/cf6e41b5-97de-4d82-a45f-0632193f3009" />
 
-### Step 3: Landing page
-
+I changed the face to 
 <img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/ece1ae4f-95dd-4adb-894f-9e8205556dd6" />
+
+### Step 3: Landing page
 
 ### Step 4: Choose images/patterns as textures to map to the model
 
