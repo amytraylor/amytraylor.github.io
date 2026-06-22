@@ -17,28 +17,17 @@ course_root: /courses
      <strong></strong><br>
     <small></small>
   </a>
+  </div>
+
+  <img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/29b14716-da31-4bcf-aed8-602a5aae3dde" />
+
   
-<div class="sketch-list">
-  <a href="AugmentedSkin/">
-    <strong>AugmentedSkinv1</strong><br>
-    <small></small>
-  </a>
-  
-<div class="sketch-list">
-    <a href="AugmentedSkinv2/">
-    <strong>AugmentedSkinv2</strong><br>
-    <small></small>
-  </a>
-  
-<div class="sketch-list">
-    <a href="AugmentedSkin3/">
-    <strong>AugmentedSkinv3</strong><br>
-    <small></small>
-  </a>
-  
-  <div class="sketch-list">
-    <a href="AugmentedSkinv4/">
-    <strong>AugmentedSkinv4</strong><br>
-    <small></small>
-  </a>
-</div>
+<img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/cf6e41b5-97de-4d82-a45f-0632193f3009" />
+
+<img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/ece1ae4f-95dd-4adb-894f-9e8205556dd6" />
+
+<img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/94d7a447-bb7a-4c36-b631-357d8768e365" />
+
+
+
+
