@@ -3,11 +3,11 @@ layout: default
 no_sidebar: true
 ---
 
-## Current Courses
+## Ongoing Projects
+-[Making Strange: Transmogifrication](/courses/Augmented/)
 
-- [FYEX 1020 Math as Art Material — Spring 2026](/courses/MathAsArtMaterial/)
 
 ## Past Courses 
-Coming Soon
+- [FYEX 1020 Math as Art Material — Spring 2026](/courses/MathAsArtMaterial/)
 
 
