@@ -10,6 +10,11 @@ course_root: /courses
 <div class="sketch-list">
   <a href="MakingStrangeAugmented/">
     <strong>Making Strange: Transmogifrication</strong><br>
+     <strong></strong><br>
+     <strong></strong><br>
+     <strong></strong><br>
+     <strong></strong><br>
+     <strong></strong><br>
     <small></small>
   </a>
   
