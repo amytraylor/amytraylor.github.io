@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Walkthrough: Machine-Learning Logic</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.55; margin: 0; background:#101010; color:#eee; }
+    main { max-width: 980px; margin: 0 auto; padding: 24px; }
+    section { background:#1b1b1b; padding:16px; margin:16px 0; border:1px solid #333; border-radius:10px; }
+    canvas { background:#ddd; border:1px solid #555; width:100%; max-width:600px; }
+    input { width: min(420px, 100%); }
+    code { background:#222; padding:2px 4px; }
+    .nav { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:12px; }
+    .nav a, button { color:#fff; background:#303030; border:1px solid #444; border-radius:6px; padding:8px 10px; text-decoration:none; }
+    .step { display:none; }
+    .step.active { display:block; }
+    .pager { display:flex; gap:8px; margin-top:12px; }
+  </style>
+</head>
+<body>
+<main>
+  <nav class="nav">
+    <a href="./index.html">Designer</a>
+    <a href="./capture.html">Live capture</a>
+    <a href="./learn_machine_learning.html">ML logic</a>
+    <a href="./history_opencv_faces.html">OpenCV history</a>
+  </nav>
+
+  <h1>Walkthrough: Machine-Learning Logic in the Floating-Skin App</h1>
+
+  <section class="step active">
+    <h2>1. Pixels become numbers</h2>
+    <p>A computer image is a grid of numbers. Each pixel has red, green, blue, and alpha values.</p>
+    <p><label>Brightness: <input id="brightnessSlider" type="range" min="0" max="255" value="128" /></label> <span id="brightnessValue">128</span></p>
+    <canvas id="brightnessCanvas" width="400" height="120"></canvas>
+  </section>
+
+  <section class="step">
+    <h2>2. Brightness becomes displacement</h2>
+    <p>The designer maps brightness to geometry: <code>displacement = lerp(minDisplacement, maxDisplacement, brightness)</code>.</p>
+    <p>Black can move inward, white can move outward, and gray can stay close to the captured face.</p>
+  </section>
+
+  <section class="step">
+    <h2>3. A face model predicts landmarks</h2>
+    <p>FaceMesh predicts landmark points. Those points are not identity by themselves; in this project they are used as a coordinate system for art.</p>
+  </section>
+
+  <section class="step">
+    <h2>4. Depth adds a point cloud</h2>
+    <p>The live capture page exports both a triangular face mesh and a sampled RGB/depth point cloud. The mesh gives structure; the point cloud gives measured surface evidence.</p>
+  </section>
+
+  <section class="step">
+    <h2>5. Weights mix visual choices</h2>
+    <p>A simple ML idea is weighted combination: <code>output = weightA × A + weightB × B</code>. Texture mixing and region weighting make this visible.</p>
+  </section>
+
+  <div class="pager">
+    <button id="prevBtn">Previous</button>
+    <button id="nextBtn">Next</button>
+    <span id="stepCounter"></span>
+  </div>
+</main>
+
+<script>
+const steps = [...document.querySelectorAll(".step")];
+let stepIndex = 0;
+
+function showStep(i) {
+  stepIndex = Math.max(0, Math.min(steps.length - 1, i));
+  steps.forEach((s, j) => s.classList.toggle("active", j === stepIndex));
+  document.getElementById("stepCounter").textContent = `Step ${stepIndex + 1} of ${steps.length}`;
+}
+
+document.getElementById("prevBtn").onclick = () => showStep(stepIndex - 1);
+document.getElementById("nextBtn").onclick = () => showStep(stepIndex + 1);
+showStep(0);
+
+const slider = document.getElementById("brightnessSlider");
+const value = document.getElementById("brightnessValue");
+const canvas = document.getElementById("brightnessCanvas");
+const ctx = canvas.getContext("2d");
+
+function drawBrightness() {
+  const b = Number(slider.value);
+  value.textContent = b;
+  ctx.fillStyle = `rgb(${b},${b},${b})`;
+  ctx.fillRect(0,0,canvas.width,canvas.height);
+  ctx.fillStyle = b > 128 ? "black" : "white";
+  ctx.font = "20px Arial";
+  ctx.fillText(`brightness = ${b}`, 20, 65);
+}
+slider.addEventListener("input", drawBrightness);
+drawBrightness();
+</script>
+</body>
+</html>

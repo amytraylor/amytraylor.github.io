@@ -1,0 +1,6 @@
+student_bald3_mesh.json anchor_err=2.6e-07 leftEye=89 rightEye=66 nose=717 lips=191 chin=273 skin=2685
+student_bald13_mesh.json anchor_err=4.2e-07 leftEye=58 rightEye=53 nose=481 lips=351 chin=238 skin=3304
+student_bald38_mesh.json anchor_err=4.3e-07 leftEye=137 rightEye=63 nose=654 lips=213 chin=212 skin=3093
+student_brunette_mesh.json anchor_err=1e-06 leftEye=16 rightEye=19 nose=533 lips=86 chin=146 skin=1840
+student_mpfb_mesh.json anchor_err=2.4e-07 leftEye=81 rightEye=78 nose=586 lips=350 chin=200 skin=2807
+preset_face_mesh.json anchor_err=2.7e-07 leftEye=6 rightEye=4 nose=81 lips=39 chin=443 skin=4356

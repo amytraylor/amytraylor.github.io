@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Walkthrough: OpenCV and Face Algorithms</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.55; margin:0; background:#101010; color:#eee; }
+    main { max-width: 980px; margin: 0 auto; padding: 24px; }
+    section { background:#1b1b1b; padding:16px; margin:16px 0; border:1px solid #333; border-radius:10px; }
+    .nav { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:12px; }
+    .nav a, button { color:#fff; background:#303030; border:1px solid #444; border-radius:6px; padding:8px 10px; text-decoration:none; }
+    .step { display:none; }
+    .step.active { display:block; }
+    .pager { display:flex; gap:8px; margin-top:12px; }
+  </style>
+</head>
+<body>
+<main>
+  <nav class="nav">
+    <a href="./index.html">Designer</a>
+    <a href="./capture.html">Live capture</a>
+    <a href="./learn_machine_learning.html">ML logic</a>
+    <a href="./history_opencv_faces.html">OpenCV history</a>
+  </nav>
+
+  <h1>Walkthrough: OpenCV and Face Algorithms</h1>
+
+  <section class="step active">
+    <h2>1. Detection, landmarks, and recognition are different</h2>
+    <p><strong>Detection</strong> asks where a face is. <strong>Landmarks</strong> ask where key points are. <strong>Recognition</strong> asks whose face it is.</p>
+    <p>This workshop uses landmark tracking and mesh deformation for expressive self-portraiture, not identity recognition.</p>
+  </section>
+
+  <section class="step">
+    <h2>2. OpenCV and classical computer vision</h2>
+    <p>OpenCV helped make image processing and computer vision tools widely available. Classical approaches used edges, corners, templates, Haar-like features, histograms, and geometry.</p>
+  </section>
+
+  <section class="step">
+    <h2>3. From handcrafted features to learned features</h2>
+    <p>Older systems depended on human-designed measurements. Newer systems learn useful internal features from many examples.</p>
+  </section>
+
+  <section class="step">
+    <h2>4. Face landmarks as a coordinate system</h2>
+    <p>In this app, landmarks are scaffolding. They let us map image textures, depth points, and displacement onto a face-shaped surface.</p>
+  </section>
+
+  <section class="step">
+    <h2>5. Ethics and consent</h2>
+    <p>Face algorithms raise issues of consent, bias, surveillance, and error. A creative classroom project should explicitly distinguish artistic transformation from identification.</p>
+  </section>
+
+  <div class="pager">
+    <button id="prevBtn">Previous</button>
+    <button id="nextBtn">Next</button>
+    <span id="stepCounter"></span>
+  </div>
+</main>
+
+<script>
+const steps = [...document.querySelectorAll(".step")];
+let stepIndex = 0;
+
+function showStep(i) {
+  stepIndex = Math.max(0, Math.min(steps.length - 1, i));
+  steps.forEach((s, j) => s.classList.toggle("active", j === stepIndex));
+  document.getElementById("stepCounter").textContent = `Step ${stepIndex + 1} of ${steps.length}`;
+}
+
+document.getElementById("prevBtn").onclick = () => showStep(stepIndex - 1);
+document.getElementById("nextBtn").onclick = () => showStep(stepIndex + 1);
+showStep(0);
+</script>
+</body>
+</html>

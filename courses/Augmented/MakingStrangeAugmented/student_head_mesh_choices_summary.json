@@ -1,0 +1,123 @@
+{
+  "created": "2026-06-21",
+  "method": "20-point semantic face calibration + thin-plate-spline projection into canonical MediaPipe design space; cylindrical fallback for side/rear surfaces",
+  "referenceUvBounds": {
+    "minU": 0.0076,
+    "minV": 0.1071,
+    "maxU": 0.9924,
+    "maxV": 0.9545
+  },
+  "meshes": [
+    {
+      "mode": "student_bald3",
+      "label": "Bald head 3",
+      "file": "student_bald3_mesh.json",
+      "sourceFile": "bald3.json",
+      "vertexCount": 3479,
+      "triangleCount": 6464,
+      "sourceUvBounds": {
+        "minU": 0.0,
+        "minV": 0.0,
+        "maxU": 0.588715,
+        "maxV": 0.99503
+      },
+      "targetUvBounds": {
+        "minU": 0.0076,
+        "minV": 0.1071,
+        "maxU": 0.9924,
+        "maxV": 0.9545
+      },
+      "textureMappingType": "mediapipe_landmark_projection",
+      "landmarkCount": 20
+    },
+    {
+      "mode": "student_bald13",
+      "label": "Bald head 13",
+      "file": "student_bald13_mesh.json",
+      "sourceFile": "bald13.json",
+      "vertexCount": 3464,
+      "triangleCount": 6460,
+      "sourceUvBounds": {
+        "minU": 0.0,
+        "minV": 0.0,
+        "maxU": 0.588715,
+        "maxV": 0.99503
+      },
+      "targetUvBounds": {
+        "minU": 0.0076,
+        "minV": 0.1071,
+        "maxU": 0.9924,
+        "maxV": 0.9545
+      },
+      "textureMappingType": "mediapipe_landmark_projection",
+      "landmarkCount": 20
+    },
+    {
+      "mode": "student_bald38",
+      "label": "Bald head 38",
+      "file": "student_bald38_mesh.json",
+      "sourceFile": "bald38.json",
+      "vertexCount": 3554,
+      "triangleCount": 6500,
+      "sourceUvBounds": {
+        "minU": 0.0,
+        "minV": 0.0,
+        "maxU": 0.583344,
+        "maxV": 0.99503
+      },
+      "targetUvBounds": {
+        "minU": 0.0076,
+        "minV": 0.1071,
+        "maxU": 0.9924,
+        "maxV": 0.9545
+      },
+      "textureMappingType": "mediapipe_landmark_projection",
+      "landmarkCount": 20
+    },
+    {
+      "mode": "student_brunette",
+      "label": "Brunette head",
+      "file": "student_brunette_mesh.json",
+      "sourceFile": "brunette.json",
+      "vertexCount": 2162,
+      "triangleCount": 4094,
+      "sourceUvBounds": {
+        "minU": 0.005,
+        "minV": 0.0193,
+        "maxU": 0.9943,
+        "maxV": 0.99565
+      },
+      "targetUvBounds": {
+        "minU": 0.0076,
+        "minV": 0.1071,
+        "maxU": 0.9924,
+        "maxV": 0.9545
+      },
+      "textureMappingType": "mediapipe_landmark_projection",
+      "landmarkCount": 20
+    },
+    {
+      "mode": "student_mpfb",
+      "label": "MPFB head",
+      "file": "student_mpfb_mesh.json",
+      "sourceFile": "mpfb.json",
+      "vertexCount": 3203,
+      "triangleCount": 6232,
+      "sourceUvBounds": {
+        "minU": 0.641249,
+        "minV": 0.148696,
+        "maxU": 0.993515,
+        "maxV": 0.817634
+      },
+      "targetUvBounds": {
+        "minU": 0.0076,
+        "minV": 0.1071,
+        "maxU": 0.9924,
+        "maxV": 0.9545
+      },
+      "textureMappingType": "mediapipe_landmark_projection",
+      "landmarkCount": 20
+    }
+  ],
+  "supersedes": "UV bounds normalization + nearest MediaPipe reference-triangle region transfer"
+}
