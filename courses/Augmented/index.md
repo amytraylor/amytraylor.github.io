@@ -83,5 +83,25 @@ The image below is what you should see.
 
 <img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/70ade514-431a-4f66-8927-8329e34fcc14" />
 
+## Step 9: Advanced Controls
+
+#### If your model needs more detail, open the advanced controls dropdown menu.
+#### Scroll down to Advanced UV Floating Points
+
+
+
+<img width="652" height="1145" alt="Advanced UV Points" src="https://github.com/user-attachments/assets/a9a06312-b988-4f2e-affa-ca427d267507" />
+
+#### Scroll to the bottom and play with the Point Size and Max Floating Points
+#### Keep Max Floating Points less than 100,000 while you are playing
+#### Move the slider to 500,000 when you are ready to export
+
+<img width="615" height="330" alt="Advanced UV Points_submenu" src="https://github.com/user-attachments/assets/0812899e-3657-4b3c-a045-3d8bff68d7b3" />
+
+
+
+
+
+
 
 
