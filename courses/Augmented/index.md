@@ -1,3 +1,4 @@
+<img width="1676" height="865" alt="floating_skin_three_quarter_right_20260621_163055" src="https://github.com/user-attachments/assets/6ea4f91f-9105-45ad-b728-bb51e6603e82" />
 ---
 layout: course
 title: Sketches
@@ -12,6 +13,9 @@ course_root: /courses
     <strong>Making Strange: Transmogifrication</strong><br>
      <strong></strong><br>
      <strong></strong><br>
+
+    <img width="1676" height="865" alt="floating_skin_three_quarter_right_20260621_163055" src="https://github.com/user-attachments/assets/cce6656b-14a2-4025-9a87-5edde1f0fd7d" />
+
      <strong></strong><br>
      <strong></strong><br>
      <strong></strong><br>
