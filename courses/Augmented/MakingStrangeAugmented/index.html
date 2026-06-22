@@ -501,18 +501,38 @@
         display: none !important;
       }
 
-      @media (max-width: 900px) {
-        #app {
-          grid-template-columns: 1fr;
-          grid-template-rows: auto 1fr;
+            @media (max-width: 900px) {
+  #app {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+  }
+
+  #panel {
+    max-height: 42vh;
+    border-right: none;
+    border-bottom: 1px solid #333;
+  }
+}
+
+        /* Visible GUI size only; canvases still process at 1000 × 1000 */
+        #panel #designCanvas {
+          display: block;
+          width: 100px !important;
+          height: 100px !important;
+          max-width: 100%;
+          margin: 8px auto;
+        }
+        
+        #panel #blurPreviewCanvas {
+          display: block;
+          width: 100px !important;
+          height: 100px !important;
+          max-width: 100%;
+          margin: 8px auto;
         }
 
-        #panel {
-          max-height: 42vh;
-          border-right: none;
-          border-bottom: 1px solid #333;
-        }
-      }
+      
+    </style>
     </style>
   </head>
 
