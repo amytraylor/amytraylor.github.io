@@ -46,6 +46,42 @@ The image below is what you should see.
 
 <img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/94d7a447-bb7a-4c36-b631-357d8768e365" />
 
+## Step 5: Clear the existing model
+
+<img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/c48fb16b-e543-4f5a-9b56-fb6549bc781f" />
+
+## Step 6: Select all face regions
+
+<img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/f9d24e6b-f828-45ba-9029-3396a3a29c3a" />
+
+## Apply source to selected
+
+<img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/a34cc7c1-e494-4be9-84ee-d0b0a4a221c7" />
+
+## Scroll down and choose a new image/texture
+
+#### Click on the image or choose your own using the dropdown menu
+
+
+<img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/1c1109fa-f755-40cb-abc9-7f202603175d" />
+
+#### Click on apply selected source to full face
+
+<img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/d3312e02-38d2-4ede-bba2-6276500c3ac2" />
+
+## Step 7: Saving/Exporting     Do this often!
+
+#### When you want to save a design, click on both buttons
+#### Export View Images and Export Project Zip
+
+<img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/524673e7-38d7-4c21-bd39-4a19d286df52" />
+
+
+## Step 8: Play
+
+#### Use these controls to change the depth map applied to the model
+
+<img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/70ade514-431a-4f66-8927-8329e34fcc14" />
 
 
 
