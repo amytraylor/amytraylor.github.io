@@ -1,0 +1,129 @@
+# Generated from the Wix site menu by K:\AmyTraylorSite\scripts\build_site.py
+- depth: 0
+  label: "home"
+  url: "/portfolio/"
+  visible: true
+- depth: 0
+  label: "BIOART"
+  url: "/portfolio/bioartblog/"
+  visible: false
+- depth: 0
+  label: "we have no room"
+  url: "/portfolio/wehavenoroom/"
+  visible: false
+- depth: 0
+  label: "fabrication"
+  url: "/portfolio/fabrication/"
+  visible: true
+- depth: 0
+  label: "DIGITAL DISOBEDIENCE"
+  url: "/portfolio/digital-disobedience/"
+  visible: false
+- depth: 0
+  label: "COMPUTER PROGRAMMING FOR ARTISTS"
+  url: "/portfolio/computer-programming-for-artists/"
+  visible: false
+- depth: 0
+  label: "photography"
+  url: "/portfolio/photography/"
+  visible: true
+- depth: 1
+  label: "OBJECT"
+  url: "/portfolio/objects/"
+  visible: false
+- depth: 1
+  label: "exhibited works"
+  url: "/portfolio/exhibited-works/"
+  visible: true
+- depth: 1
+  label: "2017"
+  url: "/portfolio/2017/"
+  visible: true
+- depth: 1
+  label: "2014-2016"
+  url: "/portfolio/2014/"
+  visible: true
+- depth: 1
+  label: "2012-2013"
+  url: "/portfolio/recent-work/"
+  visible: true
+- depth: 1
+  label: "archive"
+  url: "/portfolio/archive/"
+  visible: true
+- depth: 1
+  label: "CODEX"
+  url: "/portfolio/codex/"
+  visible: false
+- depth: 1
+  label: "Mini Pocket Camera"
+  url: "/portfolio/mini-pocket-camera/"
+  visible: false
+- depth: 0
+  label: "software"
+  url: "/portfolio/video/"
+  visible: true
+- depth: 1
+  label: "generative film"
+  url: "/portfolio/generativefilm/"
+  visible: true
+- depth: 1
+  label: "TAMARIND"
+  url: "/portfolio/tamarind/"
+  visible: false
+- depth: 1
+  label: "MAKING HOUSE"
+  url: "/portfolio/making-house/"
+  visible: false
+- depth: 1
+  label: "SUNSETS FOR MIKE AND CARMEN"
+  url: "/portfolio/sunsets-for-mike-and-carmen/"
+  visible: false
+- depth: 1
+  label: "THE GESTURE COLLECTOR"
+  url: "/portfolio/the-gesture-collector/"
+  visible: false
+- depth: 1
+  label: "RECODING MOLNAR"
+  url: "/portfolio/recoding-molnar/"
+  visible: false
+- depth: 1
+  label: "THE DIRT EATERS"
+  url: "/portfolio/the-dirt-eaters/"
+  visible: false
+- depth: 1
+  label: "NEW MEDIA ART POSE"
+  url: "/portfolio/new-media-art-pose/"
+  visible: false
+- depth: 1
+  label: "ANDROID KUDZU GRANDMA"
+  url: "/portfolio/android-kudzu-grandma/"
+  visible: false
+- depth: 1
+  label: "SOFTWARE STILLS"
+  url: "/portfolio/software-stills/"
+  visible: false
+- depth: 1
+  label: "THE REST"
+  url: "/portfolio/code-based-work/"
+  visible: false
+- depth: 1
+  label: "GENERATIVE DESIGN"
+  url: "/portfolio/generative-design/"
+  visible: false
+- depth: 1
+  label: "p5.js"
+  url: "/portfolio/p5-js/"
+  visible: false
+- depth: 1
+  label: "MFA Portfolio"
+  url: "/portfolio/mfaportfolio/"
+  visible: false
+- depth: 0
+  label: "MOVING FILM"
+  url: "/portfolio/moving-film/"
+  visible: false
+- depth: 0
+  label: "contact"
+  url: "/portfolio/contact/"
+  visible: true

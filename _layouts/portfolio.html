@@ -1,0 +1,62 @@
+---
+layout: default
+---
+{%- comment -%}
+Portfolio section migrated from www.amytraylor.com (Wix). Pages live under /portfolio/.
+Sub-navigation comes from _data/portfolio_nav.yml (generated from the Wix menu; hidden entries are skipped).
+{%- endcomment -%}
+<link rel="stylesheet" href="{{ '/assets/css/portfolio.css' | relative_url }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+<section class="portfolio">
+  <header class="pf-header">
+    <a class="pf-brand" href="{{ '/portfolio/' | relative_url }}">Amy Traylor</a>
+    <nav class="pf-nav" aria-label="Portfolio">
+      {%- assign top = site.data.portfolio_nav | where: "depth", 0 -%}
+      {%- for item in site.data.portfolio_nav -%}
+        {%- if item.visible and item.depth == 0 -%}
+          {%- assign active = "" -%}
+          {%- if page.url == item.url -%}{%- assign active = " active" -%}{%- endif -%}
+          <a class="pf-link{{ active }}" href="{{ item.url | relative_url }}">{{ item.label }}</a>
+        {%- endif -%}
+      {%- endfor -%}
+    </nav>
+    {%- comment -%} second-level items shown as a subnav under their parent {%- endcomment -%}
+    {%- assign parent = "" -%}
+    {%- assign show = false -%}
+    {%- for item in site.data.portfolio_nav -%}
+      {%- if item.depth == 0 -%}{%- assign parent = item.url -%}{%- endif -%}
+      {%- if item.visible and item.depth == 1 and item.url == page.url -%}{%- assign show = parent -%}{%- endif -%}
+      {%- if item.depth == 0 and item.url == page.url -%}{%- assign show = item.url -%}{%- endif -%}
+    {%- endfor -%}
+    {%- if show -%}
+      {%- assign parent = "" -%}
+      {%- capture sub -%}
+      {%- for item in site.data.portfolio_nav -%}
+        {%- if item.depth == 0 -%}{%- assign parent = item.url -%}{%- endif -%}
+        {%- if item.visible and item.depth == 1 and parent == show -%}
+          <a class="pf-sublink{% if page.url == item.url %} active{% endif %}" href="{{ item.url | relative_url }}">{{ item.label }}</a>
+        {%- endif -%}
+      {%- endfor -%}
+      {%- endcapture -%}
+      {%- if sub contains "pf-sublink" -%}<nav class="pf-subnav">{{ sub }}</nav>{%- endif -%}
+    {%- endif -%}
+  </header>
+
+  {%- if page.hero -%}
+  <div class="pf-hero" style="background-image:url('{{ page.hero | relative_url }}')"></div>
+  {%- endif -%}
+
+  <article class="pf-body">
+    {%- if page.url != "/portfolio/" -%}<h1 class="pf-title">{{ page.title }}</h1>{%- endif -%}
+    {{ content }}
+  </article>
+
+  <footer class="pf-footer">
+    {%- for s in site.data.portfolio_social -%}
+      <a href="{{ s }}" target="_blank" rel="noopener">{{ s | remove: "https://" | remove: "http://" | remove: "www." | split: "/" | first }}</a>
+    {%- endfor -%}
+    <span class="muted">Migrated from amytraylor.com (Wix), 2026.</span>
+  </footer>
+</section>

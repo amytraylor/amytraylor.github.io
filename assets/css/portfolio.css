@@ -1,0 +1,95 @@
+/* Portfolio section (migrated from the Wix site www.amytraylor.com)
+   Recreates the Wix look: magenta header bar, dark content panel, white Open Sans text.
+   Scoped to .portfolio so the rest of the site keeps its own styling. */
+
+.portfolio {
+  --pf-magenta: #b0106b;
+  --pf-magenta-dark: #8c0d55;
+  --pf-panel: #0a0a0a;
+  --pf-text: #f2f2f2;
+  --pf-muted: #b8b8b8;
+  --pf-link: #ffffff;
+  --pf-accent: #ff4fb0;
+  --pf-width: 980px;
+  font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  color: var(--pf-text);
+  background: var(--pf-panel);
+  margin: 0 auto;
+  max-width: var(--pf-width);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.portfolio a { color: var(--pf-link); text-decoration: underline; text-underline-offset: 0.18em; }
+.portfolio a:hover { color: var(--pf-accent); }
+
+/* header + nav */
+.pf-header { background: var(--pf-magenta); padding: 1.1rem 1.5rem 0.6rem; }
+.portfolio .pf-brand {
+  display: block; font-size: 1.4rem; letter-spacing: 0.35em; text-transform: none;
+  color: #fff; text-decoration: none; opacity: 0.9; margin-bottom: 0.6rem;
+}
+.pf-nav { display: flex; flex-wrap: wrap; gap: 0; }
+.portfolio .pf-link {
+  padding: 0.45rem 1.2rem; font-size: 0.8rem; font-weight: 700; color: #fff; text-decoration: none;
+  border-left: 1px solid rgba(255,255,255,0.35);
+}
+.portfolio .pf-link:first-child { border-left: 0; padding-left: 0; }
+.portfolio .pf-link.active, .portfolio .pf-link:hover { color: var(--pf-accent); }
+.pf-subnav { display: flex; flex-wrap: wrap; gap: 0.2rem 1.2rem; padding: 0.4rem 0 0.2rem; }
+.portfolio .pf-sublink { font-size: 0.78rem; color: #fff; text-decoration: none; opacity: 0.85; }
+.portfolio .pf-sublink.active, .portfolio .pf-sublink:hover { color: var(--pf-accent); opacity: 1; }
+
+/* hero (the Wix page background image) */
+.pf-hero { height: 38vh; min-height: 220px; max-height: 480px; background-size: cover; background-position: center; }
+
+/* body */
+.pf-body { padding: 2rem 1.5rem 2.5rem; max-width: 760px; margin: 0 auto; }
+.pf-title { font-size: 1.9rem; font-weight: 400; letter-spacing: 0.06em; margin: 0 0 1.2rem; }
+.pf-body h1, .pf-body h2, .pf-body h3 { font-weight: 600; letter-spacing: 0.05em; line-height: 1.25; }
+.pf-body h2 { font-size: 1.5rem; margin: 2rem 0 0.8rem; }
+.pf-body h3 { font-size: 1.15rem; margin: 1.5rem 0 0.6rem; }
+.pf-body p, .pf-body li { font-size: 1rem; line-height: 1.8; letter-spacing: 0.03em; }
+.pf-body p { margin: 0 0 1rem; }
+.pf-body .caption, .pf-body figcaption { color: var(--pf-muted); font-size: 0.85rem; line-height: 1.4; margin-top: 0.4rem; }
+
+/* single images */
+.pf-body figure { margin: 1.4rem 0; }
+.pf-body figure img { display: block; max-width: 100%; height: auto; background: #111; }
+
+/* galleries: responsive grid, click-through to the full-size derivative */
+.pf-body .gallery {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; margin: 1.4rem 0;
+}
+.pf-body .gallery figure { margin: 0; }
+.pf-body .gallery img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; }
+
+/* video embeds (Vimeo) */
+.pf-body .video { position: relative; width: 100%; aspect-ratio: 16 / 9; margin: 1.4rem 0; background: #000; }
+.pf-body .video iframe, .pf-body .video video { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.pf-body .video video { object-fit: contain; background: #000; }
+.pf-body .video-note { border: 1px dashed var(--pf-muted); color: var(--pf-muted); padding: 0.8rem 1rem; font-size: 0.85rem; margin: 1.4rem 0; }
+
+.portfolio .pf-body a.button {
+  display: inline-block; background: var(--pf-magenta); color: #fff; text-decoration: none;
+  padding: 0.5rem 1.1rem; border-radius: 3px; font-weight: 700; font-size: 0.85rem;
+}
+.portfolio .pf-body a.button:hover { background: var(--pf-magenta-dark); }
+.portfolio .pf-footer a { text-decoration: none; }
+
+.pf-body ul.page-index { columns: 2; column-gap: 2rem; padding-left: 1.2rem; }
+.pf-body ul.page-index li { break-inside: avoid; font-size: 0.9rem; line-height: 1.6; }
+.portfolio .muted { color: var(--pf-muted); font-size: 0.8rem; }
+
+/* footer */
+.pf-footer {
+  display: flex; flex-wrap: wrap; gap: 1.2rem; align-items: center;
+  padding: 1rem 1.5rem; border-top: 1px solid #222; font-size: 0.85rem;
+}
+
+@media (max-width: 640px) {
+  .portfolio { border-radius: 0; }
+  .pf-body { padding: 1.4rem 1rem 2rem; }
+  .pf-body ul.page-index { columns: 1; }
+  .pf-link { padding: 0.4rem 0.7rem; }
+}
