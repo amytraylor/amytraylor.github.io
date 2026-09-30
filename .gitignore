@@ -1,0 +1,5 @@
+
+# local preview + Claude launch config (not part of the site)
+_preview/
+.claude/
+_site/

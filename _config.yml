@@ -8,6 +8,10 @@ baseurl: "" # Set to "/repo-name" if not using custom domain
 markdown: kramdown
 highlighter: rouge
 
+# Redirects for the old Wix URLs (e.g. /fabrication -> /portfolio/fabrication/)
+plugins:
+  - jekyll-redirect-from
+
 # Exclude from build
 exclude:
   - README.md
